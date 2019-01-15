@@ -1,2 +1,8 @@
 # benperk.github.io
-The place where I store all the articles I have written...and write.
+I am going to place all my articles here as a repository and see how it and where it goes.
+
+[C# Blog](http://www.thebestcsharpprogrammerintheworld.com)
+
+[MSDN Blog](https://blogs.msdn.microsoft.com/benjaminperkins)
+
+
