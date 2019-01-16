@@ -23,5 +23,5 @@ You should receive the below result:
 
 After the restore, the IIS configuration will be in the state it was when the backup was originally taken.
 
-[Figure1]: https://github.com/benperk/benperk.github.io/blob/master/msdn/images/5657.1.png "Figure 1, appcmd add backup cleaninstall"
-[Figure2]: https://github.com/benperk/benperk.github.io/blob/master/msdn/images/4848.2.png "Figure 2, appcmd restore backup cleaninstall"
+[Figure1]: https://github.com/benperk/benperk.github.io/raw/master/msdn/images/5657.1.png "Figure 1, appcmd add backup cleaninstall"
+[Figure2]: https://github.com/benperk/benperk.github.io/raw/master/msdn/images/4848.2.png "Figure 2, appcmd restore backup cleaninstall"
