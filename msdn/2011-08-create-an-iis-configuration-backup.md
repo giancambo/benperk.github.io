@@ -19,7 +19,7 @@ To rollback to the backed up configuration start a *Command Prompt* as an Admini
 
 You should receive the below result:
 
-![appcmd restore backup cleaninstall][Figure1]
+![appcmd restore backup cleaninstall][Figure2]
 
 After the restore, the IIS configuration will be in the state it was when the backup was originally taken.
 
