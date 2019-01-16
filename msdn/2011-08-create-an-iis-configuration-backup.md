@@ -11,7 +11,7 @@ Start a *Command Prompt* as an Administrator by right-clicking the icon and sele
 
 You should receive the below result:
 
-![alt text](https://github.com/benperk/benperk.github.io/blob/master/msdn/images/5657.1.png "Logo Title Text 1")
+![alt text](/images/5657.1.png "Logo Title Text 1")
 
 To rollback to the backed up configuration start a *Command Prompt* as an Administrator by richt-clicking the icon and selecting *Run As Administrator*. Navigate to the windows working directory and then to the system32\inetsrv directory and run the following command.
 
@@ -19,6 +19,6 @@ To rollback to the backed up configuration start a *Command Prompt* as an Admini
 
 You should receive the below result:
 
-![alt text](https://github.com/benperk/benperk.github.io/blob/master/msdn/images/4848.2.png "Logo Title Text 1")
+![alt text](/images/4848.2.png "Logo Title Text 1")
 
 After the restore, the IIS configuration will be in the state it was when the backup was originally taken.
