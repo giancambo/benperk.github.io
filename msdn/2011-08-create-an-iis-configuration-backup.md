@@ -11,7 +11,7 @@ Start a *Command Prompt* as an Administrator by right-clicking the icon and sele
 
 You should receive the below result:
 
-![appcmd add backup cleaninstall][Figure1]
+![appcmd add backup cleaninstall][FIGURE1]
 
 To rollback to the backed up configuration start a *Command Prompt* as an Administrator by richt-clicking the icon and selecting *Run As Administrator*. Navigate to the windows working directory and then to the system32\inetsrv directory and run the following command.
 
@@ -19,9 +19,9 @@ To rollback to the backed up configuration start a *Command Prompt* as an Admini
 
 You should receive the below result:
 
-![appcmd restore backup cleaninstall][Figure2]
+![appcmd restore backup cleaninstall][FIGURE2]
 
 After the restore, the IIS configuration will be in the state it was when the backup was originally taken.
 
-[Figure1]: https://github.com/benperk/benperk.github.io/raw/master/msdn/images/5657.1.png "Figure 1, appcmd add backup cleaninstall"
-[Figure2]: https://github.com/benperk/benperk.github.io/raw/master/msdn/images/4848.2.png "Figure 2, appcmd restore backup cleaninstall"
+[FIGURE1]: images/5657.1.png "Figure 1, appcmd add backup cleaninstall"
+[FIGURE2]: images/4848.2.png "Figure 2, appcmd restore backup cleaninstall"
