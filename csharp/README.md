@@ -4,7 +4,7 @@
 [Here][SOURCE1] is the source for the articles. 
 
 ### Lessons
-+ [Lesson][LESSON1] 1 – SQL Server / Data Access / Gridview
++ [Lesson 1][LESSON1] – SQL Server / Data Access / Gridview
 
 [Current location](http://www.thebestcsharpprogrammerintheworld.com/).
 
