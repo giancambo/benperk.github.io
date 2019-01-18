@@ -2,4 +2,4 @@ A place where all my articles will live, let's see how it works and where it goe
 
 [Here](https://benperk.github.io/msdn/) you will find my MSDN blogs, articles and trainings
 
-[C# Blog](http://www.thebestcsharpprogrammerintheworld.com), comming soon to GitHub Pages
+[Here](https://benperk.github.io/csharp/) you will find my C# blogs, articles and trainings
