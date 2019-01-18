@@ -1,4 +1,4 @@
-# The Best C# Programmer in the World blogs, articles and trainings
+# The Best C# Programmer in the World blogs and trainings
 
 ### Source Code
 [Here][SOURCE1] is the source for the articles. 
