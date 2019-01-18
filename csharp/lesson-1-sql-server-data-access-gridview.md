@@ -6,3 +6,5 @@ In Lesson 1 you will learn how to:
 + Create a database connection manager
 + Create the database layer within a Data Access Component
 + Create a gridwiew to display the data
+
+[![Lesson 1](http://img.youtube.com/vi/qAFUqmKY_ng/0.jpg)](http://www.youtube.com/watch?v=qAFUqmKY_ng)
