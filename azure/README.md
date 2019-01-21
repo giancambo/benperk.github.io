@@ -10,4 +10,4 @@
 
 
 [SOURCE1]: https://github.com/benperk/AzureFunctionConsumer
-[LINK1]: https://benperk.github.io/csharp/lesson-1-sql-server-data-access-gridview.html
+[LINK1]: https://benperk.github.io/azure/2019-01-how-to-modify-host-json.html
