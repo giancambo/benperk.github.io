@@ -4,4 +4,4 @@ A place where all my articles will live, let's see how it works and where it goe
 
 [Here](https://benperk.github.io/csharp/) you will find my C# blogs, articles and trainings
 
-[Here](https://benperk.github.io/azure/) you will find my C# blogs, articles and trainings
+[Here](https://benperk.github.io/azure/) you will find my Azure blogs, articles and trainings
