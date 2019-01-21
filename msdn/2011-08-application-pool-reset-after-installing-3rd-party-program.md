@@ -8,6 +8,14 @@ You can do this by using the appcmd, powershell or from within the IIS managemen
   <add name="AppPoolName" enable32BitAppOnWin64="true" />
 </applicationPools>
 ```
+The preceding code, if set on a 64bit operating system, means that the worker process or processes will serve the application pool in WOW64 (Windows on Windows64) mode.  This means that only 32bit processes will be loaded.
+Sometimes, when installing a 3rd party program, modifications to the applicationHost.config file, similar to the following are made.
+```
+<applicationPoolDefaults enable32BitAppOnWin64="true">
+  <processModel identityType="ApplicationPoolIdentity" />
+</applicationPoolDefaults>
+```
+What this would mean is that if you have application pools on the 64bit machine which need to load a 64bit program, that it will no longer work, unless you have previously specifically set the enable32BitAppOnWin64 to false.  Most of the time this is not the case because default (false) is used, no setting exists and therefore when the applicationPoolDefault is set, then things start to go unexpected.
+If this happens, simply access the application pools which need to run in 64bit mode and manually set the enable32BitAppOnWin64 to false, or remove the default setting and set the individual application pools which need to run in 32bit mode to true.
 
-
-[FIGURE1]: imagesmsdn-0001.png "Figure 1, advanced IIS application pool settings"
+[FIGURE1]: images/msdn-0001.png "Figure 1, advanced IIS application pool settings"
