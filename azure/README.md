@@ -4,7 +4,7 @@
 [Here][SOURCE1] is the source for my Azure Functions Consumer. 
 
 ### Articles
-+ [How to modify the host.json file for an Azure Function][LESSON1] – SQL Server / Data Access / Gridview
++ [How to modify the host.json file for an Azure Function][LINK1]
 
 
 
