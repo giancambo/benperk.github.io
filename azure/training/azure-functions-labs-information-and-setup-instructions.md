@@ -147,6 +147,12 @@ The **App name** must be unique as it is a global, internet accessible endpoint.
 For these labs I recommend you create a new **Resource Group**.  I recommend that because once you are finished with these labs, you know which resources you created while working them and can delete them all once you finish.
 Windows **OS**, and chose a Consumption Plan, **Hosting Plan** based Azure Function App for the labs but I cannot think of a reason why any of the labs wouldn’t work in dedicated or premium mode.
 
+![create an Azure Function App][FIGURE3]
+
+For **Location**, pick the one closest to you or, in a real situation, close to your customers/users. Make sure both **Storage** and **Application Insights** are in the same region as **Location**.  I have created one **Storage** account for all the Azure Function Apps, I have not seen any negatives of doing that.  Again, be sure to have the storage in the same region as the Azure Function App for performance reasons.  **NOTE:**  AFAIK there is no logic in the portal that puts a lock on or link between the Azure Function App and the selected storage account.  If you, for some reason, perhaps when you are going through your subscription resources, looking for resources to delete, you remove the storage account, you destroy all the Azure Function you have built, there is no [recovery][LINK11].  This is why I have 1 storage account for all Azure Function Apps and I also give it a recognizable name…
+
+Click the Create button to create the Azure Function App.  Done!  Once created, you are ready to begin the labs.
+
 
 [LABLINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
 [LABLINK2]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2
@@ -169,6 +175,7 @@ Windows **OS**, and chose a Consumption Plan, **Hosting Plan** based Azure Funct
 [LINK8]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#binding-at-runtime
 [LINK9]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
 [LINK10]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function
+[LINK11]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/08/09/where-are-my-azure-functions-dissappeared/
 
 [FIGURE1]: ../images/azure-0002.png "Figure 1, create an Azure Function App, installing extensions"
 [FIGURE2]: ../images/azure-0003.png "Figure 2, create an Azure Function App, configuring inputs and outputs"
