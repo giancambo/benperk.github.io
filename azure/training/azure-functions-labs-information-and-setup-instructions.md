@@ -126,6 +126,7 @@ Here are more links that can add more details about runtime descriptions of out 
 + [Triggers and Bindings - Binding at runtime][LINK6]
 + [C# class – Binding at runtime][LINK7]
 + [C# script – Binding at runtime][LINK8]
+
 **NOTE:** I am actually leaning for towards using the client libraries for outbound triggers instead of the Binder approach.  Let’s see how this progresses over time.
 ## Inbound vs. Outbound triggers
 All Function Apps cannot create all outbound types of connections…
