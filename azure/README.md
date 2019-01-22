@@ -12,5 +12,5 @@
 
 
 [SOURCE1]: https://github.com/benperk/AzureFunctionConsumer
-[LINK1]: /training/azure-functions-labs-information-and-setup-instructions.html
-[LINK2]: /2019-01-how-to-modify-host-json.html
+[LINK1]: /training/azure-functions-labs-information-and-setup-instructions.md
+[LINK2]: /2019-01-how-to-modify-host-json.md
