@@ -26,16 +26,16 @@ Before beginning the following labs, be sure to complete the Getting Started sec
 | Lab 19: Binding expressions and patterns |                         | [Patterns][LABLINK19]      |
 
 **NOTE:** For all of the trigger types an endpoint is a requirement.  An endpoint, in generic terms, is nothing more than a accessible unique identifier that is used trigger code.
-# .NET Framework vs. .NET Core Framework
+## .NET Framework vs. .NET Core Framework
 Did you know Azure Functions 1.x runs(ran) with .NET Framework and 2.x runs with the .NET Core Framework
-# Azure Functions languages
+## Azure Functions languages
 Although these labs focus mostly on C#, because that is my favorite, you can write Azure Functions in many languages.  See the list here.
-# Host.json
+## Host.json
 To be an expert in regards to Azure Functions, you need to know all the attributes and configurations possible for a Function App.  Read about them [here][LINK1] “host.json reference for Azure Functions”.  Note that the host.json file lives in the wwwroot directory of the Function App and is therefore a logical conclusion that changes to that file impact the Function App, I.e. not only the function.  There is a function.json file which can be used to make function specific configurations.  You must also recognize, perfect and understand the specific configurations per binding type.  Each trigger type has some unique settings, like:
 + maxBatchSize, prefetchCount, batchCheckpointFrequency
 + GatewayMode, Protocol, leasePrefix
 + and many, many more…
-# Bindings and integrations
+## Bindings and integrations
 Bindings in Azure Functions 1.0 were native which made them hard to update (.NET Framework 4.6).  It was difficult because the native bindings were bound to the runtime and making a change to the binding required a change to the runtime.  With Azure Function 2.0 (.NET Standard 2.0) the bindings can be versioned independent of the runtime and are developed separately.   This means each team can develop capabilities at their own pace.  Here is a list of Azure Function v2 bindings:
 + HTTP
 + Timer
@@ -54,7 +54,87 @@ When you create a trigger using one of the above types, you are prompted to inst
 The source code for the extensions is [here][LINK2].
 The list of supported bindings are [here][LINK3].
 TIP: If you ever need to install an extension manually, add the extension to the extensions.csproj file and run the following command in KUDU/SCM.
+
 ```dotnet build extensions.csproj -o bin --no-incremental --packages D:\home\.nuget```
+## Declarative vs. Imperative Azure Functions
+By default, Azure Functions use a declarative binding pattern that utilizes the function.json configuration file to define both input and output binding definitions.  For example, a default declarative binding pattern for an HTTP Triggered Azure Functions is similar to the following.  It includes the authLevel, the name of the input parameter passed into the Azure Function Run() method and the direction, etc.
+```
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
+```
+
+With an HTTP Triggered Azure Function there is also a default output binding that returns the Task<HttpResponseMessage> to the client that triggered the Azure Function.  An Event Hub or Blob Trigger Azure Function, for example, do not have a default output binding.  You can add additional inputs or outputs for an Azure Function using the portal, Figure 2, or if you know the pattern you can update the json file directly,  Manually making the change to the json file via the portal can lead the issue I discussed [here][LINK4].
+
+![create an Azure Function App, configuring inputs and outputs][FIGURE2]
+
+If there is a need to add an additional output binding for a Blob Storage account, then the function.json file would be updated to include this snippet.  It includes the type, the name of the output parameter that I can reference from the parameters in the Run() method, the direction and some others…
+
+
+```
+{
+      "type": "blob",
+      "name": "outputBlob",
+      "path": "test/{rand-guid}",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+}
+```
+
+Now, onto imperative.  Think of the difference between Declarative and Imperative in the same way you think about design-time vs. runtime.  When you know from the beginning which combination of bindings the Azure Function requires, then create them declaratively, however, if, based on the processing of the input to the Azure Function, the output binding can have different endpoints, then imperative binding is necessary.
+The way you imperatively (or at runtime) define bindings for an Azure Function is by passing the [Binder][LINK5] input parameter into the Run() method of the Azure Function, similar to the following.
+
+```
+Run(string input, Binder binder)
+```
+
+Then, within the Run() method, you can use the BindAsync<T>() method to dynamically create the output binding and utilize it.  For example, if instead of the outputBlob writing to path “test/” (which was declared declaratively) that can be identified at runtime, as shown in the following snippet.
+ 
+```
+public static async Task Run(string input, string name, Binder binder, TraceWriter log)
+{
+	string path = $"coolcontainer\{name}";
+	var attributes = new Attribute[]
+    {    
+        new BlobAttribute(path),
+        new StorageAccountAttribute("")
+    };
+	using (var writer = await binder.BindAsync(attributes))
+    {
+        writer.Write(input);
+    }
+}
+```
+**NOTE:** do not declaratively declare an output binding if you plan to define them imperatively in the code.
+Here are more links that can add more details about runtime descriptions of out bound triggers.
++ [Triggers and Bindings - Binding at runtime][LINK6]
++ [C# class – Binding at runtime][LINK7]
++ [C# script – Binding at runtime][LINK8]
+**NOTE:** I am actually leaning for towards using the client libraries for outbound triggers instead of the Binder approach.  Let’s see how this progresses over time.
+## Inbound vs. Outbound triggers
+All Function Apps cannot create all outbound types of connections…
+
+![inbound vs. outbound triggers][FIGURE3]
+
+## Dedicated vs. Consumption vs. Premium
+The full description is [here][LINK9] “Azure Functions scale and hosting” and will therefore not recover it.  NOTE:  In the article, dedicated is often referred to as App Service plan.  In summary, when you run an Azure Function App, which can contain many Azure Functions in the dedicated plan, it is not ‘really’ server-less because you are running it in an App Service Plan which you have already created, this is useful, however, when your Azure Function App needs more than 1.5GB of memory for example, you can also enable AlwaysOn and avoid any startup latencies.  Additionally, on a dedicated plan you are not limited to 5 or 10 minute execution times.  Running an Azure Function App in consumption mode is truly server-less, meaning, after a given amount of time where the your Azure Function is not used, the VM will be de-configured and returned to the pool of available resources.  When the Azure Function needs to run again, the VM will come back on-line and run.  You pay only for the time in which the code it executing.  So super awesome!
+
 
 
 
@@ -73,7 +153,14 @@ TIP: If you ever need to install an extension manually, add the extension to the
 [LINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-host-json
 [LINK2]: https://github.com/Azure/azure-webjobs-sdk-extensions
 [LINK3]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-versions#bindings
+[LINK4]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/08/07/why-does-my-azure-function-sometimes-stop-being-triggered/
+[LINK5]: https://github.com/Azure/azure-webjobs-sdk/blob/master/src/Microsoft.Azure.WebJobs.Host/Bindings/Runtime/Binder.cs
+[LINK6]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings#binding-at-runtime
+[LINK7]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-class-library#binding-at-runtime
+[LINK8]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#binding-at-runtime
+[LINK9]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
 
 [FIGURE1]: ../images/azure-0002.png "Figure 1, create an Azure Function App, installing extensions"
-
+[FIGURE2]: ../images/azure-0003.png "Figure 2, create an Azure Function App, configuring inputs and outputs"
+[FIGURE3]: ../images/azure-0004.png "Figure 3, inbound vs. outbound triggers]"
 
