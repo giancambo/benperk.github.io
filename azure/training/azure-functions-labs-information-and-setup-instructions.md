@@ -130,13 +130,22 @@ Here are more links that can add more details about runtime descriptions of out 
 ## Inbound vs. Outbound triggers
 All Function Apps cannot create all outbound types of connections…
 
-![inbound vs. outbound triggers][FIGURE3]
+![inbound vs. outbound triggers][FIGURE]
 
 ## Dedicated vs. Consumption vs. Premium
 The full description is [here][LINK9] “Azure Functions scale and hosting” and will therefore not recover it.  NOTE:  In the article, dedicated is often referred to as App Service plan.  In summary, when you run an Azure Function App, which can contain many Azure Functions in the dedicated plan, it is not ‘really’ server-less because you are running it in an App Service Plan which you have already created, this is useful, however, when your Azure Function App needs more than 1.5GB of memory for example, you can also enable AlwaysOn and avoid any startup latencies.  Additionally, on a dedicated plan you are not limited to 5 or 10 minute execution times.  Running an Azure Function App in consumption mode is truly server-less, meaning, after a given amount of time where the your Azure Function is not used, the VM will be de-configured and returned to the pool of available resources.  When the Azure Function needs to run again, the VM will come back on-line and run.  You pay only for the time in which the code it executing.  So super awesome!
 
+# Getting Started
+Create a Function App.  To complete the labs, you will need an Azure Function App.  It is assumed you already have an Azure Subscription and understand the concepts of Resource Groups, App Service Plans and the difference between a Dedicated versus Consumption based Azure Function App, oh…and the difference between an Azure Function App and an Azure Function would also be good to know…
+## Creating an Azure Function App
+Login to the Azure portal and click the +Create a resource link on the top left of the page.  Search for ‘Function App’ and then select the Function App, as seen in Figure 3.  There is also some nice information [here][LINK10] “Create your first function in the Azure portal”.
 
+![create an Azure Function App][FIGURE3]
 
+Enter the required details for creating the Azure Function App, similar to that seen in Figure 4.
+The **App name** must be unique as it is a global, internet accessible endpoint.
+For these labs I recommend you create a new **Resource Group**.  I recommend that because once you are finished with these labs, you know which resources you created while working them and can delete them all once you finish.
+Windows **OS**, and chose a Consumption Plan, **Hosting Plan** based Azure Function App for the labs but I cannot think of a reason why any of the labs wouldn’t work in dedicated or premium mode.
 
 
 [LABLINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
@@ -159,8 +168,11 @@ The full description is [here][LINK9] “Azure Functions scale and hosting” an
 [LINK7]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-class-library#binding-at-runtime
 [LINK8]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#binding-at-runtime
 [LINK9]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
+[LINK10]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function
 
 [FIGURE1]: ../images/azure-0002.png "Figure 1, create an Azure Function App, installing extensions"
 [FIGURE2]: ../images/azure-0003.png "Figure 2, create an Azure Function App, configuring inputs and outputs"
-[FIGURE3]: ../images/azure-0004.png "Figure 3, inbound vs. outbound triggers]"
+[FIGURE]: ../images/azure-0004.png "Figure , inbound vs. outbound triggers]"
+[FIGURE3]: ../images/azure-0005.png "Figure 3, create an Azure Function App]"
+[FIGURE4]: ../images/azure-0006.png "Figure 4, create an Azure Function App]"
 
