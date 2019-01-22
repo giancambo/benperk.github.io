@@ -2,6 +2,7 @@
 I started my learning of Azure Functions, I.e. Service-less computing by writing this .NET Core Console application which calls the following Azure Functions each with a different trigger type.  I hosted the console application on GitHub here.  You will need the .NET Core runtime installed on your work station to run the console app, check this out.
 ## Labs
 Before beginning the following labs, be sure to complete the Getting Started section further down in this article.
+
 | Lab Name | Lab Location | Deatils | 
 | -------- | ------------ | ------- |
 | Lab 1: Azure Functions - Blob Storage    | Lab 1, Lab 1.1          | [Blob Storage][LABLINK1]   |
