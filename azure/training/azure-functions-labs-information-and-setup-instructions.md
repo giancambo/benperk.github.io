@@ -48,6 +48,7 @@ Bindings in Azure Functions 1.0 were native which made them hard to update (.NET
 + Microsoft.Azure.WebJobs.Extensions.DurableTask
 + Microsoft.Azure.WebJobs.Extensions.SignalRService
 When you create a trigger using one of the above types, you are prompted to install the required extension for the selected binding.  Something similar to that shown in Figure 1.
+![create an Azure Function App, installing extensions][FIGURE1]
 
 
 [LABLINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
@@ -62,3 +63,7 @@ When you create a trigger using one of the above types, you are prompted to inst
 [LABLINK19]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings#binding-expressions-and-patterns
 
 [LINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-host-json
+
+[FIGURE1]: ../images/azure-0002.png "Figure 1, create an Azure Function App, installing extensions"
+
+
