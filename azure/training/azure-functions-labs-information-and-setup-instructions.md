@@ -1,7 +1,7 @@
 # Azure Functions Labs – Information and setup instructions
 I started my learning of Azure Functions, I.e. Service-less computing by writing this .NET Core Console application which calls the following Azure Functions each with a different trigger type.  I hosted the console application on GitHub here.  You will need the .NET Core runtime installed on your work station to run the console app, check this out.
 ## Labs
-Before beginning the following labs, be sure to complete the Getting Started section further down in this article.
+Before beginning the following labs, be sure to complete the [Getting Started][ANCHORLINK1] section further down in this article.
 
 | Lab Name | Lab Location | Deatils | 
 | -------- | ------------ | ------- |
@@ -176,7 +176,9 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK8]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#binding-at-runtime
 [LINK9]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
 [LINK10]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function
-[LINK11]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/08/09/where-are-my-azure-functions-dissappeared/
+[LINK11]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/08/09/where-are-my-azure-functions-dissappeared
+
+[ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
 [FIGURE1]: ../images/azure-0002.png "Figure 1, create an Azure Function App, installing extensions"
 [FIGURE2]: ../images/azure-0003.png "Figure 2, create an Azure Function App, configuring inputs and outputs"
