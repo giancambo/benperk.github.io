@@ -3,11 +3,14 @@
 ### Source Code
 [Here][SOURCE1] is the source for my Azure Functions Consumer. 
 
-### Articles
-+ [How to modify the host.json file for an Azure Function][LINK1]
+### Training
++ [Azure Functions Labs][LINK1]
 
+### Articles
++ [How to modify the host.json file for an Azure Function][LINK2]
 
 
 
 [SOURCE1]: https://github.com/benperk/AzureFunctionConsumer
-[LINK1]: https://benperk.github.io/azure/2019-01-how-to-modify-host-json.html
+[LINK1]: training/azure-functions-labs-information-and-setup-instructions.html
+[LINK1]: 2019-01-how-to-modify-host-json.html
