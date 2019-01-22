@@ -51,9 +51,11 @@ When you create a trigger using one of the above types, you are prompted to inst
  
 ![create an Azure Function App, installing extensions][FIGURE1]
  
-The source code for the extensions is [here][LINK2].
-The list of supported bindings are [here][LINK3].
-TIP: If you ever need to install an extension manually, add the extension to the extensions.csproj file and run the following command in KUDU/SCM.
++ The source code for the extensions is [here][LINK2].
++ The list of supported bindings are [here][LINK3].
++ See [here][LINK12] to compare messaging services.
+
+**TIP:** If you ever need to install an extension manually, add the extension to the extensions.csproj file and run the following command in KUDU/SCM.
 
 ```dotnet build extensions.csproj -o bin --no-incremental --packages D:\home\.nuget```
 ## Declarative vs. Imperative Azure Functions
@@ -177,6 +179,7 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK9]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
 [LINK10]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function
 [LINK11]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/08/09/where-are-my-azure-functions-dissappeared
+[LINK12]: https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
 
 [ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
