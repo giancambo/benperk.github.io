@@ -1,3 +1,4 @@
 # theme: jekyll-theme-slate
 title: benjamin perkins, (aka @csharpguitar)
+subtitle: List<Solution> solutions = changes.Where(c => c.CeterisParibus != true)
 description: List<Solution> solutions = changes.Where(c => c.CeterisParibus != true)
