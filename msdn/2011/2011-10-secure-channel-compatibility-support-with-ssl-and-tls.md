@@ -11,7 +11,7 @@ There are a number of SSL (SSL 1.0, SSL 2.0 and SSL 3.0) and TLS (TLS 1.0, TLS 1
 
 It is important to realize that the supportable SSL and TLS versions depend on the underlying Windows operating system version and its associated Schannel (schannel.dll) component.  The following table shown in figure 2 represents the supported SSL and TLS version per Windows Server and Client version.
 
-!Support for SSL and TLS protocol on Windows][FIGURE2]
+[!Support for SSL and TLS protocol on Windows][FIGURE2]
 ###### Figure 2, Support for SSL and TLS protocol on Windows 
 
 You notice that only Windows Server 2008 R2 (which is 64bit) and Windows 7 support the TLS 1.1 and TLS 1.2 protocol version.  To implement TLS 1.1 or TLS 1.2 both the client and the server need to support the protocol version.
