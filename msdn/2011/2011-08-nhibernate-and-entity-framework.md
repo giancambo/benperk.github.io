@@ -1,3 +1,5 @@
+# NHibernate and Entity Framework
+
 Prior to getting my job here at Microsoft, I was, and in many aspects still am passionate about NHibernate.  I discovered a particular liking to ORM’s in general.  I liked it so much that I wrote a book called “Working with NHibernate 3.0” which is available on Amazon or from the Wrox.com website.
 
 What I like most about ORM concepts, perhaps is rooted withinn my own skill set.  I am a programmer and a designer at heart.  To be honest, I am not so good at writing complex SQL queries.  This is simply because on many of my past development teams there were always the programmers and the database people.  When I needed a complex query written, I would get the database team to do it.  With the creation of ORM technologies, I don’t need to know how to write SQL queries anymore, because the ORM converts my code into a “pretty optimized” SQL query for me. Now that I work at Microsoft I am shifting my focus to the ADO.NET Entity Framework.  Honestly, NHibernate has more capability today then the ADO.NET Entity Framework, but I ask myself "Is that a good thing or a bad thing?"
