@@ -11,7 +11,7 @@ There are a number of SSL (SSL 1.0, SSL 2.0 and SSL 3.0) and TLS (TLS 1.0, TLS 1
 
 It is important to realize that the supportable SSL and TLS versions depend on the underlying Windows operating system version and its associated Schannel (schannel.dll) component.  The following table shown in figure 2 represents the supported SSL and TLS version per Windows Server and Client version.
 
-[!Support for SSL and TLS protocol on Windows][FIGURE2]
+![Support for SSL and TLS protocol on Windows][FIGURE2]
 ###### Figure 2, Support for SSL and TLS protocol on Windows 
 
 You notice that only Windows Server 2008 R2 (which is 64bit) and Windows 7 support the TLS 1.1 and TLS 1.2 protocol version.  To implement TLS 1.1 or TLS 1.2 both the client and the server need to support the protocol version.
@@ -33,14 +33,14 @@ Configuring IIS 7.5 to support TLS 1.1 and 1.2 is more resource intensive.  It i
 + For testing I created a web site on IIS 7.5 which accepted secure access on port 443, I made sure that the browser had the default settings (SSL 3.0 and TLS 1.0 enabled) and I accessed the web site.  OK
 + Next, I modified the browser setting to only support TLS 1.1 and 1.2, restarted the browser and accessed the web site.  FAIL
 + Next, using the Group Policy snap-in I enabled the following, located at Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options.
-+ [!system cryptography][FIGURE3]
+  ![system cryptography][FIGURE3]
 + Lastly, I rebooted the server, made some registry modifications and accessed the web site.  OK
 
 The effects of enabling system cryptography can be viewed [here][LINK4].
 
 Using Fiddler I captured the following request header.  I am interested why it mentions a SSLv3-Compatible handshake when I had only TLS 1.2 enabled.  Perhaps it is referring to SSL 3.3 which is synonymous with TLS 1.2.  I am not sure; let me know if you find out.
 
-[!SSL and TLS protocol on Windows wireshark response][FIGURE4]
+![SSL and TLS protocol on Windows wireshark response][FIGURE4]
 
 [FIGURE1]: ../images/msdn-0018.png "Figure 1, possible SSL and TLS support within an Internet Explorer"
 [FIGURE2]: ../images/msdn-0019.png "Figure 2, Support for SSL and TLS protocol on Windows"
