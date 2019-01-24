@@ -1,8 +1,9 @@
 # MSDN blogs, articles and trainings
 
-## Authentication and Authorization
-+ [Integrated Windows Authentication with Negotiate][AA1]
-+ [Integrated Windows Authentication with NTLM][AA2]
+## Authentication, Authorization and Security
++ [Integrated Windows Authentication with Negotiate][AAS1]
++ [Integrated Windows Authentication with NTLM][AAS2]
++ [Secure channel compatibility support with SSL and TLS][AAS3]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -16,8 +17,9 @@
 
 
 
-[AA1]: 2011/2011-08-integrated-windows-authentication-with-negotiate.md
-[AA2]: 2011/2011-08-integrated-windows-authentication-with-ntlm.md
+[AAS1]: 2011/2011-08-integrated-windows-authentication-with-negotiate.md
+[AAS2]: 2011/2011-08-integrated-windows-authentication-with-ntlm.md
+[AAS3]: 2011/2011-10-secure-channel-compatibility-support-with-ssl-and-tls.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
