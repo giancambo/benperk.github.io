@@ -10,6 +10,7 @@
 
 ## Products and Libraries
 + [NHibernate and Entity Framework][PL1]
++ [NHibernate and Entity Framework essentials using a Model First approach][PL2]
 
 [Current location](https://blogs.msdn.microsoft.com/benjaminperkins).
 
@@ -22,3 +23,4 @@
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
+[PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
