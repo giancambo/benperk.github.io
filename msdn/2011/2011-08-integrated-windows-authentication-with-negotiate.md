@@ -1,3 +1,5 @@
+# Integrated Windows Authentication with Negotiate
+
 IIS provides a number of different authentication techniques.  One of which is Integrated Windows Authentication.  Integrated Windows Authentication utilizes Negotiate/Kerberos or NTLM to authenticate users based on an encrypted ticket/message passed between a browser and a server.
 
 ![Integrated Windows Authentication with Negotiate][FIGURE1]
