@@ -10,4 +10,4 @@
 
 
 [SOURCE1]: https://github.com/benperk/TheBestCSharpProgrammerInTheWorld
-[LESSON1]: lesson-1-sql-server-data-access-gridview.html
+[LESSON1]: lesson-1-sql-server-data-access-gridview.md
