@@ -3,6 +3,7 @@ Understanding the differences between how and where 32bit and 64bit programs can
 When the topic concerns IIS application pools on 64bit machines, the context is the same.  If your website must load 32bit applications only, set the “Enable 32-Bit Applications” to true.  Alternatively, if you want your website to run in 64bit mode, set “Enable 32-Bit Applications” to false.
 
 ![advanced IIS application pool settings][FIGURE1]
+###### Figure 1, advanced IIS application pool settings
 
 You can do this by using the appcmd, powershell or from within the IIS management console.  All 3 methods update the applicationHost.config file (IIS7) as shown in the following code segment:
 ```
