@@ -23,5 +23,5 @@ You should receive the below result:
 
 After the restore, the IIS configuration will be in the state it was when the backup was originally taken.
 
-[FIGURE1]: ../images/5657.1.png "Figure 1, appcmd add backup cleaninstall"
-[FIGURE2]: ../images/4848.2.png "Figure 2, appcmd restore backup cleaninstall"
+[FIGURE1]: ../images/2011/5657.1.png "Figure 1, appcmd add backup cleaninstall"
+[FIGURE2]: ../images/2011/4848.2.png "Figure 2, appcmd restore backup cleaninstall"
