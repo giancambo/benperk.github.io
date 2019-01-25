@@ -4,6 +4,7 @@
 + [Integrated Windows Authentication with Negotiate][AAS1]
 + [Integrated Windows Authentication with NTLM][AAS2]
 + [Secure channel compatibility support with SSL and TLS][AAS3]
++ [Kerberos authPersistNonNTLM authentication, request based vs. session based authentication][AAS4]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -20,6 +21,7 @@
 [AAS1]: 2011/2011-08-integrated-windows-authentication-with-negotiate.md
 [AAS2]: 2011/2011-08-integrated-windows-authentication-with-ntlm.md
 [AAS3]: 2011/2011-10-secure-channel-compatibility-support-with-ssl-and-tls.md
+[AAS4]: 2011/22011-10-kerberos-authpersistnonntlm-authentication-request-based-vs-session-based-authentication.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
