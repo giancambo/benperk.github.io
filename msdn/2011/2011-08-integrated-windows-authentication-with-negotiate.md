@@ -20,9 +20,9 @@ To view the request and response headers of a web request you can use a tool nam
 
 Here is a very good [article][LINK1] covering how to troubleshoot Kerberos issues.
 
-[FIGURE1]: ../images/msdn-0002.png "Figure 1, Integrated Windows Authentication with Negotiate"
-[FIGURE2]: ../images/msdn-0003.png "Figure 2, Enable Integrated Windows Authentication with Negotiate"
-[FIGURE3]: ../images/msdn-0004.png "Figure 3, Integrated Windows Authentication with Negotiate in IIS"
-[FIGURE4]: ../images/msdn-0005.png "Figure 4, Integrated Windows Authentication with Negotiate Response Request Headers"
+[FIGURE1]: ../images/2011/msdn-0002.png "Figure 1, Integrated Windows Authentication with Negotiate"
+[FIGURE2]: ../images/2011/msdn-0003.png "Figure 2, Enable Integrated Windows Authentication with Negotiate"
+[FIGURE3]: ../images/2011/msdn-0004.png "Figure 3, Integrated Windows Authentication with Negotiate in IIS"
+[FIGURE4]: ../images/2011/msdn-0005.png "Figure 4, Integrated Windows Authentication with Negotiate Response Request Headers"
 
 [LINK1]: http://blogs.msdn.com/b/friis/archive/2009/12/31/things-to-check-when-kerberos-authentication-fails-using-iis-ie.aspx
