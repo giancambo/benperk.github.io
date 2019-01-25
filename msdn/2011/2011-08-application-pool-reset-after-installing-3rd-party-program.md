@@ -20,4 +20,4 @@ Sometimes, when installing a 3rd party program, modifications to the application
 What this would mean is that if you have application pools on the 64bit machine which need to load a 64bit program, that it will no longer work, unless you have previously specifically set the enable32BitAppOnWin64 to false.  Most of the time this is not the case because default (false) is used, no setting exists and therefore when the applicationPoolDefault is set, then things start to go unexpected.
 If this happens, simply access the application pools which need to run in 64bit mode and manually set the enable32BitAppOnWin64 to false, or remove the default setting and set the individual application pools which need to run in 32bit mode to true.
 
-[FIGURE1]: ../images/msdn-0001.png "Figure 1, advanced IIS application pool settings"
+[FIGURE1]: ../images/2011/msdn-0001.png "Figure 1, advanced IIS application pool settings"
