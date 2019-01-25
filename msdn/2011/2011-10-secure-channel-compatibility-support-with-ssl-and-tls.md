@@ -42,10 +42,10 @@ Using Fiddler I captured the following request header.  I am interested why it m
 
 ![SSL and TLS protocol on Windows wireshark response][FIGURE4]
 
-[FIGURE1]: ../images/msdn-0018.png "Figure 1, possible SSL and TLS support within an Internet Explorer"
-[FIGURE2]: ../images/msdn-0019.png "Figure 2, Support for SSL and TLS protocol on Windows"
-[FIGURE3]: ../images/msdn-0020.png "Figure 3, system cryptography"
-[FIGURE4]: ../images/msdn-0021.png "Figure 4, system cryptography"
+[FIGURE1]: ../images/2011/msdn-0018.png "Figure 1, possible SSL and TLS support within an Internet Explorer"
+[FIGURE2]: ../images/2011/msdn-0019.png "Figure 2, Support for SSL and TLS protocol on Windows"
+[FIGURE3]: ../images/2011/msdn-0020.png "Figure 3, system cryptography"
+[FIGURE4]: ../images/2011/msdn-0021.png "Figure 4, system cryptography"
 
 [LINK1]: 2011-08-integrated-windows-authentication-with-ntlm.md
 [LINK2]: 2011-08-integrated-windows-authentication-with-negotiate.md
