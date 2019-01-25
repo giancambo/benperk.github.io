@@ -9,6 +9,7 @@
 ## IIS
 + [Create an IIS configuration backup][IIS1]
 + [Application Pool reset after installing 3rd party program][IIS2]
++ [Modify the Request Queue Limit, requestQueueLimit or Queue Length in IIS][IIS3]
 
 ## Products and Libraries
 + [NHibernate and Entity Framework][PL1]
@@ -25,6 +26,7 @@
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
+[IIS3]: 2011/2011-11-modify-the-request-queue-limit-requestqueuelimit-or-queue-length-in-iis.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
