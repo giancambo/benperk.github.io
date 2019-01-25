@@ -59,11 +59,11 @@ Both LINQ to Entities and LINQ to NHibernate result in a display as shown in Fig
 Both NHibernate and the ADO.NET Entity Framework provide the capabilities required to implement an ORM using the Model First approach.   The ADO.NET Entity Framework creates the classes defined in the data model for you, NHibernate does not.  Nonetheless, from a developer point of view, creating the entities and their relationships by hand does provide greater insight into the detailed aspects of the program.  The dynamically generated EF source code is big and many of the attributes and methods are not intuitively useful at first glance.   Creating these entities and the relationships between them result in having a code base containing only what is required.  The ADO.NET Entity Framework also creates a repository like framework which is a wrapper around the specific CRUD activities of EF.  There is no such functionality in NHibernate.  The creation of a repository or data access control (DAC) is something which needs to be designed, coded and tested.
 Having used NHibernate extensively and even written a book about it, a common question is regarding which interface should be used.  NHibernate provides a number of them for the retrieval of data.  The answer is not one easily answered but the suggestion is to pick one and stick with it throughout the programs lifetime.  I believe the same applies when deciding between NHibernate and the ADO.NET Entity Framework.  Both provide ample capabilities to build most of today’s programs, you just need to decide which one fits into your companys’ culture and skill set, and stick with it.
 
-[FIGURE1]: ../images/msdn-0010.png "Figure 1, a simple data model"
-[FIGURE2]: ../images/msdn-0011.png "Listing 1, creating and mapping an entity in NHibernate 3.2"
-[FIGURE3]: ../images/msdn-0012.png "Listing 2, ADO.NET Entity Framework generated SQL"
-[FIGURE4]: ../images/msdn-0013.png "Figure 4, database structure created by ADO.NET Enetity Framework generated SQL"
-[FIGURE5]: ../images/msdn-0014.png "Listing 3, create the database structure using NHibernate"
-[FIGURE6]: ../images/msdn-0015.png "Listing 4, How to retrieve data from a data source using ADO.NET Entity Framework"
-[FIGURE7]: ../images/msdn-0016.png "Listing 5, How to retrieve data from a datasource using NHibernate"
-[FIGURE8]: ../images/msdn-0017.png "Figure 3, the result of using LINQ to Entities or LINQ to NHibernate"
+[FIGURE1]: ../images/2011/msdn-0010.png "Figure 1, a simple data model"
+[FIGURE2]: ../images/2011/msdn-0011.png "Listing 1, creating and mapping an entity in NHibernate 3.2"
+[FIGURE3]: ../images/2011/msdn-0012.png "Listing 2, ADO.NET Entity Framework generated SQL"
+[FIGURE4]: ../images/2011/msdn-0013.png "Figure 4, database structure created by ADO.NET Enetity Framework generated SQL"
+[FIGURE5]: ../images/2011/msdn-0014.png "Listing 3, create the database structure using NHibernate"
+[FIGURE6]: ../images/2011/msdn-0015.png "Listing 4, How to retrieve data from a data source using ADO.NET Entity Framework"
+[FIGURE7]: ../images/2011/msdn-0016.png "Listing 5, How to retrieve data from a datasource using NHibernate"
+[FIGURE8]: ../images/2011/msdn-0017.png "Figure 3, the result of using LINQ to Entities or LINQ to NHibernate"
