@@ -18,7 +18,7 @@ To view the request and response headers of a web request you can use a tool nam
 
 ![Integrated Windows Authentication with NTLM Request and Response headers][FIGURE4]
 
-[FIGURE1]: ../images/msdn-0006.png "Figure 1, Integrated Windows Authentication with NTLM"
-[FIGURE2]: ../images/msdn-0007.png "Figure 2, Integrated Windows Authentication with NTLM Enable"
-[FIGURE3]: ../images/msdn-0008.png "Figure 3, Integrated Windows Authentication with NTLM in IIS"
-[FIGURE4]: ../images/msdn-0009.png "Figure 4, Integrated Windows Authentication with NTLM Request and Response headers"
+[FIGURE1]: ../images/2011/msdn-0006.png "Figure 1, Integrated Windows Authentication with NTLM"
+[FIGURE2]: ../images/2011/msdn-0007.png "Figure 2, Integrated Windows Authentication with NTLM Enable"
+[FIGURE3]: ../images/2011/msdn-0008.png "Figure 3, Integrated Windows Authentication with NTLM in IIS"
+[FIGURE4]: ../images/2011/msdn-0009.png "Figure 4, Integrated Windows Authentication with NTLM Request and Response headers"
