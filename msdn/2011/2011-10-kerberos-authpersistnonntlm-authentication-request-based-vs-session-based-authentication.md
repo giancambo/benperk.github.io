@@ -71,15 +71,15 @@ As already mentioned in this article, Kerberos authentication is dependent on a 
 
 This means that if your application has any mechanism which can change the port being used between the client and server, then you may encounter multiple authentications throughout a client’s session.  If the TCP Session in not maintained (ex: IP:PORT), then setting the authPersistNonNTLM attribute may appear to not act as expected.
 
-[FIGURE1]: ../images/msdn-0022.png "Figure 1, Network Monitor log for request based authentication"
-[FIGURE2]: ../images/msdn-0023.png "Figure 2, selection of the server within IIS manager"
-[FIGURE3]: ../images/msdn-0024.png "Figure 3, Management section"
-[FIGURE4]: ../images/msdn-0025.png "Figure 4, Management section"
-[FIGURE5]: ../images/msdn-0026.png "Figure 5, authPersistNonNTLM element"
-[FIGURE6]: ../images/msdn-0027.png "Figure 6, Fiddler log shows Persistent-Auth: false"
-[FIGURE7]: ../images/msdn-0028.png "Figure 7, Fiddler log shows Persistent-Auth: true"
-[FIGURE8]: ../images/msdn-0029.png "Figure 8, Network Monitor log for session based authentication"
-[FIGURE9]: ../images/msdn-0030.png "Figure 9, Fiddler log example"
+[FIGURE1]: ../images/2011/msdn-0022.png "Figure 1, Network Monitor log for request based authentication"
+[FIGURE2]: ../images/2011/msdn-0023.png "Figure 2, selection of the server within IIS manager"
+[FIGURE3]: ../images/2011/msdn-0024.png "Figure 3, Management section"
+[FIGURE4]: ../images/2011/msdn-0025.png "Figure 4, Management section"
+[FIGURE5]: ../images/2011/msdn-0026.png "Figure 5, authPersistNonNTLM element"
+[FIGURE6]: ../images/2011/msdn-0027.png "Figure 6, Fiddler log shows Persistent-Auth: false"
+[FIGURE7]: ../images/2011/msdn-0028.png "Figure 7, Fiddler log shows Persistent-Auth: true"
+[FIGURE8]: ../images/2011/msdn-0029.png "Figure 8, Network Monitor log for session based authentication"
+[FIGURE9]: ../images/2011/msdn-0030.png "Figure 9, Fiddler log example"
 
 [LINK1]: http://support.microsoft.com/kb/954873
 [LINK2]: http://blogs.iis.net/thomad/archive/2009/10/23/kerberos-authentication-issues.aspx
