@@ -15,6 +15,7 @@
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
 + [How to add a HOST.JSON file to an Azure Function][AZF2]
++ [Why does my Azure Function sometimes stop being triggered][AZF3]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -45,6 +46,7 @@
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
+[AZF3]: 2018/2018-08-why-does-my-azure-function-sometimes-stop-being-triggered.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
