@@ -9,9 +9,12 @@
 + [Secure channel compatibility support with SSL and TLS][AAS3]
 + [Kerberos authPersistNonNTLM authentication, request based vs. session based authentication][AAS4]
 
+## Azure App Services
++ [Using KUDU with Microsoft Azure Web Apps][AZA1]
+
 ## Azure Functions
-+ [How (I) would handle a timeout in Azure Function][AZ1]
-+ [How to add a HOST.JSON file to an Azure Function][AZ2]
++ [How (I) would handle a timeout in Azure Function][AZF1]
++ [How to add a HOST.JSON file to an Azure Function][AZF2]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -38,8 +41,10 @@
 [AAS3]: 2011/2011-10-secure-channel-compatibility-support-with-ssl-and-tls.md
 [AAS4]: 2011/2011-10-kerberos-authpersistnonntlm-authentication-request-based-vs-session-based-authentication.md
 
-[AZ1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
-[AZ2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
+[AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
+
+[AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
+[AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
