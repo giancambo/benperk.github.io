@@ -17,6 +17,7 @@
 + [Creating a W3WP Memory dump on Windows Server 2003][IIS5]
 + [Enable and Activate Failed Request Tracing Rules][IIS6]
 + [Web Farm Framework Architecture][IIS7]
++ [Creating a W3WP Memory dump on Windows Server 2008 R2][IIS8]
 
 ## Products and Libraries
 + [NHibernate and Entity Framework][PL1]
@@ -38,6 +39,7 @@
 [IIS5]: 2011/2011-12-creating-a-w3wp-memory-dump-on-windows-server-2003.md
 [IIS6]: 2012/2012-01-enable-and-activate-failed-request-tracing-rules.md
 [IIS7]: 2012/2012-01-web-farm-framework-architecture.md
+[IIS8]: 2012/2012-02-creating-a-w3wp-memory-dump-on-windows-server-2008-r2.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
