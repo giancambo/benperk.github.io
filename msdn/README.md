@@ -20,6 +20,7 @@
 + [How to connect to a database from an Azure Function][AZF5]
 + [Deploy an Azure Function created from Visual Studio][AZF6]
 + [An error occurred][AZF7]
++ [Publish failed][AZF8]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -54,6 +55,7 @@
 [AZF5]: 2018/2018-04-how-to-connect-to-a-database-from-an-azure-function.md
 [AZF6]: 2018/2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [AZF7]: 2018/2018-04-an-error-occurred.md
+[AZF8]: 2018/2018-04-publish-failed.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
