@@ -55,7 +55,7 @@ You can consider creating the Azure Function App and Function, then downloading 
 [FIGURE2]: ../images/2018/msdn-0078.png "Figure 2, how to create an Azure Function using Visual Studio"
 [FIGURE3]: ../images/2018/msdn-0079.png "Figure 3, how to create an Azure Function using Visual Studio"
 [FIGURE4]: ../images/2018/msdn-0080.png "Figure 4, how to create an Azure Function using Visual Studio"
-[FIGURE5]: ../images/2018/msdn-0081.png "Figure 5, how to test local an Azure Function using Visual Stu"
+[FIGURE5]: ../images/2018/msdn-0081.png "Figure 5, how to test local an Azure Function using Visual Studio"
 [FIGURE6]: ../images/2018/msdn-0082.png "Figure 6, how to test local an Azure Function using Visual Studio"
 [FIGURE7]: ../images/2018/msdn-0083.png "Figure 7, how to test local an Azure Function using Visual Studio, azure portal"
 
