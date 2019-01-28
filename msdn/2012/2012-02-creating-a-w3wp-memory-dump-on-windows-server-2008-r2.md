@@ -45,8 +45,8 @@ Once the dump is created you can analyze it using WinDbg and find the reason for
 
 An alternative method to create a memory dump of a W3WP process for a specific web site is to open Task Manager, as shown in Figure 6, right-click on the W3WP process and click Create Dump File.
 
-![Task Manager][FIGURE1]
-###### Figure 1, Task Manager
+![Task Manager][FIGURE6]
+###### Figure 6, Task Manager
 
 You would do this, for example, if your W3WP process was consuming 100% of the CPU at the time you created the memory dump.  Only use this method if you are certain the issue is happening at the time you select Create Dump File.
 The benefits of ProcDump is that you can configure it to create the memory dump based on many situations and are therefore more likely to capture a memory dump at the time the issue happens. 
