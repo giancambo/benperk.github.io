@@ -59,8 +59,8 @@ Study each of the binding types and you learn the unique attributes of each.
 Let's say you have an Event Hub, then you create an Azure Function App, that includes an Azure Function which is triggered when messages are received into that Event Hub.  If at some point in time later, you create a new Azure Function App (it doesn't have to be a new Azure Function App, it could be a new Azure Function within the same Azure Function App) that includes an Azure Function that is triggered/bound to the same Event Hub as the other, then that one will begin getting the message and the original one will stop.  ***You can only have one binding***.  That is why you seen in Figure 2, previously, that I have disabled some of my Azure Functions.  This was becuase I had created another Azure Function App that included an Azure Function bound to the same Event Hub and Blob and disabling them was the solution for the scenario and experience I document here now.
 
 [LINK1]: ../2014/2014-03-using-kudu-with-windows-azure-web-sites.md
-[LINK2]: tbd
-[LINK3]: tbd
+[LINK2]: 2018-04-how-to-create-an-azure-function-in-visual-studio.md
+[LINK3]: 2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [LINK4]: tbd
 [LINK5]: tbd
 [LINK6]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
