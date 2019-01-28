@@ -53,6 +53,7 @@ There are numerous trigger types and bindings.  Here are a few:
 + [Azure Service Bus bindings for Azure Functions][LINK8]
 + [Azure Functions HTTP and webhook bindings][LINK9]
 + …
+
 Study each of the binding types and you learn the unique attributes of each.
 
 Let's say you have an Event Hub, then you create an Azure Function App, that includes an Azure Function which is triggered when messages are received into that Event Hub.  If at some point in time later, you create a new Azure Function App (it doesn't have to be a new Azure Function App, it could be a new Azure Function within the same Azure Function App) that includes an Azure Function that is triggered/bound to the same Event Hub as the other, then that one will begin getting the message and the original one will stop.  ***You can only have one binding***.  That is why you seen in Figure 2, previously, that I have disabled some of my Azure Functions.  This was becuase I had created another Azure Function App that included an Azure Function bound to the same Event Hub and Blob and disabling them was the solution for the scenario and experience I document here now.
