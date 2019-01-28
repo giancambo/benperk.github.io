@@ -66,5 +66,5 @@ That was not expected, but you can read [here][LINK2] “How (I) would handle a 
 [FIGURE4]: ../images/2018/msdn-0068.png "Figure 4, Azure Function timeout, functionTimeout, but keeps on going"
 [FIGURE5]: ../images/2018/msdn-0069.png "Figure 5, Azure Function timeout, functionTimeout, but keeps on going"
 
-[LINK1]: ../readme.md#azure-functions
+[LINK1]: ../README.md#azure-functions
 [LINK2]: 2018-06-how-i-would-handle-a-timeout-in-azure-function.md
