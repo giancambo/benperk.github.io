@@ -9,6 +9,10 @@
 + [Secure channel compatibility support with SSL and TLS][AAS3]
 + [Kerberos authPersistNonNTLM authentication, request based vs. session based authentication][AAS4]
 
+## Azure Functions
++ [How (I) would handle a timeout in Azure Function][AZ1]
++ [How to add a HOST.JSON file to an Azure Function][AZ2]
+
 ## IIS
 + [Create an IIS configuration backup][IIS1]
 + [Application Pool reset after installing 3rd party program][IIS2]
@@ -33,6 +37,9 @@
 [AAS2]: 2011/2011-08-integrated-windows-authentication-with-ntlm.md
 [AAS3]: 2011/2011-10-secure-channel-compatibility-support-with-ssl-and-tls.md
 [AAS4]: 2011/2011-10-kerberos-authpersistnonntlm-authentication-request-based-vs-session-based-authentication.md
+
+[AZ1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
+[AZ2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
