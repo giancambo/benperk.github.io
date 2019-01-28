@@ -49,7 +49,7 @@
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
 [AZF3]: 2018/2018-08-why-does-my-azure-function-sometimes-stop-being-triggered.md
 [AZF4]: 2018/2018-04-how-to-create-an-azure-function-in-visual-studio.md
-[AZF4]: 2018/2018-04-how-to-connect-to-a-database-from-an-azure-function.md
+[AZF5]: 2018/2018-04-how-to-connect-to-a-database-from-an-azure-function.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
