@@ -52,7 +52,7 @@ Once I added that, all was well, see Figure 8.
 [LINK1]: 2018/2018-04-how-to-create-an-azure-function-in-visual-studio.md
 [LINK2]: 2018/2018-04-how-to-connect-to-a-database-from-an-azure-function.md
 [LINK3]: ../README.md#azure-functions
-[LINK4]: 2018/2018-04-an-error-occurred.md
+[LINK4]: 2018-04-an-error-occurred.md
 
 [FIGURE1]: ../images/2018/msdn-0089.png "Figure 1, how to publish an Azure Function from Visual Studio, develop local"
 [FIGURE2]: ../images/2018/msdn-0090.png "Figure 2, how to publish an Azure Function from Visual Studio, develop local, how to create Function App from Visual Studio"
