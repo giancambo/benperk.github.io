@@ -60,8 +60,8 @@ You can consider creating the Azure Function App and Function, then downloading 
 [FIGURE7]: ../images/2018/msdn-0083.png "Figure 7, how to test local an Azure Function using Visual Studio, azure portal"
 
 [LINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio
-[LINK2]: ../README.md#azure-functions
-[LINK3]: ../README.md#azure-functions
+[LINK2]: 2018-04-how-to-connect-to-a-database-from-an-azure-function.md
+[LINK3]: 2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [LINK4]: ../README.md#azure-functions
-[LINK5]: ../README.md#azure-functions
-[LINK6]: ../README.md#azure-functions
+[LINK5]: 2018-04-an-error-occurred.md
+[LINK6]: 2018-04-publish-failed.md
