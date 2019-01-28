@@ -22,6 +22,8 @@
 ## Products and Libraries
 + [NHibernate and Entity Framework][PL1]
 + [NHibernate and Entity Framework essentials using a Model First approach][PL2]
++ [Using NuGet to install your ORM into Visual Studio][PL3]
+
 
 [Current location](https://blogs.msdn.microsoft.com/benjaminperkins).
 
@@ -43,3 +45,4 @@
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
+[PL3]: 2012/2012-03-using-nuget-to-install-your-orm-into-visual-studio.md
