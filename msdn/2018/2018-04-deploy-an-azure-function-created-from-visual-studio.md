@@ -62,10 +62,3 @@ Once I added that, all was well, see Figure 8.
 [FIGURE6]: ../images/2018/msdn-0094.png "Figure 6, how to publish an Azure Function from Visual Studio, develop local, how to create Function App from Visual Studio"
 [FIGURE7]: ../images/2018/msdn-0095.png "Figure 7, how to publish an Azure Function from Visual Studio, develop local, how to create Function App from Visual Studio"
 [FIGURE8]: ../images/2018/msdn-0096.png "Figure 8, how to publish an Azure Function from Visual Studio, develop local, how to create Function App from Visual Studio"
-
-
-
-
-
-
-
