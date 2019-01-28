@@ -1,6 +1,7 @@
 # How to add a HOST.JSON file to an Azure Function
 
-I have written numerous articles about Azure Functions, view them here.  
+I have written numerous articles about Azure Functions, view them [here][LINK1].  
+
 The fact is, the HOST.JSON file is created for you when the Azure Function App is created originally/initially and it does not need to be added.  I expected to see it when I expanded the View Files for the Function, see Figure 1, but it was not there.
 
 ![How to add a HOST.JSON file to an Azure Function][FIGURE1]
@@ -65,5 +66,5 @@ That was not expected, but you can read [here][LINK2] “How (I) would handle a 
 [FIGURE4]: ../images/2018/msdn-0068.png "Figure 4, Azure Function timeout, functionTimeout, but keeps on going"
 [FIGURE5]: ../images/2018/msdn-0069.png "Figure 5, Azure Function timeout, functionTimeout, but keeps on going"
 
-[LINK1]: tbd
+[LINK1]: ../msdn#azure-functions
 [LINK2]: 2018-06-how-i-would-handle-a-timeout-in-azure-function.md
