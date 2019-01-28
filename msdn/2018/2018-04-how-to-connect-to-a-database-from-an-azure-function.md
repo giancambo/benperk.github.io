@@ -99,6 +99,6 @@ The second one was because I fat fingered my connection string, once I got the c
 [FIGURE5]: ../images/2018/msdn-0088.png "Figure 5, Azure Function App connecting to a database example"
 
 [LINK1]: 2018-04-how-to-create-an-azure-function-in-visual-studio.md
-[LINK2]: tbd 
+[LINK2]: 2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [LINK3]: ../README.md#azure-functions
 [LINK4]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local
