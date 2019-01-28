@@ -2,6 +2,8 @@
 
 I have written numerous articles about Azure Functions, view them [here][LINK1].
 
+***NOTE:*** If you make changes to your function through [KUDU/SCM][LINK4] or FTP it is likely those changes will not get synchronized.  Please read [here][LINK3] for more on that topic.
+
 The fact is, the HOST.JSON file is created for you when the Azure Function App is created originally/initially and it does not need to be added.  I expected to see it when I expanded the View Files for the Function, see Figure 1, but it was not there.
 
 ![How to add a HOST.JSON file to an Azure Function][FIGURE1]
@@ -68,3 +70,5 @@ That was not expected, but you can read [here][LINK2] “How (I) would handle a 
 
 [LINK1]: ../README.md#azure-functions
 [LINK2]: 2018-06-how-i-would-handle-a-timeout-in-azure-function.md
+[LINK3]: 2018-08-why-does-my-azure-function-sometimes-stop-being-triggered.md
+[LINK4]: ../2014/2014-03-using-kudu-with-windows-azure-web-sites.md
