@@ -4,7 +4,7 @@ I created a simple Azure Function and now I want to connect it to a database.  C
 
 + [How to create an Azure Function in Visual Studio][LINK1]
 + [Deploy an Azure Function created from Visual Studio][LINK2]
-+ [Check out all my Azure Function articles here][LINK3]
++ Check out all my Azure Function articles [here][LINK3]
 
 I found [this][LINK4] article also useful “Code and test Azure Functions locally”
 
