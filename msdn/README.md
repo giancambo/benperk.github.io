@@ -16,6 +16,7 @@
 + [Finding the W3WP worker process PID and associated ID][IIS4]
 + [Creating a W3WP Memory dump on Windows Server 2003][IIS5]
 + [Enable and Activate Failed Request Tracing Rules][IIS6]
++ [Web Farm Framework Architecture][IIS7]
 
 ## Products and Libraries
 + [NHibernate and Entity Framework][PL1]
@@ -36,6 +37,7 @@
 [IIS4]: 2011/2011-12-finding-the-w3wp-worker-process-pid-and-associated-id.md
 [IIS5]: 2011/2011-12-creating-a-w3wp-memory-dump-on-windows-server-2003.md
 [IIS6]: 2012/2012-01-enable-and-activate-failed-request-tracing-rules.md
+[IIS7]: 2012/2012-01-web-farm-framework-architecture.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
