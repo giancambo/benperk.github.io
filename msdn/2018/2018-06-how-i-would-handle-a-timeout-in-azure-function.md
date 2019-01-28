@@ -47,11 +47,15 @@ Then when I ran my Azure Function, the code within the try… did stop executing
 ###### Figure 2, how to handle a timeout in Azure Function
 
 As you can see that the log.Info() method which came after the Task.Dely() method did not run, instead, the log.Info() method within the catch… was run.
+
 The interesting point is that I still received a 500 when I consumed it eventhough in my catch… I wanted it to return an HttpStatusCode.OK which would have been a 200.  I can work with this for now, if someone knows how to get my desired response back, please leave a comment.
+
+I have written numerous articles about Azure Functions, view them [here][LINK4].
 
 [FIGURE1]: ../images/2018/msdn-0063.png "Figure 1, how to handle a timeout in Azure Function"
 [FIGURE2]: ../images/2018/msdn-0064.png "Figure 2, how to handle a timeout in Azure Function"
 
-[LINK1]: tbd
+[LINK1]: 2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
 [LINK2]: https://msdn.microsoft.com/en-us/library/system.threading.cancellationtoken(v=vs.110).aspx
-[LINK3]: tbd
+[LINK3]: 2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
+[LINK4]: ../README.md#azure-functions
