@@ -26,4 +26,4 @@ This happened when I first attempted to deploy and simultaneously create the Azu
 [LINK3]: 2018/2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [LINK4]: ../README.md#azure-functions
 
-[FINGURE1]: ../images/2018/msdn-0097.png "Figure 1, An error occurred while deploying an Azure Function App"
+[FIGURE1]: ../images/2018/msdn-0097.png "Figure 1, An error occurred while deploying an Azure Function App"
