@@ -22,6 +22,9 @@
 + [An error occurred][AZF7]
 + [Publish failed][AZF8]
 
+## Deployment and Source Code Repository
++ [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
+
 ## IIS
 + [Create an IIS configuration backup][IIS1]
 + [Application Pool reset after installing 3rd party program][IIS2]
@@ -56,6 +59,8 @@
 [AZF6]: 2018/2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [AZF7]: 2018/2018-04-an-error-occurred.md
 [AZF8]: 2018/2018-04-publish-failed.md
+
+[DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
