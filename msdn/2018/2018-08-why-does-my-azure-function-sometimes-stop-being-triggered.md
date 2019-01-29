@@ -62,7 +62,7 @@ Let's say you have an Event Hub, then you create an Azure Function App, that inc
 [LINK2]: 2018-04-how-to-create-an-azure-function-in-visual-studio.md
 [LINK3]: 2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [LINK4]: ../2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
-[LINK5]: tbd
+[LINK5]: ../2017/2017-01-debugging-azure-funtions-in-visual-studio.md
 [LINK6]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
 [LINK7]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-hubs
 [LINK8]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-service-bus
