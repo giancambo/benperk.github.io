@@ -1,4 +1,15 @@
 # theme: jekyll-theme-slate
+lang: en-US
 title: benjamin perkins, (aka @csharpguitar)
+name: benjamin perkins articles, trainings and writings
+description: welcome to benperk.github.io have a look around my Azure, C# and MSDN blogs
+author:
+  name: benjamin perkins
+  twitter: csharpguitar
+  picture: http://www.thebestcsharpprogrammerintheworld.com/wp-content/uploads/2018/06/Ben2017-circle.png
+  twitter_username: csharpguitar
+  github_username: benperk
+author_email: benperk@microsoft.com
 subtitle: List<Solution> solutions = changes.Where(c => c.CeterisParibus != true)
 description: List<Solution> solutions = changes.Where(c => c.CeterisParibus != true)
+url: https://benperk.github.io/
