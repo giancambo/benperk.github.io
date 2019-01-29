@@ -1,19 +1,5 @@
 # theme: jekyll-theme-slate
 lang: en-US
 title: benjamin perkins, (aka @csharpguitar)
-name: benjamin perkins articles, trainings and writings
-author:
-  name: benjamin perkins
-  picture: http://www.thebestcsharpprogrammerintheworld.com/wp-content/uploads/2018/06/Ben2017-circle.png
-author_email: benperk@microsoft.com
-subtitle: List<Solution> solutions = changes.Where(c => c.CeterisParibus != true)
+author: benjamin perkins
 description: List<Solution> solutions = changes.Where(c => c.CeterisParibus != true)
-url: https://benperk.github.io/
-social_links:
-    twitter: @csharpguitar
-    github:  benperk
-    instagram: csharpguitar
-    linkedin: www.linkedin.com/in/csharpguitar
-    youtube: www.youtube.com/csharpguitar
-    
-    
