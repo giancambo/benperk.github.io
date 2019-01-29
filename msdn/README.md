@@ -21,6 +21,7 @@
 + [Deploy an Azure Function created from Visual Studio][AZF6]
 + [An error occurred][AZF7]
 + [Publish failed][AZF8]
++ [Debugging Azure Functions in Visual Studio][AZF9]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -59,6 +60,7 @@
 [AZF6]: 2018/2018-04-deploy-an-azure-function-created-from-visual-studio.md
 [AZF7]: 2018/2018-04-an-error-occurred.md
 [AZF8]: 2018/2018-04-publish-failed.md
+[AZF9]: 2017/2017-01-debugging-azure-funtions-in-visual-studio.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 
