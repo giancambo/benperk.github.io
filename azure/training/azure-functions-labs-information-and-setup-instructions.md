@@ -5,7 +5,7 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 
 | Lab Name | Lab Location | Deatils | 
 | -------- | ------------ | ------- |
-| Lab 1: Azure Functions - Blob Storage    | Lab 1, Lab 1.1          | [Blob Storage][LABLINK1]   |
+| Lab 1: Azure Functions - Blob Storage    | [Lab 1][LAB13], [Lab 1.1][LINK14]          | [Blob Storage][LABLINK1]   |
 | Lab 2: Azure Functions - Cosmos DB       | Lab 2, Lab 2.1, Lab 2.2 | [Cosmos DB][LABLINK2]      |
 | Lab 3: Azure Functions - Event Grid      | TBD                     | [Event Grid][LABLINK3]     |
 | Lab 4: Azure Functions - Event Hub       | Lab 4, Lab 4.1          | [Event Hubs][LABLINK4]     |
@@ -180,6 +180,9 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK10]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function
 [LINK11]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/08/09/where-are-my-azure-functions-dissappeared
 [LINK12]: https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
+
+[LINK13]: azure-functions-blob-storage.md
+[LINK14]: azure-functions-blob-storage.md#lab-11
 
 [ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
