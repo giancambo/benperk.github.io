@@ -84,7 +84,7 @@ Next, give the New Function a ***Name***, add the ***Path*** where the first att
 
 
 
-[FIGURE1]: images/2019/azure-0007.png "Figure 1, how to create an Azure Function with an Blob trigger"
+[FIGURE1]: ../images/2019/azure-0007.png "Figure 1, how to create an Azure Function with an Blob trigger"
 [FIGURE2]: images/2019/azure-0008.png "Figure 2, how to create an Azure Function with an Blob trigger"
 [FIGURE3]: images/2019/azure-0009.png "Figure 3, how to create an Azure Function with an Blob trigger"
 [FIGURE4]: images/2019/azure-0010.png "Figure 4, how to create an Azure Function with an Blob trigger"
