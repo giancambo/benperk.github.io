@@ -169,6 +169,8 @@ Once saved you will see the output binding in the interface, similar to that sho
 ###### Figure 10, how to create an Azure Function with an Blob trigger
 
 The functions.json file gets updated to include the output binding, similar to that shown below.
+
+```
 {
   "bindings": [
   {
@@ -187,8 +189,11 @@ The functions.json file gets updated to include the output binding, similar to t
   }
  ]
 }
+```
+
 Update the Azure Function code so that it resemble the following.
-</pre>
+
+```
 #r "Microsoft.WindowsAzure.Storage"
  
 using System.Collections;
@@ -225,12 +230,21 @@ public static void Run(Stream myBlob, string name, Uri uri, CloudBlockBlob outpu
      outputBlob.DeleteAsync();
      log.LogInformation($"Deleted: {name}");
 }
+```
+
 Notice the inclusion of the Microsoft.WindowsAzure.Storage / .Blob binary and reference.  This is required for the utilization of the CloudBlockBlob passed to the Run() method, which is used at the end of the method to access the DeleteAsync() method which removes the blob from the storage container.  Notice that the variable ‘outputBlob” in the parameters for the Run() method, matches the name of the output parameter of name in the function.json file.
+
 Execute AzureFunctionsConsumer, same as before as seen in Figure 5, and review the results in the Logs.
+
+```
 2018-10-12T14:43:51.723 [Information] About to delete: helloworld3.txt
 2018-10-12T14:43:51.723 [Information] Deleting: helloworld3.txt
 2018-10-12T14:43:51.729 [Information] Deleted: helloworld3.txt
+```
 And also, after some moments via the Monitor link for the function, see Figure 11
+
+![Figure 11, how to create an Azure Function with an Blob trigger][FIGURE12]
+###### Figure 11, how to create an Azure Function with an Blob trigger
 
 [FIGURE1]: ../images/2019/azure-0007.png "Figure 1, how to create an Azure Function with an Blob trigger"
 [FIGURE2]: ../images/2019/azure-0008.png "Figure 2, how to create an Azure Function with an Blob trigger"
@@ -242,4 +256,5 @@ And also, after some moments via the Monitor link for the function, see Figure 1
 [FIGURE8]: ../images/2019/azure-0014.png "Figure 8, how to create an Azure Function with an Blob trigger"
 [FIGURE9]: ../images/2019/azure-0015.png "Figure 9, how to create an Azure Function with an Blob trigger"
 [FIGURE10]: ../images/2019/azure-0016.png "Figure 10, how to create an Azure Function with an Blob trigger"
-[FIGURE11]: ../images/2019/azure-0017.png "Figure 10, how to create an Azure Function with an Blob trigger"
+[FIGURE11]: ../images/2019/azure-0017.png "Figure 11, how to create an Azure Function with an Blob trigger"
+[FIGURE12]: ../images/2019/azure-0018.png "Figure 12, how to create an Azure Function with an Blob trigger"
