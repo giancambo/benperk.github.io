@@ -12,7 +12,7 @@ When you want an Azure Function to execute when a blob is added to a specified s
 + How to store and access your IIS Logs on Microsoft Azure App Service
 + How to Backup/Restore an Azure App Service using Azure PowerShell
 
-##Create a Storage Account
+## Create a Storage Account
 
 ***NOTE*** – to complete this lab you will need a Storage Account.
 
