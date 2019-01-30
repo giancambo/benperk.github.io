@@ -5,7 +5,7 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 
 | Lab Name | Lab Location | Deatils | 
 | -------- | ------------ | ------- |
-| Lab 1: Azure Functions - Blob Storage    | [Lab 1][LAB13], [Lab 1.1][LINK14]          | [Blob Storage][LABLINK1]   |
+| Lab 1: Azure Functions - Blob Storage    | [Lab 1][LINK13], [Lab 1.1][LINK14]          | [Blob Storage][LABLINK1]   |
 | Lab 2: Azure Functions - Cosmos DB       | Lab 2, Lab 2.1, Lab 2.2 | [Cosmos DB][LABLINK2]      |
 | Lab 3: Azure Functions - Event Grid      | TBD                     | [Event Grid][LABLINK3]     |
 | Lab 4: Azure Functions - Event Hub       | Lab 4, Lab 4.1          | [Event Hubs][LABLINK4]     |
