@@ -40,8 +40,8 @@ Lastly, there is not much difference between the generated queries.
 
 [LINK1]: 2012-03-using-nuget-to-install-your-orm-into-visual-studio.md
 
-[FIGURE1]: ../images/2012/msdn-0010.png "Figure 1, LINQ to Entities with Lambda Expression"
-[FIGURE2]: ../images/2012/msdn-0011.png "Figure 2, LINQ to Entities generated SQL"
-[FIGURE3]: ../images/2012/msdn-0012.png "Figure 3, LINQ to NHibernate with Lambda Expression"
-[FIGURE4]: ../images/2012/msdn-0013.png "Figure 4, LINQ to NHibernate formatted generated SQL"
-[FIGURE5]: ../images/2012/msdn-0014.png "Figure 5, LINQ to NHibernate unformatted generated SQL"
+[FIGURE1]: ../images/2012/msdn-0110.png "Figure 1, LINQ to Entities with Lambda Expression"
+[FIGURE2]: ../images/2012/msdn-0111.png "Figure 2, LINQ to Entities generated SQL"
+[FIGURE3]: ../images/2012/msdn-0112.png "Figure 3, LINQ to NHibernate with Lambda Expression"
+[FIGURE4]: ../images/2012/msdn-0113.png "Figure 4, LINQ to NHibernate formatted generated SQL"
+[FIGURE5]: ../images/2012/msdn-0114.png "Figure 5, LINQ to NHibernate unformatted generated SQL"
