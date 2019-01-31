@@ -1,16 +1,17 @@
 # Azure Functions – Blob Storage
 
-The labs contained in this article show how to create, configure, code and monitor an Azure Function with a Blob Trigger.  There is a detailed document here “Azure Blob storage bindings for Azure Functions” which discusses the Blob storage trigger in detail so I will not readdress that content.
-I have written an AzureFunctionConsumer program which I host on GitHub here.  You can use this code to consume the Azure Functions discussed in this series of articles.
+The labs contained in this article show how to create, configure, code and monitor an Azure Function with a Blob Trigger.  There is a detailed document [here][LINK1] “Azure Blob storage bindings for Azure Functions” which discusses the Blob storage trigger in detail so I will not readdress that content.
 
-When you want an Azure Function to execute when a blob is added to a specified storage container use this trigger type which is discussed in this lab.  (use this binding type for small working sets that are not time critical)   Here are some articles which I wrote about WebJobs/Blob storage:
+I have written an AzureFunctionConsumer program which I host on GitHub [here][LINK2].  You can use this code to consume the Azure Functions discussed in [this][LINK3] series of articles.
 
-+ How (I) back up my Azure Blob Storage container
-+ How to map an Azure App Service Web App virtual directory to Azure Storage Container
-+ Upload an image to an Azure Blob container using the Gadgeteer
-+ System.Diagnostics.Trace Application Logging Log Stream on Azure App Service Function App
-+ How to store and access your IIS Logs on Microsoft Azure App Service
-+ How to Backup/Restore an Azure App Service using Azure PowerShell
+When you want an Azure Function to execute when a blob is added to a specified storage container use [this][LINK4] trigger type which is discussed in this lab.  (use this binding type for small working sets that are not time critical)   Here are some articles which I wrote about WebJobs/Blob storage:
+
++ [How (I) back up my Azure Blob Storage container][LINK5]
++ [How to map an Azure App Service Web App virtual directory to Azure Storage Container][LINK6]
++ [Upload an image to an Azure Blob container using the Gadgeteer][LINK7]
++ [System.Diagnostics.Trace Application Logging Log Stream on Azure App Service Function App][LINK8]
++ [How to store and access your IIS Logs on Microsoft Azure App Service][LINK9]
++ [How to Backup/Restore an Azure App Service using Azure PowerShell][LINK10]
 
 ## Create a Storage Account
 
@@ -21,7 +22,7 @@ By default, a storage account is created when the Azure Function is created, as 
 ![Figure 1, how to create an Azure Function with an Blob trigger][FIGURE1]
 ###### Figure 1, how to create an Azure Function with an Blob trigger
 
-If you would like to store the blobs into a different account, use this set of instruction to create an Azure Storage Account.  For this lab, you do not need to create the storage container as the code in the AzureFunctionConsumer will do this for you later, but you can if you want.
+If you would like to store the blobs into a different account, use [this][LINK11] set of instruction to create an Azure Storage Account.  For this lab, you do not need to create the storage container as the code in the AzureFunctionConsumer will do this for you later, but you can if you want.
 
 ## Create a Blob triggered Azure Function
 
@@ -63,7 +64,7 @@ public static void Run(Stream myBlob, string name, ILogger log)
 }
 ```
 
-As mentioned in this article here “Azure Blob storage bindings for Azure Functions” the metadata properties available to the Azure Function are those present in the Microsoft.WindowsAzure.Storage.Blob class described here.  In addition, there are ***BlobTrigger*** (same as ***URI***.***AbsolutePath***), Uri, Properties BlobProperties/CloudBlob(*/*), and user-defined ***Metadata*** properties which are also accessible.  Lastly, a System.IO.***Stream*** (see here) object is passed into the Run() which also provides some interesting information.
+As mentioned in this article [here][LINK12] “Azure Blob storage bindings for Azure Functions” the metadata properties available to the Azure Function are those present in the Microsoft.WindowsAzure.Storage.Blob class described [here][LINK13].  In addition, there are ***BlobTrigger*** (same as ***URI***.***AbsolutePath***), Uri, Properties BlobProperties/CloudBlob(*/*), and user-defined ***Metadata*** properties which are also accessible.  Lastly, a System.IO.***Stream*** (see here) object is passed into the Run() which also provides some interesting information.
 
 ## Lab 1
 
@@ -127,7 +128,7 @@ The Monitor blade for the given Function, as seen in Figure 7.
 
 NOTES:
 
-Both queues and blobs can be stored in the same Azure Storage Account.  Within the account you can create a blob container, a queue, a file share and a table, for example.
+Both queues and blobs can be stored in the same Azure Storage Account.  Within the account you can create a [blob][LINK14] container, a [queue][LINK15], a [file][LINK16] share and a [table][LINK17], for example.
 
 From a blob perspective, the function is notified when one is added and the location and how to access is sent to the function allowing processing.  Unlike the Queue, where the message is deleted after processing, the blob is not deleted when the Azure Function is triggered.
 
@@ -245,6 +246,24 @@ And also, after some moments via the Monitor link for the function, see Figure 1
 
 ![Figure 11, how to create an Azure Function with an Blob trigger][FIGURE12]
 ###### Figure 11, how to create an Azure Function with an Blob trigger
+
+[LINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
+[LINK2]: https://github.com/benperk/AzureFunctionConsumer
+[LINK3]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/11/02/azure-functions-labs-information-and-setup-instructions/
+[LINK4]: https://github.com/Azure/azure-webjobs-sdk/blob/94c3b5fdb614df66900934b088eb68a228c57405/src/Microsoft.Azure.WebJobs.Extensions.Storage/Blobs/Triggers/BlobTriggerBinding.cs
+[LINK5]: https://blogs.msdn.microsoft.com/benjaminperkins/2016/05/03/how-i-back-up-my-azure-blob-storage-container/
+[LINK6]: https://blogs.msdn.microsoft.com/benjaminperkins/2017/10/27/how-to-map-an-azure-app-service-web-app-virtual-directory-to-azure-storage-containter/
+[LINK7]: https://blogs.msdn.microsoft.com/benjaminperkins/2014/12/01/upload-an-image-to-an-azure-blob-container-using-the-gadgeteer-part-1/
+[LINK8]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/07/19/system-diagnostics-trace-application-logging-log-stream-on-azure-app-service-function-app/
+[LINK9]: https://blogs.msdn.microsoft.com/benjaminperkins/2014/02/03/how-to-store-and-access-your-iis-logs-on-windows-azure-web-site/
+[LINK10]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/02/08/how-to-backuprestore-an-azure-app-service-using-azure-powershell/
+[LINK11]: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal
+[LINK12]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob#trigger---metadata
+[LINK13]: https://docs.microsoft.com/en-us/dotnet/api/microsoft.windowsazure.storage.blob.cloudblob
+[LINK14]: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+[LINK15]: https://docs.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction
+[LINK16]: https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction
+[LINK17]: https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview
 
 [FIGURE1]: ../images/2019/azure-0007.png "Figure 1, how to create an Azure Function with an Blob trigger"
 [FIGURE2]: ../images/2019/azure-0008.png "Figure 2, how to create an Azure Function with an Blob trigger"
