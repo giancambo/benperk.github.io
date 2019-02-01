@@ -36,6 +36,7 @@
 + [Web Farm Framework Architecture][IIS7]
 + [Creating a W3WP Memory dump on Windows Server 2008 R2][IIS8]
 + [Application Request Routing Error – 502.4 – Bad Gateway][IIS9]
++ [Custom Error Pages – HTTP Error 500.19 – Internal Server Error][IIS10]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -80,6 +81,7 @@
 [IIS7]: 2012/2012-01-web-farm-framework-architecture.md
 [IIS8]: 2012/2012-02-creating-a-w3wp-memory-dump-on-windows-server-2008-r2.md
 [IIS9]: 2012/2012-04-application-request-routing-error-502-4-bad-gateway.md
+[IIS10]: 2012/2012-05-custom-error-pages-http-error-500-19-internal-server-error.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
