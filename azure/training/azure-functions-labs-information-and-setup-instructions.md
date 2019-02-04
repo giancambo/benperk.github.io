@@ -8,7 +8,7 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 | Lab 1: Azure Functions - Blob Storage    | [Lab 1][LINK13], [Lab 1.1][LINK14]                    | [Blob Storage][LABLINK1]   |
 | Lab 2: Azure Functions - Cosmos DB       | [Lab 2][LINK15], [Lab 2.1][LINK16], [Lab 2.2][LINK17] | [Cosmos DB][LABLINK2]      |
 | Lab 3: Azure Functions - Event Grid      | TBD                     | [Event Grid][LABLINK3]     |
-| Lab 4: Azure Functions - Event Hub       | Lab 4, Lab 4.1          | [Event Hubs][LABLINK4]     |
+| Lab 4: Azure Functions - Event Hub       | [Lab 4][LINK18], [Lab 4.1][LINK19]                    | [Event Hubs][LABLINK4]     |
 | Lab 5: Azure Functions                   |                         |                            |
 | Lab 6: Azure Functions                   |                         |                            |
 | Lab 7: Azure Functions - HTTP trigger    | Lab 7, Lab 7.1, Lab 7.2 | [HTTP Triggers][LABLINK7]  |
@@ -186,6 +186,8 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK15]: azure-functions-azure-cosmos-db.md
 [LINK16]: azure-functions-azure-cosmos-db.md#lab-21
 [LINK17]: azure-functions-azure-cosmos-db.md#lab-22
+[LINK18]: azure-functions-event-hub.md
+[LINK19]: azure-functions-event-hub.md#lab-41
 
 [ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
