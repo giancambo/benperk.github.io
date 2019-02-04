@@ -49,6 +49,8 @@
 + [Using NuGet to install your ORM into Visual Studio][PL3]
 + [LINQ generated NHibernate and Entity Framework SQL][PL4]
 
+## Scripting and Administration
++ [Using PowerShell 3.0 on Windows 8 to find the Process Id (PID) of an Application Pool][SAA1]
 
 
 [Current location](https://blogs.msdn.microsoft.com/benjaminperkins).
@@ -93,3 +95,5 @@
 [PL4]: 2012/2012-03-linq-generated-nhibernate-and-entity-framework-sql.md
 
 [OS1]: 2012/2012-04-installing-window-8-beta-on-hyper-v-key-combinations.md
+
+[SAA1]: 2012/2012-06-using-powershell-3-0-on-windows-8-to-find-the-process-id-pid-of-an-application-pool.md
