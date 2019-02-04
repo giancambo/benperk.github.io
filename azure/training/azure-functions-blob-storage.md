@@ -249,7 +249,7 @@ And also, after some moments via the Monitor link for the function, see Figure 1
 
 [LINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
 [LINK2]: https://github.com/benperk/AzureFunctionConsumer
-[LINK3]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/11/02/azure-functions-labs-information-and-setup-instructions/
+[LINK3]: azure-functions-labs-information-and-setup-instructions.md
 [LINK4]: https://github.com/Azure/azure-webjobs-sdk/blob/94c3b5fdb614df66900934b088eb68a228c57405/src/Microsoft.Azure.WebJobs.Extensions.Storage/Blobs/Triggers/BlobTriggerBinding.cs
 [LINK5]: https://blogs.msdn.microsoft.com/benjaminperkins/2016/05/03/how-i-back-up-my-azure-blob-storage-container/
 [LINK6]: https://blogs.msdn.microsoft.com/benjaminperkins/2017/10/27/how-to-map-an-azure-app-service-web-app-virtual-directory-to-azure-storage-containter/
