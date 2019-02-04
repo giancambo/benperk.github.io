@@ -427,7 +427,7 @@ In Lab 1.1 you added a DeleteAsync() method to the Azure Function, so consider r
 
 [LINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2
 [LINK2]: https://github.com/benperk/AzureFunctionConsumer
-[LINK3]: https://benperk.github.io/azure/training/azure-functions-labs-information-and-setup-instructions.html
+[LINK3]: azure-functions-labs-information-and-setup-instructions.md
 [LINK4]: https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-samples
 [LINK5]: https://github.com/Azure/azure-cosmosdb-dotnet/blob/master/samples/code-samples/DocumentManagement/Program.cs
 [LINK6]: https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet
