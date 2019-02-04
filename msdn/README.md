@@ -38,6 +38,7 @@
 + [Application Request Routing Error – 502.4 – Bad Gateway][IIS9]
 + [Custom Error Pages – HTTP Error 500.19 – Internal Server Error][IIS10]
 + [Modifying IIS 6 log data in Windows 2003][IIS11]
++ [Displaying detailed error messages in IIS][IIS12]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -84,6 +85,7 @@
 [IIS9]: 2012/2012-04-application-request-routing-error-502-4-bad-gateway.md
 [IIS10]: 2012/2012-05-custom-error-pages-http-error-500-19-internal-server-error.md
 [IIS11]: 2012/2012-05-modifying-iis-6-log-data-in-windows-2003.md
+[IIS11]: 2012/2012-06-displaying-detailed-error-messages-in-iis.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
