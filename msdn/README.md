@@ -49,6 +49,7 @@
 + [NHibernate and Entity Framework essentials using a Model First approach][PL2]
 + [Using NuGet to install your ORM into Visual Studio][PL3]
 + [LINQ generated NHibernate and Entity Framework SQL][PL4]
++ [LINQ generated NHibernate and Entity Framework SQL (JOIN)][PL5]
 
 ## Scripting and Administration
 + [Using PowerShell 3.0 on Windows 8 to find the Process Id (PID) of an Application Pool][SAA1]
@@ -95,6 +96,7 @@
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
 [PL3]: 2012/2012-03-using-nuget-to-install-your-orm-into-visual-studio.md
 [PL4]: 2012/2012-03-linq-generated-nhibernate-and-entity-framework-sql.md
+[PL5]: 2012/2012-07-linq-generated-nhibernate-and-entity-framework-sql-join.md
 
 [OS1]: 2012/2012-04-installing-window-8-beta-on-hyper-v-key-combinations.md
 
