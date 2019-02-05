@@ -26,7 +26,7 @@ When changes are made to the [processModel][LINK3] attributes, the results of th
 There are many commands which I use to get an understanding of what is happening at the time the memory dump is created.  This is simply one example with further explanation into how it links with the specific XML based configurations of the application.
 
 [LINK1]: ../2011/2011-12-creating-a-w3wp-memory-dump-on-windows-server-2003.md
-[LINK2]: 2012/2012-02-creating-a-w3wp-memory-dump-on-windows-server-2008-r2.md
+[LINK2]: ../2012/2012-02-creating-a-w3wp-memory-dump-on-windows-server-2008-r2.md
 [LINK3]: http://msdn.microsoft.com/en-us/library/vstudio/7w2sway1(v=vs.100).aspx
 [LINK4]: http://support.microsoft.com/kb/821268/en-us
 
