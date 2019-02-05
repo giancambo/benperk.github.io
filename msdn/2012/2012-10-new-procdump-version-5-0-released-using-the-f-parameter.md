@@ -1,12 +1,12 @@
 # New ProcDump version 5.0 released, using the –f parameter
 
-I really like to use ProcDump for troubleshooting crashes, memory/cpu utilization issues and hangs.  I have written a number of other blogs that discuss how to use it here, here and here.
+I really like to use ProcDump for troubleshooting crashes, memory/cpu utilization issues and hangs.  I have written a number of other blogs that discuss how to use it [here][LINK1], [here][LINK2] and [here][LINK3].
 
-The tool is small and unobtrusive, yet very powerful.  The new version of the tool has recently been released and can be downloaded from here.
+The tool is small and unobtrusive, yet very powerful.  The new version of the tool has recently been released and can be downloaded from [here][LINK4].
 
 One of the new features that I really like is the –f parameter.  This parameter lets you filter on a specific exception.  The –f parameter must be used in combination with the –e 1 which will create a memory dump when the exception happens.  You can read the  description on the ProcDump download page for the specific definition and description.
 
-For this example I downloaded, installed and configured BuggyBits and also created a simple ASP.NET website that attempts to write a file to a directory (using System.IO;) which it does not have access to.
+For this example I downloaded, installed and configured [BuggyBits][LINK5] and also created a simple ASP.NET website that attempts to write a file to a directory (using System.IO;) which it does not have access to.
 
 ## BuggyBits
 
