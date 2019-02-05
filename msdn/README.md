@@ -48,6 +48,7 @@
 + [IIS Service will not start (Event Id 4275)][IIS13]
 + [Modifying IIS 7 log data in Windows 2008][IIS14]
 + [Application Request Router (ARR) – HTTP Error 502.3 – Bad Gateway][IIS15]
++ [Application Request Routing (ARR) – HTTP Error 400.0 – Bad Request][IIS16]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -106,6 +107,7 @@
 [IIS13]: 2012/2012-07-iis-service-will-not-start-event-id-4275.md
 [IIS14]: 2012/2012-07-modifying-iis-7-log-data-in-windows-2008.md
 [IIS15]: 2012/2012-09-application-request-router-arr-http-error-502-3-bad-gateway.md
+[IIS16]: 2012/2012-10-application-request-routing-arr-http-error-400-0-bad-request.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
