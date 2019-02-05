@@ -27,8 +27,8 @@ The other thing is that I could not find Deployment.Current.  I searched around 
 
 Once I get the Windows 8 App published I will share it via another blog.  I'll also share when I upgrade this Windows Phone App to version 8.
 
-[FIGURE1]: ../images/2011/msdn-0180.png "Figure 1, Hitman Website Monitor created using Windows Phone 7.1 SDK"
-[FIGURE2]: ../images/2011/msdn-0181.png "Figure 2, Hitman Website Monitor using the Visual Studio 2012 Split App (XAML) Project"
+[FIGURE1]: ../images/2012/msdn-0180.png "Figure 1, Hitman Website Monitor created using Windows Phone 7.1 SDK"
+[FIGURE2]: ../images/2012/msdn-0181.png "Figure 2, Hitman Website Monitor using the Visual Studio 2012 Split App (XAML) Project"
 
 [LINK1]: http://www.windowsphone.com/en-us/store/app/hitman/21521bdb-dd8a-40d7-855f-4290a75365e4
 [LINK2]: http://msdn.microsoft.com/en-us/library/hh286405(v=VS.92).aspx
