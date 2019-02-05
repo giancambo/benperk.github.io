@@ -33,6 +33,9 @@
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
 
+## Development
++ [My Windows Phone App – Hitman Website Monitor][DEV1]
+
 ## IIS
 + [Create an IIS configuration backup][IIS1]
 + [Application Pool reset after installing 3rd party program][IIS2]
@@ -93,6 +96,8 @@
 [DTT5]: 2012/2012-10-new-procdump-version-5-0-released-using-the-f-parameter.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
+
+[DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
