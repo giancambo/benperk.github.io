@@ -73,7 +73,3 @@ Just don’t forget to turn off or manage the log files you are creating, they c
 [FIGURE8]: ../images/2012/msdn-0051.png "Figure 8, Step 2 – Define Trace Conditions"
 [FIGURE9]: ../images/2012/msdn-0052.png "Figure 9, Step 3 – Select Trace Providers"
 [FIGURE10]: ../images/2012/msdn-0053.png "Figure 10, Railed Request Tracing Rules list"
-
-
-
-
