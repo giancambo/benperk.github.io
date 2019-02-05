@@ -12,8 +12,7 @@ I look first at the value of autoConfig.  The default value is true and means th
 | MaxWorkerThreads | Limits the maximum number of worker threads. |
 | MaxIoThreads | Limits the maximum number of completion threads. |
 | minFreeThreads | Determines how many worker threads and completion threads must be available to start a remote request. |
-| minLocalRequestFreeThreads | Determines how many worker threads and completion threads must be available to start a
-local request. |
+| minLocalRequestFreeThreads | Determines how many worker threads and completion threads must be available to start a local request. |
 | maxConnection | Determines how many connections can be made to a specific IP address. |
 
 These settings can be edited in the machine.config file for the specific version of the .NET installation.  Modifications to this configuration impact all ASP.NET applications running on the server and require an application restart. The autoConfig setting is an attribute within the [processModel][LINK3] element found within the machine.config file, as shown in Figure 2.
