@@ -23,6 +23,10 @@
 + [Publish failed][AZF8]
 + [Debugging Azure Functions in Visual Studio][AZF9]
 
+## Debugging and Troubleshooting techniques
++ [Why does my !runaway command not work][DTT1]
+
+
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
 
@@ -75,6 +79,8 @@
 [AZF7]: 2018/2018-04-an-error-occurred.md
 [AZF8]: 2018/2018-04-publish-failed.md
 [AZF9]: 2017/2017-01-debugging-azure-funtions-in-visual-studio.md
+
+[DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 
