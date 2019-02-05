@@ -26,6 +26,7 @@
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
 + [Using !DumpThreadConfig (!dtc) within WinDbg][DTT2]
++ [Recycling a worker process due to deadlock][DTT3]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -82,6 +83,7 @@
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
+[DTT3]: 2012-07-recycling-a-worker-process-due-to-deadlock.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 
