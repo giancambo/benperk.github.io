@@ -45,6 +45,7 @@
 + [Modifying IIS 6 log data in Windows 2003][IIS11]
 + [Displaying detailed error messages in IIS][IIS12]
 + [IIS Service will not start (Event Id 4275)][IIS13]
++ [Modifying IIS 7 log data in Windows 2008][IIS14]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -100,6 +101,7 @@
 [IIS11]: 2012/2012-05-modifying-iis-6-log-data-in-windows-2003.md
 [IIS12]: 2012/2012-06-displaying-detailed-error-messages-in-iis.md
 [IIS13]: 2012/2012-07-iis-service-will-not-start-event-id-4275.md
+[IIS14]: 2012/2012-07-modifying-iis-7-log-data-in-windows-2008.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
