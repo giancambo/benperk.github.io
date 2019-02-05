@@ -37,4 +37,4 @@ UPDATE: Note that by adding unsafe for caching server variables to your URL Rewr
 [FIGURE2]: ../images/2012/msdn-0165.png "Figure 2, HTTP Error 502.3 - Bad Gateway"
 [FIGURE3]: ../images/2012/msdn-0166.png "Figure 3, Health Status"
 [FIGURE4]: ../images/2012/msdn-0168.png "Figure 4, URL Rewrite stop looping"
-[FIGURE4]: ../images/2012/msdn-0167.png "Figure 5, IIS 8 Splash"
+[FIGURE5]: ../images/2012/msdn-0167.png "Figure 5, IIS 8 Splash"
