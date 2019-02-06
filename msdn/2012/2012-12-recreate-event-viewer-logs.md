@@ -13,10 +13,10 @@ If you ever receive "the event log file is corrupted" on Windows 2008 R2, try th
 ###### Figure 2, where event logy are stored
 
 3. Rename the following files:
-    a. Application.evtx -> Application.evtx.old
-    b.  Security.evtx -> Security.evtx.old
-    c.  Setup.evtx -> Setup.evtx.old
-    d.  System.evtx -> System.evtx.old
+    ..* Application.evtx -> Application.evtx.old
+    ..* Security.evtx -> Security.evtx.old
+    ..* Setup.evtx -> Setup.evtx.old
+    ..* System.evtx -> System.evtx.old
 4. Execute "NET START EVENTLOG" and you will notice that new EVTX files have been created, as shown in Figure 4.
 
 ![start event logging][FIGURE3]
@@ -24,4 +24,4 @@ If you ever receive "the event log file is corrupted" on Windows 2008 R2, try th
 
 [FIGURE1]: ../images/2012/msdn-0190.png "Figure 1, stopping event logging"
 [FIGURE2]: ../images/2012/msdn-0191.png "Figure 2, where event logy are stored"
-[FIGURE3]: ../images/2012/msdn-0192.png "Figure 3, start event logging"
+[FIGURE3]: ../images/2012/msdn-0193.png "Figure 3, start event logging"
