@@ -120,7 +120,7 @@
 [IIS16]: 2012/2012-10-application-request-routing-arr-http-error-400-0-bad-request.md
 [IIS17]: 2012/2012-11-change-or-modify-a-response-header-value-using-url-rewrite.md
 [IIS18]: 2012/2012-11-staticcompressiondisablecpuusage-and-dynamiccompressiondisablecpuusage.md
-[LINK19]: 2012/2012-11-professional-microsoft-iis-8-co-author-benjamin-perkins.md
+[IIS19]: 2012/2012-11-professional-microsoft-iis-8-co-author-benjamin-perkins.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
