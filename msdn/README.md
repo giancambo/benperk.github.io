@@ -57,6 +57,7 @@
 + [Change or modify a Response Header value using URL Rewrite][IIS17]
 + [StaticCompressionDisableCpuUsage and DynamicCompressionDisableCpuUsage][IIS18]
 + [Professional Microsoft IIS 8, co-author Benjamin Perkins][IIS19]
++ [How to capture a memory dump of a W3WP process that consumes too much CPU][IIS20]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -123,6 +124,7 @@
 [IIS17]: 2012/2012-11-change-or-modify-a-response-header-value-using-url-rewrite.md
 [IIS18]: 2012/2012-11-staticcompressiondisablecpuusage-and-dynamiccompressiondisablecpuusage.md
 [IIS19]: 2012/2012-11-professional-microsoft-iis-8-co-author-benjamin-perkins.md
+[IIS20]: 2012/2012-12-how-to-capture-a-memory-dump-of-a-w3wp-process-that-consumes-too-much-cpu.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
