@@ -2,7 +2,7 @@
 
 If you want to find out why a W3WP worker process is consuming so much CPU, you can use [ProcDump][LINK1].  You might also use [LogParser][LINK2] to look at the time-taken field, but to get to the root cause you will need to get deep into the source.  Before you can get a memory dump, you need the PID of the worker process.  You can get the PID in a number of ways.  Below I illustrate using either PowerShell or AppCmd, for example.
 
-[Here][LIUNK3] is a previous article I wrote that covers how to get the PID of a worker process in PowerShell.  Figure 1 illustrated the specific PowerShell command.
+[Here][LINK3] is a previous article I wrote that covers how to get the PID of a worker process in PowerShell.  Figure 1 illustrated the specific PowerShell command.
 
 ![finding the W3WP PID using PowerShell][FIGURE1]
 ###### Figure 1, finding the W3WP PID using PowerShell
