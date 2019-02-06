@@ -54,6 +54,7 @@
 + [Application Request Router (ARR) – HTTP Error 502.3 – Bad Gateway][IIS15]
 + [Application Request Routing (ARR) – HTTP Error 400.0 – Bad Request][IIS16]
 + [Change or modify a Response Header value using URL Rewrite][IIS17]
++ [StaticCompressionDisableCpuUsage and DynamicCompressionDisableCpuUsage][IIS18]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -117,6 +118,7 @@
 [IIS15]: 2012/2012-09-application-request-router-arr-http-error-502-3-bad-gateway.md
 [IIS16]: 2012/2012-10-application-request-routing-arr-http-error-400-0-bad-request.md
 [IIS17]: 2012/2012-11-change-or-modify-a-response-header-value-using-url-rewrite.md
+[IIS18]: 2012/2012-11-staticcompressiondisablecpuusage-and-dynamiccompressiondisablecpuusage.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
