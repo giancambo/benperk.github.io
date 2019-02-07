@@ -8,6 +8,7 @@
 + [Integrated Windows Authentication with NTLM][AAS2]
 + [Secure channel compatibility support with SSL and TLS][AAS3]
 + [Kerberos authPersistNonNTLM authentication, request based vs. session based authentication][AAS4]
++ [Adding a Hostname to your SSL certificate binding on port 443][AAS5]
 
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
@@ -86,6 +87,7 @@
 [AAS2]: 2011/2011-08-integrated-windows-authentication-with-ntlm.md
 [AAS3]: 2011/2011-10-secure-channel-compatibility-support-with-ssl-and-tls.md
 [AAS4]: 2011/2011-10-kerberos-authpersistnonntlm-authentication-request-based-vs-session-based-authentication.md
+[AAS5]: 2013/2013-02-adding-a-hostname-to-your-ssl-certificate-binding-on-port-443.md
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 
