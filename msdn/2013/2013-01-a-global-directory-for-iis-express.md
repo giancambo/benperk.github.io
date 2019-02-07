@@ -44,11 +44,11 @@ The second is to create a virtual directory that points to the files you need yo
 
 4. Save the applicationHost.config file
 
-Please note that manually modifying the applicationHost.config file may cause problems if you make a typo.  These problems may be very difficult to recover from.  Either take a backup prior to making these manual changes or use AppCmd or PowerShell to make these changes.
+Please note that manually modifying the applicationHost.config file may cause problems if you make a typo.  These problems may be very difficult to recover from.  Either take a [backup][LINK1] prior to making these manual changes or use AppCmd or PowerShell to make these changes.
 
 ***UPDATE APR-25-2013***
 
-There is also another option for getting IIS Express to look at the ASP.NETClientFiles directory, or any directory for that matter.  There is a command called MKLINK which creates a symbolic link with the files in a given directory.
+There is also another option for getting IIS Express to look at the ASP.NETClientFiles directory, or any directory for that matter.  There is a command called [MKLINK][LINK2] which creates a symbolic link with the files in a given directory.
 
 For example:  ***MKLINK /d virtual_path "%systemdrive%\directory\subdirectory"***
 
