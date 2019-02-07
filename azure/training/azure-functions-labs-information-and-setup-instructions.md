@@ -190,6 +190,7 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK20]: azure-functions-http-trigger.md
 [LINK21]: azure-functions-http-trigger.md#lab-71
 [LINK22]: azure-functions-http-trigger.md#lab-72
+[LINK23]: azure-functions-microsoft-graph.md
 
 [ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
