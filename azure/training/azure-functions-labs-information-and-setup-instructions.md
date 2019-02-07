@@ -17,7 +17,7 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 | Lab 10: Azure Functions                  |                         |                             |
 | Lab 11: Azure Functions – Storage Queue  | [Lab 11][LINK24]                                      | [Storage Queue][LABLINK11] | 
 | Lab 12: Azure Functions - SendGrid       |                         |                             |
-| Lab 13: Azure Functions - Service Bus    | Lab 13, Lab 13.1        | [Service Bus][LABLINK13]   |
+| Lab 13: Azure Functions - Service Bus    | [Lab 13][LINK25], [Lab 13.1][LINK26]                  | [Service Bus][LABLINK13]   |
 | Lab 14: Azure Functions - SignalR        |                         |                            |
 | Lab 15: Azure Functions - Table Storage  |                         |                            |
 | Lab 16: Azure Functions - Timer          | Lab 16                  | [Timer trigger][LABLINK16] |
