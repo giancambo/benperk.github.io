@@ -5,8 +5,8 @@ There are many reasons that threads can be blocked causing an application to han
 ```
 0:000> !syncblk
 
-Index   SyncBlock   MonitorHeld   Recursion      Owning   Thread     Info     SyncBlock                 Owner
-546    16e2f11c                      9                  1   0a1df058    23a78       18     02b133e4     System.Object
+Index  SyncBlock  MonitorHeld  Recursion  Owning    Thread  Info  SyncBlock  Owner
+546    16e2f11c   9            1          0a1df058  23a78   18    02b133e4   System.Object
 Waiting   threads: 0 24 77 80
 ```
 
