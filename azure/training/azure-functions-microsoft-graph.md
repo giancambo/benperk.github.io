@@ -49,6 +49,42 @@ Next, select the **Configure AAD** now link (see Figure 5) to setup EasyAuth and
 ![Figure 5, how to create an Azure Function with Microsoft Graph][FIGURE5]
 ###### Figure 5, how to create an Azure Function with Microsoft Graph
 
+Once the automated configuration is complete, press the Create button to create the Function, Figure 6.
+
+![Figure 6, how to create an Azure Function with Microsoft Graph][FIGURE6]
+###### Figure 6, how to create an Azure Function with Microsoft Graph
+
+The configuration create an app registration into the AAD with a name similar to the Azure Function App name, Figure 7.
+
+![Figure 7, how to create an Azure Function with Microsoft Graph][FIGURE7]
+###### Figure 7, how to create an Azure Function with Microsoft Graph
+
+Here is the default Run() method.
+
+```
+using System.Net; 
+using System.Net.Http; 
+using System.Net.Http.Headers;
+ 
+public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string graphToken, ILogger log)
+{
+   log.LogInformation("C# HTTP trigger function processed a request."); 
+   HttpClient client = new HttpClient();
+   client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", graphToken);
+   return await client.GetAsync("https://graph.microsoft.com/v1.0/me/photo/$value");
+}
+```
+
+Make sure that you require AAD authentication “Log In with Azure Active Directory” for the function via the Authentication / Authorization link found on the Platform tab for the Azure Function App, Figure 8.  By default, it is set to allow anonymous.
+
+![Figure 8, how to create an Azure Function with Microsoft Graph][FIGURE8]
+###### Figure 8, how to create an Azure Function with Microsoft Graph
+
+I received a 500 when the authentication allowed anonymous.
+
+![Figure 9, how to create an Azure Function with Microsoft Graph][FIGURE9]
+###### Figure 9, how to create an Azure Function with Microsoft Graph
+
 
 [FIGURE1]: ../images/2019/azure-0054.png "Figure 1, how to create an Azure Function with Microsoft Graph"
 [FIGURE2]: ../images/2019/azure-0055.png "Figure 2, how to create an Azure Function with Microsoft Graph"
