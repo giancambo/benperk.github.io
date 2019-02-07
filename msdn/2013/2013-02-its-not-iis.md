@@ -54,7 +54,7 @@ You simply need to add “to_string(to_timestamp(date, time), ‘yyyy-MM-dd hh�
 
 Taking the above into consideration, there may have also been events written into the event logs or presented to the users with this error:
 
-###System.Web.HttpException: Request timed out.###
+***System.Web.HttpException: Request timed out.***
 
 I can explain this because the executionTimout, as shown in Figure 5 has likely been breached.  Consider that the network is sending data at less than 240 bytes per second and the file being processed is almost 1MB.  It would take much more than the 1:50 set for this attribute to complete.
 
