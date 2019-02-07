@@ -9,14 +9,14 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 | Lab 2: Azure Functions - Cosmos DB       | [Lab 2][LINK15], [Lab 2.1][LINK16], [Lab 2.2][LINK17] | [Cosmos DB][LABLINK2]      |
 | Lab 3: Azure Functions - Event Grid      | TBD                     | [Event Grid][LABLINK3]      |
 | Lab 4: Azure Functions - Event Hub       | [Lab 4][LINK18], [Lab 4.1][LINK19]                    | [Event Hubs][LABLINK4]     |
-| Lab 5: Azure Functions                   |                         |                            |
-| Lab 6: Azure Functions                   |                         |                            |
+| Lab 5: Azure Functions                   |                         |                             |
+| Lab 6: Azure Functions                   |                         |                             |
 | Lab 7: Azure Functions - HTTP trigger    | [Lab 7][LINK20], [Lab 7.1][LINK21], [Lab 7.2][LINK22] | [HTTP Triggers][LABLINK7]  |
 | Lab 8: Azure Functions - Microsoft Graph | [Lab 8][LINK23]                                       | [Microsoft Graph][LABLINK8]|
-| Lab 9: Azure Functions                   |                         |                            |
-| Lab 10: Azure Functions                  |                         |                            |
-| Lab 11: Azure Functions – Storage Queue  | Lab 11                  | [Storage Queue][LABLINK11] | 
-| Lab 12: Azure Functions - SendGrid       |                         |                            |
+| Lab 9: Azure Functions                   |                         |                             |
+| Lab 10: Azure Functions                  |                         |                             |
+| Lab 11: Azure Functions – Storage Queue  | [Lab 11][LINK24]                                      | [Storage Queue][LABLINK11] | 
+| Lab 12: Azure Functions - SendGrid       |                         |                             |
 | Lab 13: Azure Functions - Service Bus    | Lab 13, Lab 13.1        | [Service Bus][LABLINK13]   |
 | Lab 14: Azure Functions - SignalR        |                         |                            |
 | Lab 15: Azure Functions - Table Storage  |                         |                            |
@@ -191,6 +191,7 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK21]: azure-functions-http-trigger.md#lab-71
 [LINK22]: azure-functions-http-trigger.md#lab-72
 [LINK23]: azure-functions-microsoft-graph.md
+[LINK24]: azure-functions-storage-queue.md
 
 [ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
