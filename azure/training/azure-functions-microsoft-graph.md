@@ -5,7 +5,7 @@ The labs contained in this article show how to create, configure, code and monit
 
 ## Azure Active Directory Tenant
 
-Every Azure subscription will have an associated Azure Active Directory (AAD) tenant, it has the pattern similar to *.onmicrosoft.com.  Where * is the unique identifier created with your subscription.  There are other ways of getting an AAD tenant, like via O365, but that is outside the scope of this lab.
+Every Azure subscription will have an associated Azure Active Directory (AAD) tenant, it has the pattern similar to x.onmicrosoft.com.  Where 'x' is the unique identifier created with your subscription.  There are other ways of getting an AAD tenant, like via O365, but that is outside the scope of this lab.
 
 In order to complete this lab you will need to be authorized to Grant consent to permissions.  I.e. the first time you are authenticated, after configuring the Azure Function, you get prompted with a pop-up similar to that shown here, Figure 1.
 
@@ -19,7 +19,7 @@ AADSTS90094: An administrator of has set a policy that prevents you from grantin
 it is requesting. Contact an administrator.
 ```
 
-You can check if your identity has the permission in the portal looking at the API permissions of the Application which you will create later.  If the ‘Grant admin consent for *****’ button is enabled, it means you have the permission, if not, well, you don’t, Figure 2, and you will need to be granted permission.
+You can check if your identity has the permission in the portal looking at the API permissions of the Application which you will create later.  If the ‘Grant admin consent for xxxx’ button is enabled, it means you have the permission, if not, well, you don’t, Figure 2, and you will need to be granted permission.
 
 ![Figure 2, how to create an Azure Function with Microsoft Graph][FIGURE2]
 ###### Figure 2, how to create an Azure Function with Microsoft Graph
