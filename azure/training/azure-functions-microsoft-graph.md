@@ -85,6 +85,63 @@ I received a 500 when the authentication allowed anonymous.
 ![Figure 9, how to create an Azure Function with Microsoft Graph][FIGURE9]
 ###### Figure 9, how to create an Azure Function with Microsoft Graph
 
+If you receive this error when you access the Function from a browser:
+
+```
+{
+   "error": {
+     "code": "OrganizationFromTenantGuidNotFound",
+     "message": "The tenant for tenant guid '####' does not exist.",
+     "innerError": {
+        "request-id": "####",
+        "date": "2018-10-30T10:55:55"
+     }
+   }
+}
+```
+
+Then you need to manually update the additionalLoginParams using resource explorer here.  The Application Id is the one shown previously in Figure 7, I marked it out with a black line with orange dots.  It is unique per registration.
+
+```
+https://resources.azure.com/subscriptions/<>/resourceGroups/<>/providers/
+      Microsoft.Web/sites/<>/config/authsettings/list
+      "additionalLoginParams": ["response_type=code id_token",
+      "resource=<AAD application ID>"],
+```
+
+Again, the application ID is the GUID for the application permission configured into AAD when creating the Function, see Figure 5, 6.
+
+If you access the Azure Function now from a ***browser*** you will get the following error.
+
+```
+{
+     "error": {
+     "code": "UnknownError",
+     "message": "",
+     "innerError": {
+        "request-id": "10445a2f-860e-467d-824f-215ed653b067",
+        "date": "2018-10-29T13:18:28"
+     }
+   }
+}
+```
+
+This is because the $value being returned is a binary data for the signed in user and not the actual image.  The client requesting the image will need to know how to work with that.
+
+## Lab 8
+Update the line of code starting with “return await…” to the following.
+
+```return await client.GetAsync("https://graph.microsoft.com/v1.0/me/");```
+
+Then you can enter the URL to the Microsoft Graph configured Azure Function into a ***browser*** and you will get the results of your profile as stored in your AAD tenant.  View/Confirm the details in the portal by clicking on Azure Active Directory –> Users –> Your Profile.  The output of the Function with be something similar to the following.
+
+```
+{"@odata.context":"https://graph.microsoft.com/v1.0/$metadata#users/$entity",
+"id":"...0821d4f","businessPhones":],"displayName":"Benjamin Perkins)","givenName":
+"Benjamin","jobTitle":"Cool","mail":null,"mobilePhone":null,"officeLocation":null,
+"preferredLanguage":null,"surname":"Perkins",
+"userPrincipalName":"benjamin_...#EXT#@<>.onmicrosoft.com"}
+```
 
 [FIGURE1]: ../images/2019/azure-0054.png "Figure 1, how to create an Azure Function with Microsoft Graph"
 [FIGURE2]: ../images/2019/azure-0055.png "Figure 2, how to create an Azure Function with Microsoft Graph"
@@ -94,6 +151,6 @@ I received a 500 when the authentication allowed anonymous.
 [FIGURE6]: ../images/2019/azure-0059.png "Figure 6, how to create an Azure Function with Microsoft Graph"
 [FIGURE7]: ../images/2019/azure-0060.png "Figure 7, how to create an Azure Function with Microsoft Graph"
 [FIGURE8]: ../images/2019/azure-0061.png "Figure 8, how to create an Azure Function with Microsoft Graph"
-[FIGURE9]: ../images/2019/azure-0061.png "Figure 9, how to create an Azure Function with Microsoft Graph"
+[FIGURE9]: ../images/2019/azure-0062.png "Figure 9, how to create an Azure Function with Microsoft Graph"
 
 [LINK1]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-microsoft-graph
