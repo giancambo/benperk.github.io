@@ -20,10 +20,10 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 | Lab 13: Azure Functions - Service Bus    | [Lab 13][LINK25], [Lab 13.1][LINK26]                  | [Service Bus][LABLINK13]   |
 | Lab 14: Azure Functions - SignalR        |                         |                             |
 | Lab 15: Azure Functions - Table Storage  |                         |                             |
-| Lab 16: Azure Functions - Timer          | [Lab 16][LINK27], [Lab 16.1][[LINK28]                 | [Timer trigger][LABLINK16] |
-| Lab 17: Azure Functions                  |                         |                            |
-| Lab 18: Durable Functions                |                         |                            |
-| Lab 19: Binding expressions and patterns |                         | [Patterns][LABLINK19]      |
+| Lab 16: Azure Functions - Timer          | [Lab 16][LINK27], [Lab 16.1][LINK28]                  | [Timer trigger][LABLINK16] |
+| Lab 17: Azure Functions                  |                         |                             |
+| Lab 18: Durable Functions                |                         |                             |
+| Lab 19: Binding expressions and patterns |                         |                             | [Patterns][LABLINK19]
 
 **NOTE:** For all of the trigger types an endpoint is a requirement.  An endpoint, in generic terms, is nothing more than a accessible unique identifier that is used trigger code.
 ## .NET Framework vs. .NET Core Framework
