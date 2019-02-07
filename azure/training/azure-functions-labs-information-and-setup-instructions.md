@@ -192,6 +192,8 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK22]: azure-functions-http-trigger.md#lab-72
 [LINK23]: azure-functions-microsoft-graph.md
 [LINK24]: azure-functions-storage-queue.md
+[LINK25]: azure-function-service-bus.md
+[LINK26]: azure-function-service-bus.md#lab-131
 
 [ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
@@ -200,4 +202,3 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [FIGURE]: ../images/azure-0004.png "Figure , inbound vs. outbound triggers]"
 [FIGURE3]: ../images/azure-0005.png "Figure 3, create an Azure Function App]"
 [FIGURE4]: ../images/azure-0006.png "Figure 4, create an Azure Function App]"
-
