@@ -61,6 +61,7 @@
 + [How to capture a memory dump of a W3WP process that consumes too much CPU][IIS20]
 + [Troubleshooting an IIS Add Roles and Features error][IIS21]
 + [A global directory for IIS Express][IIS22]
++ [Troubleshooting IIS Performance Issues or Application Errors using LogParser][IIS23]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -131,6 +132,7 @@
 [IIS20]: 2012/2012-12-how-to-capture-a-memory-dump-of-a-w3wp-process-that-consumes-too-much-cpu.md
 [IIS21]: 2012/2012-12-troubleshooting-an-iis-add-roles-and-features-error.md
 [IIS22]: 2013/2013-01-a-global-directory-for-iis-express.md
+[IIS23]: 2013/2013-01-troubleshooting-iis-performance-issues-or-application-errors-using-logparser.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
