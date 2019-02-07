@@ -26,6 +26,30 @@ You can check if your identity has the permission in the portal looking at the A
 
 ## Create an Azure Function for access to Microsoft Graph on behalf of
 
+Add a new Function to the Function App by pressing the + sign next the the Functions menu item, as seen in Figure 3.
+
+![Figure 3, how to create an Azure Function with Microsoft Graph][FIGURE3]
+###### Figure 3, how to create an Azure Function with Microsoft Graph
+
+Then find and select the Microsoft Graph template, as seen in Figure 4.
+
+![Figure 4, how to create an Azure Function with Microsoft Graph][FIGURE4]
+###### Figure 4, how to create an Azure Function with Microsoft Graph
+
+Install the ***Microsoft.Azure.WebJobs.Extension.AuthTokens*** extension, if prompted.  Once installed, check that the following extension has been added to your extensions.csproj file.
+
+```
+<ItemGroup>
+  <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.AuthTokens" Version="3.0.0" />
+</ItemGroup>
+```
+
+Next, select the **Configure AAD** now link (see Figure 5) to setup EasyAuth and set the permissions for this application in the tenant.
+
+![Figure 5, how to create an Azure Function with Microsoft Graph][FIGURE5]
+###### Figure 5, how to create an Azure Function with Microsoft Graph
+
+
 [FIGURE1]: ../images/2019/azure-0054.png "Figure 1, how to create an Azure Function with Microsoft Graph"
 [FIGURE2]: ../images/2019/azure-0055.png "Figure 2, how to create an Azure Function with Microsoft Graph"
 [FIGURE3]: ../images/2019/azure-0056.png "Figure 3, how to create an Azure Function with Microsoft Graph"
