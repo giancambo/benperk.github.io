@@ -12,6 +12,20 @@ In order to complete this lab you will need to be authorized to Grant consent to
 ![Figure 1, how to create an Azure Function with Microsoft Graph][FIGURE1]
 ###### Figure 1, how to create an Azure Function with Microsoft Graph
 
+If you do not have this permission, after clicking the ‘Consent on behalf of your organization’ and pressing the Accept button, you will get the following error.
+
+```
+AADSTS90094: An administrator of has set a policy that prevents you from granting "app name" the permissions 
+it is requesting. Contact an administrator.
+```
+
+You can check if your identity has the permission in the portal looking at the API permissions of the Application which you will create later.  If the ‘Grant admin consent for xxxx’ button is enabled, it means you have the permission, if not, well, you don’t, Figure 2, and you will need to be granted permission.
+
+![Figure 2, how to create an Azure Function with Microsoft Graph][FIGURE2]
+###### Figure 2, how to create an Azure Function with Microsoft Graph
+
+## Create an Azure Function for access to Microsoft Graph on behalf of
+
 [FIGURE1]: ../images/2019/azure-0054.png "Figure 1, how to create an Azure Function with Microsoft Graph"
 [FIGURE2]: ../images/2019/azure-0055.png "Figure 2, how to create an Azure Function with Microsoft Graph"
 [FIGURE3]: ../images/2019/azure-0056.png "Figure 3, how to create an Azure Function with Microsoft Graph"
