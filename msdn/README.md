@@ -30,6 +30,7 @@
 + [Debug = True][DTT4]
 + [New ProcDump version 5.0 released, using the –f parameter][DTT5]
 + [Recreate Event Viewer logs][DTT6]
++ [Debugging a hung application with WinDbg][DTT7]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -102,6 +103,7 @@
 [DTT4]: 2012/2012-09-debug-true.md
 [DTT5]: 2012/2012-10-new-procdump-version-5-0-released-using-the-f-parameter.md
 [DTT6]: 2012/2012-12-recreate-event-viewer-logs.md
+[DTT7]: 2013/2013-01-debugging-a-hung-application-with-windbg.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 
