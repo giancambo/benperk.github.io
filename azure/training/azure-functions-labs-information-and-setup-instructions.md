@@ -12,7 +12,7 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 | Lab 5: Azure Functions                   |                         |                            |
 | Lab 6: Azure Functions                   |                         |                            |
 | Lab 7: Azure Functions - HTTP trigger    | [Lab 7][LINK20], [Lab 7.1][LINK21], [Lab 7.2][LINK22] | [HTTP Triggers][LABLINK7]  |
-| Lab 8: Azure Functions - Microsoft Graph | Lab 8                   | [Microsoft Graph][LABLINK8]|
+| Lab 8: Azure Functions - Microsoft Graph | [Lab 8][LINK23]                                       | [Microsoft Graph][LABLINK8]|
 | Lab 9: Azure Functions                   |                         |                            |
 | Lab 10: Azure Functions                  |                         |                            |
 | Lab 11: Azure Functions – Storage Queue  | Lab 11                  | [Storage Queue][LABLINK11] | 
