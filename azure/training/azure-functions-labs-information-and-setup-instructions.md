@@ -7,11 +7,11 @@ Before beginning the following labs, be sure to complete the [Getting Started][A
 | -------- | ------------ | ------- |
 | Lab 1: Azure Functions - Blob Storage    | [Lab 1][LINK13], [Lab 1.1][LINK14]                    | [Blob Storage][LABLINK1]   |
 | Lab 2: Azure Functions - Cosmos DB       | [Lab 2][LINK15], [Lab 2.1][LINK16], [Lab 2.2][LINK17] | [Cosmos DB][LABLINK2]      |
-| Lab 3: Azure Functions - Event Grid      | TBD                     | [Event Grid][LABLINK3]     |
+| Lab 3: Azure Functions - Event Grid      | TBD                     | [Event Grid][LABLINK3]      |
 | Lab 4: Azure Functions - Event Hub       | [Lab 4][LINK18], [Lab 4.1][LINK19]                    | [Event Hubs][LABLINK4]     |
 | Lab 5: Azure Functions                   |                         |                            |
 | Lab 6: Azure Functions                   |                         |                            |
-| Lab 7: Azure Functions - HTTP trigger    | Lab 7, Lab 7.1, Lab 7.2 | [HTTP Triggers][LABLINK7]  |
+| Lab 7: Azure Functions - HTTP trigger    | [Lab 7][LINK20], [Lab 7.1][LINK21], [Lab 7.2][LINK22] | [HTTP Triggers][LABLINK7]  |
 | Lab 8: Azure Functions - Microsoft Graph | Lab 8                   | [Microsoft Graph][LABLINK8]|
 | Lab 9: Azure Functions                   |                         |                            |
 | Lab 10: Azure Functions                  |                         |                            |
@@ -180,7 +180,6 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK10]: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function
 [LINK11]: https://blogs.msdn.microsoft.com/benjaminperkins/2018/08/09/where-are-my-azure-functions-dissappeared
 [LINK12]: https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
-
 [LINK13]: azure-functions-blob-storage.md
 [LINK14]: azure-functions-blob-storage.md#lab-11
 [LINK15]: azure-functions-azure-cosmos-db.md
@@ -188,6 +187,9 @@ Click the Create button to create the Azure Function App.  Done!  Once created, 
 [LINK17]: azure-functions-azure-cosmos-db.md#lab-22
 [LINK18]: azure-functions-event-hub.md
 [LINK19]: azure-functions-event-hub.md#lab-41
+[LINK20]: azure-functions-http-trigger.md
+[LINK21]: azure-functions-http-trigger.md#lab-71
+[LINK22]: azure-functions-http-trigger.md#lab-72
 
 [ANCHORLINK1]: azure-functions-labs-information-and-setup-instructions.md#getting-started
 
