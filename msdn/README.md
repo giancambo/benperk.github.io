@@ -38,6 +38,7 @@
 
 ## Development
 + [My Windows Phone App – Hitman Website Monitor][DEV1]
++ [My Windows 8 Store App – Hitman Website Monitor][DEV2]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -114,6 +115,7 @@
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 
 [DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
+[DEV2]: 2013/2013-04-my-windows-8-store-app-hitman-website-monitor.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
