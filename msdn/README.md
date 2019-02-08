@@ -64,7 +64,7 @@
 + [A global directory for IIS Express][IIS22]
 + [Troubleshooting IIS Performance Issues or Application Errors using LogParser][IIS23]
 + [It’s not IIS][IIS24]
-+ [Some tips for troubleshooting 503 HTTP Status codes][LINK25]
++ [Some tips for troubleshooting 503 HTTP Status codes][IIS25]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
