@@ -35,6 +35,7 @@
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
++ [Web Deploy – CannotGetStreamIncompleteObject][DSCR2]
 
 ## Development
 + [My Windows Phone App – Hitman Website Monitor][DEV1]
@@ -114,6 +115,7 @@
 [DTT7]: 2013/2013-01-debugging-a-hung-application-with-windbg.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
+[DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
 
 [DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
 [DEV2]: 2013/2013-04-my-windows-8-store-app-hitman-website-monitor.md
