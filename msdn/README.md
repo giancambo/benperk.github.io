@@ -12,6 +12,7 @@
 
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
++ [Enabling Failed Request Logging on a Windows Azure Web Site][AZA2]
 
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
@@ -101,6 +102,7 @@
 [AAS5]: 2013/2013-02-adding-a-hostname-to-your-ssl-certificate-binding-on-port-443.md
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
+[AZA2]: 2013/2013-07-enabling-failed-request-logging-on-a-windows-azure-web-site.md
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
