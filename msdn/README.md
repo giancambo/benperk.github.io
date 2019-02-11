@@ -72,6 +72,7 @@
 + [Creating custom, language specific error pages in IIS][IIS26]
 + [Application Initialization not making a request to the initialization page][IIS27]
 + [Create a memory dump when the W3WP process terminates using Procdump][IIS28]
++ [What’s new in IIS 8.5 – Microsoft Internet Information Services 8.5 New Features][IIS29]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -153,6 +154,7 @@
 [IIS26]: 2013/2013-03-creating-custom-language-specific-error-pages-in-iis.md
 [IIS27]: 2013/2013-04-application-initialization-not-making-a-request-to-the-initialization-page.md
 [IIS28]: 2013/2013-06-create-a-memory-dump-when-the-w3wp-process-terminates-using-procdump.md
+[IIS29]: 2013/2013-06-whats-new-in-iis-8-5-microsoft-internet-information-services-8-5-new-features.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
