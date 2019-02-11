@@ -68,6 +68,7 @@ When a worker process is not used for 20 minutes, IIS will terminate the process
 ![idleTimeoutAction in IIS 8.5, Terminate or Suspend][FIGURE5]
 ###### Figure 5, idleTimeoutAction in IIS 8.5, Terminate or Suspend
 
+When the worker process is requested for the first time the binaries need to be compiled, and for some web applications this can take some time.  This compilation is often referred to as warming-up or starting-up the application.  If you choose to Suspend the worker process when it times-out instead of terminating it, you can avoid this warm-up process from happening in this context.
 
 [FIGURE1]: ../images/2013/msdn-0243.png "Figure 1, new ETW logging features in IIS 8.5"
 [FIGURE2]: ../images/2013/msdn-0244.png "Figure 2, IIS 8.5 Logging Fields windows"
