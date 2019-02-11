@@ -62,10 +62,10 @@ Also, in the new Azure portal, you can click on the Troubleshoot link and view t
 ###### Figure 4, View Failed Request Tracing logs in KUDU once enabled
 
 [FIGURE1]: ../images/2013/msdn-0254.png "Figure 1, Enable Failed Request Tracing for an Azure Web App in the AUX portal"
-[FIGURE2]: ../images/2013/msdn-0202.png "Figure 2a, Failed Request Tracing in Azure Web App in the AUX portal"
-[FIGURE3]: ../images/2013/msdn-0202.png "Figure 2b, Failed Request Tracing for an Azure App Service, ex: Web App, API App, Mobile App or Logic App"
-[FIGURE4]: ../images/2013/msdn-0202.png "Figure 3, Failed Request Tracing logs storage location"
-[FIGURE5]: ../images/2013/msdn-0202.png "Figure 4, View Failed Request Tracing logs in KUDU once enabled"
+[FIGURE2]: ../images/2013/msdn-0255.png "Figure 2a, Failed Request Tracing in Azure Web App in the AUX portal"
+[FIGURE3]: ../images/2013/msdn-0256.png "Figure 2b, Failed Request Tracing for an Azure App Service, ex: Web App, API App, Mobile App or Logic App"
+[FIGURE4]: ../images/2013/msdn-0257.png "Figure 3, Failed Request Tracing logs storage location"
+[FIGURE5]: ../images/2013/msdn-0258.png "Figure 4, View Failed Request Tracing logs in KUDU once enabled"
 
 [LINK1]: https://blogs.msdn.microsoft.com/benjaminperkins/2017/01/27/enable-failed-reuqest-tracing-for-an-azure-app-service-web-app/
 [LINK2]: http://blogs.msdn.com/b/benjaminperkins/archive/2014/08/05/configure-remote-iis-administration-for-microsoft-azure-web-sites.aspx
