@@ -77,6 +77,7 @@
 + [Changes made to one web site are applied to another][IIS30]
 + [Troubleshooting badly behaving IIS application pools][IIS31]
 + [Setting up WebDAV on IIS using Windows Authentication and a UNC, mapped drive or file share][IIS32]
++ [Stopping and starting an FTP site in IIS 7.5+ from script with ADSI][IIS33]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -163,6 +164,7 @@
 [IIS30]: 2013/2013-07-changes-made-to-one-web-site-are-applied-to-another.md
 [IIS31]: 2013/2013-07-troubleshooting-badly-behaving-iis-application-pools.md
 [IIS32]: 2013/2013-07-setting-up-webdav-on-iis-using-windows-authentication-and-a-unc-mapped-drive-or-file-share.md
+[IIS33]: 2013/2013-09-stopping-and-starting-an-ftp-site-in-iis-7-5-from-script-with-ads.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
