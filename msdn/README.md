@@ -9,6 +9,7 @@
 + [Secure channel compatibility support with SSL and TLS][AAS3]
 + [Kerberos authPersistNonNTLM authentication, request based vs. session based authentication][AAS4]
 + [Adding a Hostname to your SSL certificate binding on port 443][AAS5]
++ [Enable CAPI2 event logging to troubleshoot PKI and SSL Certificate Issues][AAS6]
 
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
@@ -103,6 +104,7 @@
 [AAS3]: 2011/2011-10-secure-channel-compatibility-support-with-ssl-and-tls.md
 [AAS4]: 2011/2011-10-kerberos-authpersistnonntlm-authentication-request-based-vs-session-based-authentication.md
 [AAS5]: 2013/2013-02-adding-a-hostname-to-your-ssl-certificate-binding-on-port-443.md
+[AAS6]: 2013/2013-09-enable-capi2-event-logging-to-troubleshoot-pki-and-ssl-certificate-issues.md
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [AZA2]: 2013/2013-07-enabling-failed-request-logging-on-a-windows-azure-web-site.md
