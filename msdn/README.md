@@ -13,6 +13,7 @@
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
 + [Enabling Failed Request Logging on a Windows Azure Web Site][AZA2]
++ [Enable logging on your Windows Azure Web App – App Service from Visual Studio][AZA3]
 
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
@@ -105,6 +106,7 @@
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [AZA2]: 2013/2013-07-enabling-failed-request-logging-on-a-windows-azure-web-site.md
+[AZA3]: 2013-09-enable-logging-on-your-windows-azure-web-site-from-visual-studio.md
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
