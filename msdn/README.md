@@ -76,6 +76,7 @@
 + [What’s new in IIS 8.5 – Microsoft Internet Information Services 8.5 New Features][IIS29]
 + [Changes made to one web site are applied to another][IIS30]
 + [Troubleshooting badly behaving IIS application pools][IIS31]
++ [Setting up WebDAV on IIS using Windows Authentication and a UNC, mapped drive or file share][IIS32]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -161,6 +162,7 @@
 [IIS29]: 2013/2013-06-whats-new-in-iis-8-5-microsoft-internet-information-services-8-5-new-features.md
 [IIS30]: 2013/2013-07-changes-made-to-one-web-site-are-applied-to-another.md
 [IIS31]: 2013/2013-07-troubleshooting-badly-behaving-iis-application-pools.md
+[IIS32]: 2013/2013-07-setting-up-webdav-on-iis-using-windows-authentication-and-a-unc-mapped-drive-or-file-share.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
