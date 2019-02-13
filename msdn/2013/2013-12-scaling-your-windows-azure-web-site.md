@@ -40,6 +40,13 @@ You can also scale based on the CPU utilization.  As shown in Figure 3, after cl
 ![Scale a Microsoft Azure Web App based on CPU utilization][FIGURE3]
 ###### Figure 3, Scale a Microsoft Azure Web App based on CPU utilization
 
+Based on your expected load for the given event or during a specific time period, you can increase the number of instances your website will run with, when the utilization of the CPU hits the Target CPU threshold.
+
+You can view the Autoscale Operation Logs, the link is provided on the DASHBOARD to see how your system is scaling.  This is helpful for fine tuning the Instances and Target CPU settings.
+
+## Conclusion
+
+This scaling feature is something that can save a lot in terms of cost and customer satisfaction.  No longer do you need to purchase and rollout hardware yourself and no longer will you have expensive hardware running idle or underutilized, waiting for a burst of traffic.  You can now be ready for large amounts of traffic with just a simple configuration.
 
 [FIGURE1]: ../images/2013/msdn-0316.png "Figure 1, default scaling options for Microsoft Azure Web App"
 [FIGURE2]: ../images/2013/msdn-0317.png "Figure 2, Scheduled scaling time in Microsoft Azure App Service Web App"
