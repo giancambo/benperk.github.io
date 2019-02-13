@@ -17,6 +17,7 @@
 + [Enable logging on your Windows Azure Web App – App Service from Visual Studio][AZA3]
 + [404 File or directory not found when mapping custom domain to an Azure App Service, Server Error][AZA4]
 + [Download Azure App Services Web App log files from Visual Studio][AZA5]
++ [Scaling your Microsoft Azure App Service Web App][AZA6]
 
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
@@ -116,6 +117,7 @@
 [AZA3]: 2013/2013-09-enable-logging-on-your-windows-azure-web-site-from-visual-studio.md
 [AZA4]: 2013/2013-10-404-file-or-directory-not-found-when-mapping-custom-domain-to-a-windows-azure-web-site-server-error.md
 [AZA5]: 2013/2013-11-download-windows-azure-web-site-log-files-from-visual-studio.md
+[AZA6]: 2013/2013-12-scaling-your-windows-azure-web-site.md
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
