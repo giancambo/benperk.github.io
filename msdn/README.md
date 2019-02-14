@@ -43,6 +43,7 @@
 + [Debugging a hung application with WinDbg][DTT7]
 + [Using Process Monitor to solve any problem, including DebugDiag][DTT8]
 + [Could not load type “Namespace.Class” from assembly “Namespace”][DTT9]
++ [Using HTTP ETW tracing to troubleshoot HTTP issues][DTT10]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -145,6 +146,7 @@
 [DTT7]: 2013/2013-01-debugging-a-hung-application-with-windbg.md
 [DTT8]: 2013/2013-05-using-process-monitor-to-solve-any-problem-including-debugdiag.md
 [DTT9]: 2013/2013-12-could-not-load-type-namespace-class-from-assembly-namespace.md
+[DTT10]: 2014/2014-03-using-http-etw-tracing-to-troubleshoot-http-issues.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 [DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
