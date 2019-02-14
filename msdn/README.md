@@ -86,6 +86,7 @@
 + [Stopping and starting an FTP site in IIS 7.5+ from script with ADSI][IIS33]
 + [500.19 when setting up WebDAV on a UNC File share][IIS34]
 + [Using Procdump and Failed Request Tracing to capture a memory dump][IIS35]
++ [Configure the IIS Application Initialization module][IIS36]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -181,6 +182,7 @@
 [IIS33]: 2013/2013-09-stopping-and-starting-an-ftp-site-in-iis-7-5-from-script-with-ads.md
 [IIS34]: 2013/2013-11-500-19-when-setting-up-webdav-on-a-unc-file-share.md
 [IIS35]: 2013/2013-12-using-procdump-and-failed-request-tracing-to-capture-a-memory-dump.md
+[IIS36]: 2014/2014-01-configure-the-iis-application-initialization-module.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
