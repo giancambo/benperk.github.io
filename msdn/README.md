@@ -18,6 +18,7 @@
 + [404 File or directory not found when mapping custom domain to an Azure App Service, Server Error][AZA4]
 + [Download Azure App Services Web App log files from Visual Studio][AZA5]
 + [Scaling your Microsoft Azure App Service Web App][AZA6]
++ [HTTPS only on Azure App Service Web Apps][AZA7]
 
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
@@ -119,6 +120,7 @@
 [AZA4]: 2013/2013-10-404-file-or-directory-not-found-when-mapping-custom-domain-to-a-windows-azure-web-site-server-error.md
 [AZA5]: 2013/2013-11-download-windows-azure-web-site-log-files-from-visual-studio.md
 [AZA6]: 2013/2013-12-scaling-your-windows-azure-web-site.md
+[AZA7]: 2014/2014-01-https-only-on-windows-azure-web-sites.md
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
