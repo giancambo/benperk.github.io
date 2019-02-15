@@ -1,4 +1,4 @@
-![benperk csharpguitar blog article topics](azure/images/2019/benperk-0009.png)
+
 
 A place where all my articles will live, let's see how it works and where it goes.
 
