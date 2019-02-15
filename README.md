@@ -12,7 +12,8 @@ A place where all my articles will live, let's see how it works and where it goe
 
 [Here](https://github.com/benperk/benperk.github.io) you will find all these articles on GitHub
 
-![][FIGURE1]
+![C# 7 Programming with Visual Studio 2017][FIGURE1] ![Professional IIS 8][FIGURE2]
 
 
-[FIGURE1]: azure/images/2019/benperk-0001.png "Figure 1, C# 7 Programming with Visual Studio 2017"
+[FIGURE1]: azure/images/2019/benperk-0001.png "C# 7 Programming with Visual Studio 2017"
+[FIGURE2]: azure/images/2019/benperk-0002.png "Professional IIS 8"
