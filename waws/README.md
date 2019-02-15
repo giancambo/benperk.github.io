@@ -7,4 +7,4 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 
 
 
-[AAS1]: tbd
+[AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
