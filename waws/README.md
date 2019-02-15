@@ -9,8 +9,11 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 + [Enable System.Net tracing on Azure Websites (unable to connect to remote server)][DTT1]
 
 ## Scripting and Administration
++ [Mapping a custom subdomain to an Azure Website][SAA1]
 
 
 [AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
 
 [DTT1]: 2014/2014-11-enable-system-net-tracing-on-azure-websites-unable-to-connect-to-remote-server.md
+
+[SAA1]: 2014/2014-10-mapping-a-custom-subdomain-to-an-azure-website.md
