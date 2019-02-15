@@ -8,6 +8,8 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 ## Debugging and Troubleshooting techniques
 + [Enable System.Net tracing on Azure Websites (unable to connect to remote server)][DTT1]
 
+## Scripting and Administration
+
 
 [AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
 
