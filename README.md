@@ -4,7 +4,6 @@ A place where all my articles will live, let's see how it works and where it goe
 
 [Here](csharp/) you will find my C# articles and trainings
 
-[Here](waws/) you will find my original MSDN articles I 
-              wrote for WAWS (Windows Azure Web Sites ***aka*** Azure App Services)
+[Here](waws/) you will find my original MSDN articles I wrote for WAWS (Windows Azure Web Sites ***aka*** Azure App Services)
 
 [Here](azure/) you will find the new Azure related articles I write 
