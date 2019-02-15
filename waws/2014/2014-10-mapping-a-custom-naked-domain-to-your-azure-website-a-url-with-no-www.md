@@ -1,6 +1,6 @@
 # Mapping a custom naked domain to your Azure Website, a URL with no www
 
-A naked URL means that there is no www before the domain name and domain extension.  For example, http://www.benjamin.perkins.me which I use often to troubleshoot and experiment with mapping custom domains to my Azure Web App.  An example of how to do map a custom domain is provided [here][LINK1], and would more than likely result in your naked domain (http://--.me) working.  However, if some configuration gets skipped or mixed up, you might need these instructions too.
+A naked URL means that there is no www before the domain name and domain extension.  For example, http://---.me which I use often to troubleshoot and experiment with mapping custom domains to my Azure Web App.  An example of how to do map a custom domain is provided [here][LINK1], and would more than likely result in your naked domain (http://--.me) working.  However, if some configuration gets skipped or mixed up, you might need these instructions too.
 
 The key point is that you must have an A Record that points to the IP address provided via the Microsoft Azure management portal.  For example, that shown in Figure 1.
 
@@ -9,7 +9,7 @@ The key point is that you must have an A Record that points to the IP address pr
 
 Note that the IP address is 137.135…., this is the value you need to set you’re a Record to.
 
-Before I could enter benjamin-perkins.me into the Manage custom domain section I needed to add a CNAME as mentioned in Figure 1.  I logged into my DNS providers web site and made the addition as shown in Figure 2.  ***Note**** that for this example, I am binding the custom domain to an Azure Web App named IISLOGS.
+Before I could enter --.me into the Manage custom domain section I needed to add a CNAME as mentioned in Figure 1.  I logged into my DNS providers web site and made the addition as shown in Figure 2.  ***Note**** that for this example, I am binding the custom domain to an Azure Web App named IISLOGS.
 
 ![adding a CNMAE record for enablement of the naked Azure Web App, no www][FIGURE2]
 ###### Figure 2, adding a CNMAE record for enablement of the naked Azure Web App, no www
