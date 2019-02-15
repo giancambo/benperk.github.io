@@ -41,8 +41,8 @@ You might be able to save some time (some days) if you perform this action as th
 
 If you access your Azure Web App URL (https://*??*.azurewebsites.net) using HTTPS you will receive the Azure Web App wildcard certificate.  If you have a custom domain without a successfully configured SSL certificate, accessing the custom domain using HTTPS would result in that shown in Figure 4.
 
-![Certificate Error – Azure Web App - *.azurewebsites.net][FIGURE1]
-###### Figure 1, Certificate Error – Azure Web App - *.azurewebsites.net
+![Certificate Error – Azure Web App - *.azurewebsites.net][FIGURE4]
+###### Figure 4, Certificate Error – Azure Web App - *.azurewebsites.net
 
 This is expected behavior if your certificate is not configured correctly or invalid.  For example, you may have configured SNI based SSL which requires 'modern' browsers.  If this is the case, try using IP Based SSL to see if the issue remains.
 
