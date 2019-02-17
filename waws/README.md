@@ -14,6 +14,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 + [Mapping a custom naked domain to your Azure Website, a URL with no www][SAA2]
 + [Mapping a custom domain with a special character to an Azure Website][SAA3]
 + [Create an Azure Web App failover solution on a budget][SAA4]
++ [Mapping a custom domain to a Traffic Manager on Azure Websites][SAA5]
 
 
 [AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
@@ -25,3 +26,4 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 [SAA2]: 2014/2014-10-mapping-a-custom-naked-domain-to-your-azure-website-a-url-with-no-www.md
 [SAA3]: 2014/2014-10-mapping-a-custom-domain-with-a-special-character-to-an-azure-website.md
 [SAA4]: 2015/2015-06-create-an-azure-web-app-failover-solution-on-a-budget.md
+[SAA5]: 2014/2014-09-mapping-a-custom-domain-to-a-traffic-manager-on-azure-websites.md
