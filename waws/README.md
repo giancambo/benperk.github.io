@@ -4,6 +4,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 
 ## Authentication, Authorization and Security
 + [My SSL Certificate doesn’t work on Azure Websites][AAS1]
++ [How (I) to setup Azure Active Directory with a Web App][AAS2]
 
 ## Debugging and Troubleshooting techniques
 + [Enable System.Net tracing on Azure Websites (unable to connect to remote server)][DTT1]
@@ -15,6 +16,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 
 
 [AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
+[AAS2]: 2015/2015-04-how-i-to-setup-azure-active-directory-with-a-web-app.md
 
 [DTT1]: 2014/2014-11-enable-system-net-tracing-on-azure-websites-unable-to-connect-to-remote-server.md
 
