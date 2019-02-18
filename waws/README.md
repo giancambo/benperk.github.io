@@ -16,6 +16,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 + [Create a memory dump for your slow performing Web App][DTT2]
 + [Debugging a W3WP memory dump of a slow performing ASP.NET Azure Web App][DTT3]
 + [Troubleshooting a hung or long running WebJob][DTT4]
++ [Dynatrace Extension causes application crashes after WS2016][DTT5]
 
 ## Deployment and Source Code Repository
 + [Troubleshooting Web App deployment issues when using Git / GitHub][DSCR1]
@@ -43,6 +44,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 [DTT2]: 2015/2015-07-create-a-memory-dump-for-your-slow-performing-web-app.md
 [DTT3]: 2015/2015-07-debugging-a-w3wp-memory-dump-of-a-slow-performing-asp-net-azure-web-app.md
 [DTT4]: 2016/2016-02-troubleshooting-a-hung-or-long-running-webjob.md
+[DTT5]: 2016/2017-12-dynatrace-extension-causes-application-crashes-after-ws2016.md
 
 [DSCR1]: 2015/2015-08-troubleshooting-web-app-deployment-issues-when-using-git-github.md
 
