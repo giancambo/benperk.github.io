@@ -27,6 +27,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 + [Mapping a custom domain with a special character to an Azure Website][SAA3]
 + [Create an Azure Web App failover solution on a budget][SAA4]
 + [Mapping a custom domain to a Traffic Manager on Azure Websites][SAA5]
++ [Mapping a wildcard domain name to an Azure App Services Web App (Website)][SAA6]
 
 
 [AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
@@ -48,3 +49,4 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 [SAA3]: 2014/2014-10-mapping-a-custom-domain-with-a-special-character-to-an-azure-website.md
 [SAA4]: 2015/2015-06-create-an-azure-web-app-failover-solution-on-a-budget.md
 [SAA5]: 2014/2014-09-mapping-a-custom-domain-to-a-traffic-manager-on-azure-websites.md
+[SAA6]: 2015/2015-12-mapping-a-wildcard-domain-name-to-an-azure-app-services-web-app-website.md
