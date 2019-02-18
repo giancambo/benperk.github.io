@@ -7,9 +7,9 @@ If your Web App is not behaving like you expect, you might consider implementing
 + When an unexpected http status code is received X number of times
 + When the process consumes more than expected memory
 
-Here is an article that describes how to configure this manually.
+[Here][LINK1] is an article that describes how to configure this manually.
 
-But did you know, you can implement the same via the KUDU console which I speak about here?
+But did you know, you can implement the same via the KUDU console which I speak about [here][LINK2]?
 
 Once you access the KUDU console, select Tools -> Support, as shown in Figure 1.
 
