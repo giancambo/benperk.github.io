@@ -14,6 +14,9 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 ## Deployment and Source Code Repository
 + [Troubleshooting Web App deployment issues when using Git / GitHub][DSCR1]
 
+## Development
++ [Sending email from an Azure Web App using an O365 SMTP server][DEV1]
+
 ## Scripting and Administration
 + [Mapping a custom subdomain to an Azure Website][SAA1]
 + [Mapping a custom naked domain to your Azure Website, a URL with no www][SAA2]
@@ -30,6 +33,8 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 [DTT3]: 2015/2015-07-debugging-a-w3wp-memory-dump-of-a-slow-performing-asp-net-azure-web-app.md
 
 [DSCR1]: 2015/2015-08-troubleshooting-web-app-deployment-issues-when-using-git-github.md
+
+[DEV1]: 2015/2015-10-sending-email-from-an-azure-web-app-using-an-o365-smtp-server.md
 
 [SAA1]: 2014/2014-10-mapping-a-custom-subdomain-to-an-azure-website.md
 [SAA2]: 2014/2014-10-mapping-a-custom-naked-domain-to-your-azure-website-a-url-with-no-www.md
