@@ -8,6 +8,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 
 ## Debugging and Troubleshooting techniques
 + [Enable System.Net tracing on Azure Websites (unable to connect to remote server)][DTT1]
++ [Create a memory dump for your slow performing Web App][DTT2]
 
 ## Scripting and Administration
 + [Mapping a custom subdomain to an Azure Website][SAA1]
@@ -21,6 +22,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 [AAS2]: 2015/2015-04-how-i-to-setup-azure-active-directory-with-a-web-app.md
 
 [DTT1]: 2014/2014-11-enable-system-net-tracing-on-azure-websites-unable-to-connect-to-remote-server.md
+[DTT2]: 2015/2015-07-create-a-memory-dump-for-your-slow-performing-web-app.md
 
 [SAA1]: 2014/2014-10-mapping-a-custom-subdomain-to-an-azure-website.md
 [SAA2]: 2014/2014-10-mapping-a-custom-naked-domain-to-your-azure-website-a-url-with-no-www.md
