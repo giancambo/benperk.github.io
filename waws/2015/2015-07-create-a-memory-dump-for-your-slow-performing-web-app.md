@@ -35,5 +35,5 @@ See [this blog][LINK2] for more discussion about how to analyze the contents of 
 [FIGURE3]: ../images/2015/waws-0053.png "Figure 3, create a W3WP dump for an Azure Web App that is slow"
 [FIGURE4]: ../images/2015/waws-0054.png "Figure 4, save the Azure Web App W3WP process memory dump"
 
-[LINK1]: ../msdn/2014/2014-03-using-kudu-with-windows-azure-web-sites.md
+[LINK1]: ../../msdn/2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [LINK2]: http://blogs.msdn.com/b/waws/archive/2015/07/01/debugging-a-w3wp-memory-dump-of-a-slow-performing-asp-net-azure-web-app.aspx
