@@ -1,6 +1,6 @@
 # Debugging a W3WP memory dump of a slow performing ASP.NET Azure Web App
 
-I wrote an article here about how to capture a memory dump of the W3WP process that runs your Azure Web App.  Once you get the Memory dump, here are the steps you need to find out what the reason for the slow performance is.
+I wrote an article [here][LINK1] about how to capture a memory dump of the W3WP process that runs your Azure Web App.  Once you get the Memory dump, here are the steps you need to find out what the reason for the slow performance is.
 
 First, I open the W3WP dump in WinDbg, as shown in Figure 1.
 
