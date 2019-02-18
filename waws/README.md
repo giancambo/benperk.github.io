@@ -5,6 +5,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 ## Authentication, Authorization and Security
 + [My SSL Certificate doesn’t work on Azure Websites][AAS1]
 + [How (I) to setup Azure Active Directory with a Web App][AAS2]
++ [Add an SSL certificate to an Azure Web App (CRT and P7B)][AAS3]
 
 ## Azure App Services
 + [Monitoring your multiple Azure Web App instances][AZA1]
@@ -32,6 +33,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 
 [AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
 [AAS2]: 2015/2015-04-how-i-to-setup-azure-active-directory-with-a-web-app.md
+[AAS3]: 2015/2015-12-add-an-ssl-certificate-to-an-azure-web-app-crt-and-p7b.md
 
 [AZA1]: 2015/2015-11-monitoring-your-multiple-azure-web-app-instances.md
 [AZA2]: 2015/2015-11-auto-heal-your-azure-web-app.md
