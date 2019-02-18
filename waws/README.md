@@ -6,6 +6,9 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 + [My SSL Certificate doesn’t work on Azure Websites][AAS1]
 + [How (I) to setup Azure Active Directory with a Web App][AAS2]
 
+## Azure App Services
++ [Monitoring your multiple Azure Web App instances][AZA1]
+
 ## Debugging and Troubleshooting techniques
 + [Enable System.Net tracing on Azure Websites (unable to connect to remote server)][DTT1]
 + [Create a memory dump for your slow performing Web App][DTT2]
@@ -27,6 +30,8 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 
 [AAS1]: 2014/2014-12-my-ssl-certificate-doesnt-work-on-azure-websites.md
 [AAS2]: 2015/2015-04-how-i-to-setup-azure-active-directory-with-a-web-app.md
+
+[AZA1]: 2015/2015-11-monitoring-your-multiple-azure-web-app-instances.md
 
 [DTT1]: 2014/2014-11-enable-system-net-tracing-on-azure-websites-unable-to-connect-to-remote-server.md
 [DTT2]: 2015/2015-07-create-a-memory-dump-for-your-slow-performing-web-app.md
