@@ -11,6 +11,9 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 + [Create a memory dump for your slow performing Web App][DTT2]
 + [Debugging a W3WP memory dump of a slow performing ASP.NET Azure Web App][DTT3]
 
+## Deployment and Source Code Repository
++ [Troubleshooting Web App deployment issues when using Git / GitHub][DSCR1]
+
 ## Scripting and Administration
 + [Mapping a custom subdomain to an Azure Website][SAA1]
 + [Mapping a custom naked domain to your Azure Website, a URL with no www][SAA2]
@@ -25,6 +28,8 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 [DTT1]: 2014/2014-11-enable-system-net-tracing-on-azure-websites-unable-to-connect-to-remote-server.md
 [DTT2]: 2015/2015-07-create-a-memory-dump-for-your-slow-performing-web-app.md
 [DTT3]: 2015/2015-07-debugging-a-w3wp-memory-dump-of-a-slow-performing-asp-net-azure-web-app.md
+
+[DSCR1]: 2015/2015-08-troubleshooting-web-app-deployment-issues-when-using-git-github.md
 
 [SAA1]: 2014/2014-10-mapping-a-custom-subdomain-to-an-azure-website.md
 [SAA2]: 2014/2014-10-mapping-a-custom-naked-domain-to-your-azure-website-a-url-with-no-www.md
