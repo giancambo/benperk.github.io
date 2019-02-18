@@ -8,6 +8,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 
 ## Azure App Services
 + [Monitoring your multiple Azure Web App instances][AZA1]
++ [Auto Heal your Azure Web App][AZA2]
 
 ## Debugging and Troubleshooting techniques
 + [Enable System.Net tracing on Azure Websites (unable to connect to remote server)][DTT1]
@@ -32,6 +33,7 @@ I wrote these articles which were hosted on the WAWS blog MSDN website.  Most of
 [AAS2]: 2015/2015-04-how-i-to-setup-azure-active-directory-with-a-web-app.md
 
 [AZA1]: 2015/2015-11-monitoring-your-multiple-azure-web-app-instances.md
+[AZA2]: 2015/2015-11-auto-heal-your-azure-web-app.md
 
 [DTT1]: 2014/2014-11-enable-system-net-tracing-on-azure-websites-unable-to-connect-to-remote-server.md
 [DTT2]: 2015/2015-07-create-a-memory-dump-for-your-slow-performing-web-app.md
