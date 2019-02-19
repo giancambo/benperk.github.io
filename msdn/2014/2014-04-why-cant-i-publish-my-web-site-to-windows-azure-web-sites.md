@@ -14,16 +14,13 @@ The current deployment options are included in the following Tabel 1.
 
 | Deployment Location | Description |
 | ------------------- | ----------- |
-| Visual Studio Online  | Visual Studio Online provides a complete solution for software management, source control, issue   tracking, build and test automation, and more.  |
-| Local Git Repository  | Do you already have a Git repository on your local computer? Simply publish your local Git   repository to a remote repository in Windows Azure, an your site will go  live quickly and automatically.  |
-| GitHub  | 
-GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over three million people use GitHub to build amazing things together.  |
-|  Dropbox | Dropbox is a free service that lets you bring all your photos, documents, and videos anywhere and share them easily. Use Windows Azure to quickly synchronize and deploy your code from your Dropbox folder.  |
-| Bitbucket  | Bitbucket is a hosting site for the Git and Mercurial distributed version control systems. Bitbucket includes an issue tracker, a wiki, and integration with popular  services such as Basecamp, Flowdock, and Twitter.  |
-| CodePlex  | 
-CodePlex is Microsoft’s open source project hosting web site. You can create public projects for free, sharing your code with the world.  |
-|  External Repository | 
-Type the URL of any public external repository to automatically deploy from that location. Both Git and Mercurial repositories are supported.  |
+| Visual Studio Online | Visual Studio Online provides a complete solution for software management, source control, issue   tracking, build and test automation, and more.  |
+| Local Git Repository | Do you already have a Git repository on your local computer? Simply publish your local Git   repository to a remote repository in Windows Azure, an your site will go  live quickly and automatically.  |
+| GitHub | GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over three million people use GitHub to build amazing things together.  |
+| Dropbox | Dropbox is a free service that lets you bring all your photos, documents, and videos anywhere and share them easily. Use Windows Azure to quickly synchronize and deploy your code from your Dropbox folder.  |
+| Bitbucket | Bitbucket is a hosting site for the Git and Mercurial distributed version control systems. Bitbucket includes an issue tracker, a wiki, and integration with popular  services such as Basecamp, Flowdock, and Twitter.  |
+| CodePlex | CodePlex is Microsoft’s open source project hosting web site. You can create public projects for free, sharing your code with the world. |
+| External Repository | Type the URL of any public external repository to automatically deploy from that location. Both Git and Mercurial repositories are supported.  |
 
 ###### Table 1, Microsoft Azure App Service Web App Deployment Options
 
