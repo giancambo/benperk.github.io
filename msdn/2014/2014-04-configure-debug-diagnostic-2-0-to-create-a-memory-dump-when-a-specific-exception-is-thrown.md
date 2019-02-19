@@ -10,7 +10,7 @@ I wrote a simple website that throws a Win32Exception.  The code is shown in Fig
 
 I then take this example program and place it on an IIS7/8 server.  I make sure that the program can run and creates the W3WP worker process that I want to configure Debug Diagnostic to monitor.  Figure 2 shows the Task Manager window containing the W3WP work process running the application pool Win32Exception.
 
-![Task Manager showing W3WP worker process running the Win32Exception application pool.][FIGURE1]
+![Task Manager showing W3WP worker process running the Win32Exception application pool.][FIGURE2]
 ###### Figure 1, Task Manager showing W3WP worker process running the Win32Exception application pool.
 
 Next, open Debug Diagnostic and follow these steps:
