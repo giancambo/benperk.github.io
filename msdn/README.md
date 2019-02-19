@@ -50,6 +50,7 @@
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
 + [Web Deploy – CannotGetStreamIncompleteObject][DSCR2]
 + [Using Web Platform Installer on a server without internet access][DSCR3]
++ [Get Azure App Service deployment logs from KUDU][DSCR4]
 
 ## Development
 + [My Windows Phone App – Hitman Website Monitor][DEV1]
@@ -153,6 +154,7 @@
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 [DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
 [DSCR3]: 2013/2013-06-using-web-platform-installer-on-a-server-without-internet-access.md
+[DSCR4]: 2014/2014-04-get-azure-website-deployment-logs-from-kudu.md
 
 [DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
 [DEV2]: 2013/2013-04-my-windows-8-store-app-hitman-website-monitor.md
