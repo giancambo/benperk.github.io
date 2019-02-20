@@ -12,6 +12,7 @@
 + [Enable CAPI2 event logging to troubleshoot PKI and SSL Certificate Issues][AAS6]
 + [HTTP 404 after installing an SSL Certificate][AAS7]
 + [Make your own SSL Certificate for testing and learning][AAS8]
++ [Configure Application Request Routing (ARR) with Client Certificates][AAS9]
 
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
@@ -125,6 +126,7 @@
 [AAS6]: 2013/2013-09-enable-capi2-event-logging-to-troubleshoot-pki-and-ssl-certificate-issues.md
 [AAS7]: 2014/2014-02-http-404-after-installing-an-ssl-certificate.md
 [AAS8]: 2014/2014-05-make-your-own-ssl-certificate-for-testing-and-learning.md
+[AAS9]: 2014/2014-06-configure-application-request-routing-arr-with-client-certificates.md
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [AZA2]: 2013/2013-07-enabling-failed-request-logging-on-a-windows-azure-web-site.md
