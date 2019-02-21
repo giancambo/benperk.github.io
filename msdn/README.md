@@ -29,6 +29,7 @@
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
++ [Using Traffic Manager as a FAILOVER solution for Azure App Services][AZFE2]
 
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
@@ -145,6 +146,7 @@
 [AZA10]: 2014/2014-05-how-to-get-a-static-ip-address-for-your-microsoft-azure-web-site.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
+[AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
