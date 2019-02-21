@@ -80,4 +80,4 @@ It is also possible to map a Microsoft Azure Web Site using the same feature.  I
 [FIGURE12]: ../images/2014/msdn-0424.png "Figure 12, An IIS server which is remotely manageable"
 
 [LINK1]: http://www.iis.net/learn/manage/remote-administration/remote-administration-for-iis-manager
-[LINK2]: tbd
+[LINK2]: 2014-08-configure-remote-iis-administration-for-microsoft-azure-web-sites.md
