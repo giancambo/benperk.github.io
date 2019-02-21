@@ -26,6 +26,7 @@
 + [How to store and access your IIS Logs on Microsoft Azure App Service][AZA8]
 + [Staging and testing your Microsoft Azure App Service][AZA9]
 + [How to get a static IP address for your Windows App Service Web App][AZA10]
++ [Configure Remote IIS Administration for Microsoft Azure App Service][AZA11]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -145,6 +146,7 @@
 [AZA8]: 2014/2014-02-how-to-store-and-access-your-iis-logs-on-windows-azure-web-site.md
 [AZA9]: 2014/2014-03-staging-and-testing-your-windows-azure-web-site.md
 [AZA10]: 2014/2014-05-how-to-get-a-static-ip-address-for-your-microsoft-azure-web-site.md
+[AZA11]: 2014/2014-08-configure-remote-iis-administration-for-microsoft-azure-web-sites.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
