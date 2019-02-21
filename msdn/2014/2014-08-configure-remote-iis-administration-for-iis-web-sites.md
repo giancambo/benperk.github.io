@@ -64,7 +64,7 @@ Once complete you can manage the configured server remotely without having to lo
 
 I like this feature and I hope you find it useful.
 
-It is also possible to map a Microsoft Azure Web Site using the same feature.  Instructions are available here.
+It is also possible to map a Microsoft Azure Web Site using the same feature.  Instructions are available [here][LINK2].
 
 [FIGURE1]: ../images/2014/msdn-0413.png "Figure 1, Adding a Server, Site or Application for remote IIS management"
 [FIGURE2]: ../images/2014/msdn-0414.png "Figure 2, add the Management Service role for Remote Administration"
@@ -80,3 +80,4 @@ It is also possible to map a Microsoft Azure Web Site using the same feature.  I
 [FIGURE12]: ../images/2014/msdn-0424.png "Figure 12, An IIS server which is remotely manageable"
 
 [LINK1]: http://www.iis.net/learn/manage/remote-administration/remote-administration-for-iis-manager
+[LINK2]: tbd
