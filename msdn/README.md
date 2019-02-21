@@ -26,6 +26,9 @@
 + [Staging and testing your Microsoft Azure App Service][AZA9]
 + [How to get a static IP address for your Windows App Service Web App][AZA10]
 
+## Azure Features
++ [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
+
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
 + [How to add a HOST.JSON file to an Azure Function][AZF2]
@@ -138,6 +141,8 @@
 [AZA8]: 2014/2014-02-how-to-store-and-access-your-iis-logs-on-windows-azure-web-site.md
 [AZA9]: 2014/2014-03-staging-and-testing-your-windows-azure-web-site.md
 [AZA10]: 2014/2014-05-how-to-get-a-static-ip-address-for-your-microsoft-azure-web-site.md
+
+[AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
