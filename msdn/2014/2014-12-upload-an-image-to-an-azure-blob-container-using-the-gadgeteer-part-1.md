@@ -102,4 +102,4 @@ Continue reading to [Part 2][LINK6] and download the source code.
 [LINK3]: http://netmf.codeplex.com/releases/view/118283
 [LINK4]: https://www.ghielectronics.com/support/netmf/sdks
 [LINK5]: http://blogs.msdn.com/b/uk_faculty_connection/archive/2011/12/08/getting-started-with-the-fez-spider-kit-for-microsoft-net-gadgeteer.aspx
-[LINK6]: tbd
+[LINK6]: 2014-12-upload-an-image-to-an-azure-blob-container-using-the-gadgeteer-part-2-source-download.md
