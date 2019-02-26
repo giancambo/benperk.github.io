@@ -61,6 +61,7 @@
 + [Using HTTP ETW tracing to troubleshoot HTTP issues][DTT10]
 + [Configure Debug Diagnostic 2.0 to create a memory dump when a specific exception is thrown][DTT11]
 + [Using Network Tracing to debug System.Net based issues][DTT12]
++ [IIS Admin Service fails to start][DTT13]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -185,6 +186,7 @@
 [DTT10]: 2014/2014-03-using-http-etw-tracing-to-troubleshoot-http-issues.md
 [DTT11]: 2014/2014-04-configure-debug-diagnostic-2-0-to-create-a-memory-dump-when-a-specific-exception-is-thrown.md
 [DTT12]: 2014/2014-05-using-network-tracing-to-debug-system-net-based-issues.md
+[DTT13]: 2014/2014-12-iis-admin-service-fails-to-start.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 [DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
