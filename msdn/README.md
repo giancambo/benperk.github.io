@@ -74,6 +74,7 @@
 + [My Windows Phone App – Hitman Website Monitor][DEV1]
 + [My Windows 8 Store App – Hitman Website Monitor][DEV2]
 + [How I got HTTPS to work with the .Net Micro Framework and my Gadgeteer][DEV3]
++ [Upload an image to an Azure Blob container using the Gadgeteer (Part 1)][DEV4]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -197,6 +198,7 @@
 [DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
 [DEV2]: 2013/2013-04-my-windows-8-store-app-hitman-website-monitor.md
 [DEV3]: 2014/2014-11-how-i-got-https-to-work-with-the-net-micro-framework-and-my-gadgeteer.md
+[DEV4]: 2014/2014-12-upload-an-image-to-an-azure-blob-container-using-the-gadgeteer-part-1.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
