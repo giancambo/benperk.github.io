@@ -241,7 +241,7 @@
 [IIS36]: 2014/2014-01-configure-the-iis-application-initialization-module.md
 [IIS37]: 2014/2014-08-configure-remote-iis-administration-for-iis-web-sites.md
 [IIS38]: 2014/2014-09-configuring-application-request-routing-arr-to-use-a-port-other-than-port-80.md
-[IIS39]: 2015/web-config-file-is-emptied-when-copying-to-webdav-share.md
+[IIS39]: 2015/2015-01-web-config-file-is-emptied-when-copying-to-webdav-share.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
