@@ -11,8 +11,8 @@ The reason for the first issue is that currently, a common way to send an email 
 
 Once configured, you should see it in the list of available Market Place apps.  Clicking on the SendGrid app, will redirect you to a page similar to that illustrated in Figure 2.
 
-![Configure SendGrid on an Azure App Services][FIGURE1]
-###### Figure 1, Configure SendGrid on an Azure App Services
+![Configure SendGrid on an Azure App Services][FIGURE2]
+###### Figure 2, Configure SendGrid on an Azure App Services
 
 Clicking on the MANAGE link on the bottom navigation bar, opens the SendGrid website where you can get your user id and password.  Additionally you can find [many examples][LINK2] in many languages to get a proof of concept page working on your Azure App Services Web App site. 
 
