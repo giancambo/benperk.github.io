@@ -33,6 +33,7 @@
 + [Using LogParser to analyze the EVENTLOG.XML, Azure App Service Web App][AZA14]
 + [Azure App Service Plans (ASP)][AZA15]
 + [Files published via FTP are not showing up when I browse to my App Service][AZA16]
++ [Sending an email from Azure App Service using SendGrid][AZA17]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -165,6 +166,7 @@
 [AZA14]: 2014/2014-09-using-logparser-to-analyze-the-eventlog-xml-azure-websites.md
 [AZA15]: 2014/2014-10-azure-website-hosting-plans-asp.md
 [AZA16]: 2015/2015-02-files-published-via-ftp-are-not-showing-up-when-i-browse-to-my-azure-website.md
+[AZA17]: 2015/2015-02-sending-an-email-from-azure-websites-using-sendgrid.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
