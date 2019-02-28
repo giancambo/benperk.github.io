@@ -35,6 +35,7 @@
 + [Files published via FTP are not showing up when I browse to my App Service][AZA16]
 + [Sending an email from Azure App Service using SendGrid][AZA17]
 + [Making changes to the applicationHost.config on Azure App Service][AZA18]
++ [Connection Timeout (Timeout Expired) on Azure Web App Site / SQL Azure][AZA19]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -171,6 +172,7 @@
 [AZA16]: 2015/2015-02-files-published-via-ftp-are-not-showing-up-when-i-browse-to-my-azure-website.md
 [AZA17]: 2015/2015-02-sending-an-email-from-azure-websites-using-sendgrid.md
 [AZA18]: 2015/2015-03-making-changes-to-the-applicationhost-config-on-azure-websites.md
+[AZA19]: 2015/2015-04-connection-timeout-timeout-expired-on-azure-web-app-site-sql-azure.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
