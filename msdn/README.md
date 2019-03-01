@@ -134,6 +134,7 @@
 + [Passing Client IP to a server in the Web Farm using Application Request Router][IIS41]
 + [Why am I getting this challenge response popup?][IIS42]
 + [Install Failed Request Tracing on IIS 8.5 Server Core][IIS43]
++ [How to add a Server Core IIS server to a domain][IIS44]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -278,6 +279,7 @@
 [IIS41]: 2015/2015-04-passing-client-ip-to-a-server-in-the-web-farm-using-application-request-router.md
 [IIS42]: 2015/2015-08-why-am-i-getting-this-challenge-response-popup.md
 [IIS43]: 2015/2015-11-install-failed-request-tracing-on-iis-8-5-server-core.md
+[IIS44]: 2015/2015-11-how-to-add-a-server-core-iis-server-to-a-domain.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
