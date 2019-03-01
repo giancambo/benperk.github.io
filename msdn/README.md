@@ -15,6 +15,7 @@
 + [Configure Application Request Routing (ARR) with Client Certificates][AAS9]
 + [Renew an IIS 7, IIS 7.5, IIS 8.0 or IIS 8.5 … SSL Certificate (PKCS #10 vs. PKCS #7)][AAS10]
 + [Using TLS 1.2 with WCF][AAS11]
++ [Make a self-signed SHA256 SSL certificate][AAS12]
 
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
@@ -168,6 +169,7 @@
 [AAS9]: 2014/2014-06-configure-application-request-routing-arr-with-client-certificates.md
 [AAS10]: 2014/2014-07-renew-an-iis-7-iis-7-5-iis-8-0-or-iis-8-5-ssl-certificate-pkcs-10-vs-pkcs-7.md
 [AAS11]: 2014/2014-11-using-tls-1-2-with-wcf.md
+[AAS12]: 2015/2015-12-make-a-self-signed-sha256-ssl-certificate.md
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [AZA2]: 2013/2013-07-enabling-failed-request-logging-on-a-windows-azure-web-site.md
