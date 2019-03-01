@@ -85,6 +85,7 @@
 + [Upload an image to an Azure Blob container using the Gadgeteer (Part 2, source download)][DEV5]
 + [Create an IoT Device Using the Gadgeteer with Azure Blob Storage][DEV6]
 + [Creating a Wi-Fi connection to my Lumia 640XL, with the Gadgeteer][DEV7]
++ [ASP.NET WebAPI results in a 405 Method Not Allowed HTTP response][DEV8]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -222,6 +223,7 @@
 [DEV5]: 2014/2014-12-upload-an-image-to-an-azure-blob-container-using-the-gadgeteer-part-2-source-download.md
 [DEV6]: 2015/2015-03-create-an-iot-device-using-the-gadgeteer-with-azure-blob-storage.md
 [DEV7]: 2015/2015-05-creating-a-wi-fi-connection-to-my-lumia-640xl-with-the-gadgeteer.md
+[DEV8]: 2015/2015-07-asp-net-webapi-results-in-a-405-method-not-allowed-http-response.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
