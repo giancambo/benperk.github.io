@@ -56,5 +56,5 @@ This example uses the default authentication provider, anonymous.  If you want t
 [FIGURE5]: ../images/2015/msdn-0545.png "Figure 5, select the Yes button and complete the ARR Server Farm configuration"
 [FIGURE6]: ../images/2015/msdn-0546.png "Figure 6, ARR application pool recommendations"
 
-[LINK1]: http://blogs.msdn.com/b/benjaminperkins/archive/2015/08/03/configure-application-request-routing-with-windows-authentication-kerberos.aspx
+[LINK1]: 2015-08-configure-application-request-routing-with-windows-authentication-kerberos.md
 [LINK2]: 2015-03-application-request-routing-arr-self-referencing-itself-400-or-502-3.md
