@@ -36,6 +36,7 @@
 + [Sending an email from Azure App Service using SendGrid][AZA17]
 + [Making changes to the applicationHost.config on Azure App Service][AZA18]
 + [Connection Timeout (Timeout Expired) on Azure Web App Site / SQL Azure][AZA19]
++ [Helloworld WebJob on Microsoft Azure – Web App][AZA20]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -176,6 +177,7 @@
 [AZA17]: 2015/2015-02-sending-an-email-from-azure-websites-using-sendgrid.md
 [AZA18]: 2015/2015-03-making-changes-to-the-applicationhost-config-on-azure-websites.md
 [AZA19]: 2015/2015-04-connection-timeout-timeout-expired-on-azure-web-app-site-sql-azure.md
+[AZA20]: 2015/2015-06-helloworld-webjob-on-microsoft-azure-web-app.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
