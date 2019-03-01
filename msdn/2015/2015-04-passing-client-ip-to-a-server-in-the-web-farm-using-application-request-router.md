@@ -27,9 +27,9 @@ Once this ARRHelper is installed on the ARR, the X-Forwarded-For value is stored
 
 ***UPDATE***: If you use Dynamic IP restrictions with Application Request Router, take a look at the article [here][LINK5] for Information about that.  Basically, if you have enabled enableProxyMode, then the restriction is based on the X-Forwarded-For value and not on the C-IP.
 
-[FIGURE1]: ../images/2015/msdn-0500.png "Figure 1, passing the Client IP (c-ip) address through ARR"
-[FIGURE2]: ../images/2015/msdn-0500.png "Figure 2, Client-IP for ARR clients to Server Farm servers"
-[FIGURE3]: ../images/2015/msdn-0500.png "Figure 3, add custom log filed to IIS for ARR client ip"
+[FIGURE1]: ../images/2015/msdn-0509.png "Figure 1, passing the Client IP (c-ip) address through ARR"
+[FIGURE2]: ../images/2015/msdn-0510.png "Figure 2, Client-IP for ARR clients to Server Farm servers"
+[FIGURE3]: ../images/2015/msdn-0511.png "Figure 3, add custom log filed to IIS for ARR client ip"
 
 [LINK1]: http://www.microsoft.com/en-us/download/details.aspx?id=44226
 [LINK2]: https://technet.microsoft.com/en-us/library/dd443533(v=ws.10).aspx
