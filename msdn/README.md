@@ -124,6 +124,7 @@
 + [Configuring Application Request Routing (ARR) to use a port other than port 80][IIS38]
 + [Web.config file is emptied when copying to WebDAV share][IIS39]
 + [Application Request Routing (ARR) – self referencing itself 400 or 502.3][IIS40]
++ [Passing Client IP to a server in the Web Farm using Application Request Router][IIS41]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -256,6 +257,7 @@
 [IIS38]: 2014/2014-09-configuring-application-request-routing-arr-to-use-a-port-other-than-port-80.md
 [IIS39]: 2015/2015-01-web-config-file-is-emptied-when-copying-to-webdav-share.md
 [IIS40]: 2015/2015-03-application-request-routing-arr-self-referencing-itself-400-or-502-3.md
+[IIS41]: 2015/2015-04-passing-client-ip-to-a-server-in-the-web-farm-using-application-request-router.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
