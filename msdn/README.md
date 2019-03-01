@@ -141,6 +141,7 @@
 + [LINQ generated NHibernate and Entity Framework SQL][PL4]
 + [LINQ generated NHibernate and Entity Framework SQL (JOIN)][PL5]
 + [Configure Application Request Routing][PL6]
++ [Configure Application Request Routing with Windows Authentication, Kerberos][PL7]
 
 ## Scripting and Administration
 + [Using PowerShell 3.0 on Windows 8 to find the Process Id (PID) of an Application Pool][SAA1]
@@ -276,6 +277,7 @@
 [PL4]: 2012/2012-03-linq-generated-nhibernate-and-entity-framework-sql.md
 [PL5]: 2012/2012-07-linq-generated-nhibernate-and-entity-framework-sql-join.md
 [PL6]: 2015/2015-08-configure-application-request-routing.md
+[PL7]: 2015/2015-08-configure-application-request-routing-with-windows-authentication-kerberos.md
 
 [OS1]: 2012/2012-04-installing-window-8-beta-on-hyper-v-key-combinations.md
 
