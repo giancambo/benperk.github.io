@@ -39,10 +39,8 @@ Once I added the FQDM to the client browser, as shown in Figure 6, I no longer h
 ![add the FQDM to the Local Intranet site, IE 11][FIGURE8]
 ###### Figure 6c, add the FQDM to the Local Intranet site, IE 11
 
-![add the FQDM to the Local Intranet site, IE 11][FIGURE7]
+![add the FQDM to the Local Intranet site, IE 11][FIGURE9]
 ###### Figure 7, add the FQDM to the Local Intranet site, IE 11
-
-
 
 [FIGURE1]: ../images/2015/msdn-0532.png "Figure 1, configure Kerberos (negotiate) on IIS"
 [FIGURE2]: ../images/2015/msdn-0533.png "Figure 2, client request using fully qualified domain name (FQDM)"
