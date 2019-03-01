@@ -69,6 +69,7 @@
 + [IIS Admin Service fails to start][DTT13]
 + [Troubleshoot a Web API Self Host performance problem][DTT14]
 + [Using Entity Framework and Web API, I get a 500 Internal Server Error or a Hang][DTT15]
++ [Create a W3WP memory dump, quick and easy][DTT16]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -213,6 +214,7 @@
 [DTT13]: 2014/2014-12-iis-admin-service-fails-to-start.md
 [DTT14]: 2015/2015-04-troubleshoot-a-web-api-self-host-performance-problem.md
 [DTT15]: 2015/2015-07-using-entity-framework-and-web-api-i-get-a-500-internal-server-error-or-a-hang.md
+[DTT16]: 2015/2015-09-create-a-w3wp-memory-dump-quick-and-easy.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 [DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
