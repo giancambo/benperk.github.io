@@ -139,6 +139,7 @@
 + [Install Failed Request Tracing on IIS 8.5 Server Core][IIS43]
 + [How to add a Server Core IIS server to a domain][IIS44]
 + [Configure an IIS Server Core server for remote management][IIS45]
++ [Using HTTP/2 with ARR and IIS 10][IIS46]
 
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
@@ -288,6 +289,7 @@
 [IIS43]: 2015/2015-11-install-failed-request-tracing-on-iis-8-5-server-core.md
 [IIS44]: 2015/2015-11-how-to-add-a-server-core-iis-server-to-a-domain.md
 [IIS45]: 2015/2015-11-configure-an-iis-server-core-server-for-remote-management.md
+[IIS46]: 2016/2016-01-using-http2-with-arr-and-iis-10.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
