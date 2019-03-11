@@ -38,6 +38,7 @@
 + [Making changes to the applicationHost.config on Azure App Service][AZA18]
 + [Connection Timeout (Timeout Expired) on Azure Web App Site / SQL Azure][AZA19]
 + [Helloworld WebJob on Microsoft Azure – Web App][AZA20]
++ [Why does my Azure App Service (Web, Mobile, API, Logic App) consume so much storage space][AZA21]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -192,6 +193,7 @@
 [AZA18]: 2015/2015-03-making-changes-to-the-applicationhost-config-on-azure-websites.md
 [AZA19]: 2015/2015-04-connection-timeout-timeout-expired-on-azure-web-app-site-sql-azure.md
 [AZA20]: 2015/2015-06-helloworld-webjob-on-microsoft-azure-web-app.md
+[AZA21]: 2016/2016-01-why-does-my-azure-app-service-web-mobile-api-logic-app-consume-so-much-storage-space.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
