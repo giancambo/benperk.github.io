@@ -88,14 +88,14 @@ Get-AzureRmResource -ResourceGroupName YourResourceGroupName -ResourceType Micro
 Get-AzureRmResource -ResourceGroupName YourResourceGroupName -ResourceType Microsoft.Web/serverfarms/usages -ResourceName YourAppServiceName -ApiVersion 2016-03-01
 ```
 
-[FIGURE1]: ../images/2015/msdn-0586.png "Figure 1, the PowerShell console in KUDU"
-[FIGURE2]: ../images/2015/msdn-0587.png "Figure 2, the PowerShell console in KUDU to show App Service (Web App, Mobile App, Logic App, API App) space/size consumption"
-[FIGURE3]: ../images/2015/msdn-0588.png "Figure 3, list the contents of a directory"
-[FIGURE4]: ../images/2015/msdn-0589.png "Figure 4, contents of your Azure Web App"
-[FIGURE5]: ../images/2015/msdn-0590.png "Figure 5, contents of you Web App, what is consuming space on my Web App?"
-[FIGURE6]: ../images/2015/msdn-0591.png "Figure 6, using du to find content size of your Azure App Service (Web App, Mobile App, API App, Logic App)"
-[FIGURE7]: ../images/2015/msdn-0591.png "Figure 7, using the Azure Web App Disk Usage extension to find content size of your Azure App Service (Web App, Mobile App, API App, Logic App)"
-[FIGURE8]: ../images/2015/msdn-0593.png "Figure 8, Feature"
+[FIGURE1]: ../images/2016/msdn-0586.png "Figure 1, the PowerShell console in KUDU"
+[FIGURE2]: ../images/2016/msdn-0587.png "Figure 2, the PowerShell console in KUDU to show App Service (Web App, Mobile App, Logic App, API App) space/size consumption"
+[FIGURE3]: ../images/2016/msdn-0588.png "Figure 3, list the contents of a directory"
+[FIGURE4]: ../images/2016/msdn-0589.png "Figure 4, contents of your Azure Web App"
+[FIGURE5]: ../images/2016/msdn-0590.png "Figure 5, contents of you Web App, what is consuming space on my Web App?"
+[FIGURE6]: ../images/2016/msdn-0591.png "Figure 6, using du to find content size of your Azure App Service (Web App, Mobile App, API App, Logic App)"
+[FIGURE7]: ../images/2016/msdn-0591.png "Figure 7, using the Azure Web App Disk Usage extension to find content size of your Azure App Service (Web App, Mobile App, API App, Logic App)"
+[FIGURE8]: ../images/2016/msdn-0593.png "Figure 8, Feature"
 
-[LINK1]: ../2014-03-using-kudu-with-windows-azure-web-sites.md
+[LINK1]: ../2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [LINK2]: https://resources.azure.com/
