@@ -2,6 +2,7 @@
 
 ## ASP.NET
 + [Setting up performance counters for ASP.NET][ASP1]
++ [ASP.NET 5 renamed to ASP.NET Core 1.0][ASP2]
 
 ## Authentication, Authorization and Security
 + [Integrated Windows Authentication with Negotiate][AAS1]
@@ -161,6 +162,7 @@
 [Current location](https://blogs.msdn.microsoft.com/benjaminperkins).
 
 [ASP1]: 2011/2011-11-setting-up-performance-counters-for-asp-net.md
+[ASP2]: 2016/2016-01-asp-net-5-renamed-to-asp-net-core-1-0.md
 
 [AAS1]: 2011/2011-08-integrated-windows-authentication-with-negotiate.md
 [AAS2]: 2011/2011-08-integrated-windows-authentication-with-ntlm.md
