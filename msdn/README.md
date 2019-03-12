@@ -79,6 +79,7 @@
 + [What does Connection_Dropped_List_Full mean][DTT17]
 + [Why is my ASP.NET application recycling, restarting][DTT18]
 + [Analyze a memory dump using the Debug Diagnostic tool][DTT19]
++ [HTTP 500 Azure App Service Web App][DTT20]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -240,6 +241,7 @@
 [DTT17]: 2015/2015-10-what-does-connection_dropped_list_full-mean.md
 [DTT18]: 2015/2015-12-why-is-my-asp-net-application-recycling.md
 [DTT19]: 2016/2016-02-analyze-a-memory-dump-using-the-debug-diagnostic-tool.md
+[DTT20]: 2016/2016-04-http-500-azure-app-service-web-app.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 [DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
