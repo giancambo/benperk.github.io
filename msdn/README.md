@@ -165,6 +165,7 @@
 
 ## Scripting and Administration
 + [Using PowerShell 3.0 on Windows 8 to find the Process Id (PID) of an Application Pool][SAA1]
++ [How to tell which Azure PowerShell version you are running][SAA2]
 
 
 [Current location](https://blogs.msdn.microsoft.com/benjaminperkins).
@@ -322,3 +323,4 @@
 [OS1]: 2012/2012-04-installing-window-8-beta-on-hyper-v-key-combinations.md
 
 [SAA1]: 2012/2012-06-using-powershell-3-0-on-windows-8-to-find-the-process-id-pid-of-an-application-pool.md
+[SAA2]: 2016/2016-04-how-to-tell-which-azure-powershell-version-you-are-running.md
