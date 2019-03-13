@@ -88,6 +88,7 @@
 + [Get Azure App Service deployment logs from KUDU][DSCR4]
 + [Why can’t I publish my web site to Microsoft Azure Web App][DSCR5]
 + [ERROR_CONNECTION_TERMINATED msdeploy web deploy][DSCR6]
++ [Setting up and using GitHub in Visual Studio 2015][DSCR7]
 
 ## Development
 + [My Windows Phone App – Hitman Website Monitor][DEV1]
@@ -249,6 +250,7 @@
 [DSCR4]: 2014/2014-04-get-azure-website-deployment-logs-from-kudu.md
 [DSCR5]: 2014/2014-04-why-cant-i-publish-my-web-site-to-windows-azure-web-sites.md
 [DSCR6]: 2015/2015-09-error_connection_terminated-msdeploy-web-deploy.md
+[DSCR7]: 2016/2016-04-setting-up-and-using-github-in-visual-studio-2015.md
 
 [DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
 [DEV2]: 2013/2013-04-my-windows-8-store-app-hitman-website-monitor.md
