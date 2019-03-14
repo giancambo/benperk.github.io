@@ -48,6 +48,7 @@
 + [How to reduce downtime when moving a custom domain between Azure Web Apps][AZA26]
 + [How to take a memory dump from a specific App Service instance][AZA27]
 + [Setting Application Request Routing – ARR Affinity for your Azure App Service][AZA28]
++ [Using Azure App Services to Convert a Web Page to PDF][AZA29]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -222,6 +223,7 @@
 [AZA26]: 2016/2016-06-how-to-reduce-downtime-when-moving-a-custom-domain-between-azure-web-apps.md
 [AZA27]: 2016/2016-06-how-to-take-a-memory-dump-from-a-specific-app-service-instance.md
 [AZA28]: 2016/2016-06-setting-application-request-routing-arr-affinity-for-your-azure-app-service.md
+[AZA29]: 2016/2016-06-using-azure-app-services-to-convert-a-web-page-to-pdf.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
