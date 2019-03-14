@@ -49,6 +49,7 @@
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
 + [Using Traffic Manager as a FAILOVER solution for Azure App Services][AZFE2]
++ [How (I) back up my Azure Blob Storage container][AZFE3]
 
 ## Azure Functions
 + [How (I) would handle a timeout in Azure Function][AZF1]
@@ -218,6 +219,7 @@
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
+[AZFE3]: 2016/2016-05-how-i-back-up-my-azure-blob-storage-container.md
 
 [AZF1]: 2018/2018-06-how-i-would-handle-a-timeout-in-azure-function.md
 [AZF2]: 2018/2018-06-how-to-add-a-host-json-file-to-an-azure-function.md
