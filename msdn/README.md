@@ -46,6 +46,7 @@
 + [Mapping a custom domain name to an Azure App Service][AZA24]
 + [How to delete a Web App backup][AZA25]
 + [How to reduce downtime when moving a custom domain between Azure Web Apps][AZA26]
++ [How to take a memory dump from a specific App Service instance][AZA27]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -218,6 +219,7 @@
 [AZA24]: 2016/2016-05-mapping-a-custom-domain-name-to-an-azure-app-service.md
 [AZA25]: 2016/2016-05-how-to-delete-a-web-app-backup.md
 [AZA26]: 2016/2016-06-how-to-reduce-downtime-when-moving-a-custom-domain-between-azure-web-apps.md
+[AZA27]: 2016/2016-06-how-to-take-a-memory-dump-from-a-specific-app-service-instance.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
