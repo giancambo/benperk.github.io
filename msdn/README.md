@@ -45,6 +45,7 @@
 + [How to setup IP Security Restrictions for an Azure App Service][AZA23]
 + [Mapping a custom domain name to an Azure App Service][AZA24]
 + [How to delete a Web App backup][AZA25]
++ [How to reduce downtime when moving a custom domain between Azure Web Apps][AZA26]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -216,6 +217,7 @@
 [AZA23]: 2016/2016-03-how-to-setup-ip-security-restrictions-for-an-azure-app-service.md
 [AZA24]: 2016/2016-05-mapping-a-custom-domain-name-to-an-azure-app-service.md
 [AZA25]: 2016/2016-05-how-to-delete-a-web-app-backup.md
+[AZA26]: 2016/2016-06-how-to-reduce-downtime-when-moving-a-custom-domain-between-azure-web-apps.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
