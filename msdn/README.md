@@ -112,6 +112,7 @@
 
 ## IIS Labs
 + [Lab 1: Install IIS and create a web site][IISL1]
++ [Lab 2: Install the Web Platform Installer][IISL2]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -284,6 +285,7 @@
 [DEV10]: 2016/2016-02-using-the-azure-webjob-api.md
 
 [IISL1]: 2016/2016-IISLAB-lab-1-install-iis-and-create-a-web-site.md
+[IISL2]: 2016/2016-IISLAB-lab-2-install-the-web-platform-installer.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
