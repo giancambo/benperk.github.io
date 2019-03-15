@@ -110,6 +110,9 @@
 + [Beginning C# 6 Programming with Visual Studio 2015, co-author Benjamin Perkins][DEV9]
 + [Using the Azure WebJob API][DEV10]
 
+## IIS Labs
++ [Lab 1: Install IIS and create a web site][IISL1]
+
 ## IIS
 + [Create an IIS configuration backup][IIS1]
 + [Application Pool reset after installing 3rd party program][IIS2]
@@ -279,6 +282,8 @@
 [DEV8]: 2015/2015-07-asp-net-webapi-results-in-a-405-method-not-allowed-http-response.md
 [DEV9]: 2016/2016-01-beginning-c-6-programming-with-visual-studio-2015-co-author-benjamin-perkins.md
 [DEV10]: 2016/2016-02-using-the-azure-webjob-api.md
+
+[IISL1]: 2016/2016-IISLAB-lab-1-install-iis-and-create-a-web-site.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
