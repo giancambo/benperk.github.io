@@ -127,14 +127,14 @@ endlocal
 
 4. Check what the current PID of the CSharpGuitarBugs worker process is.
 
-![IIS Orphaning]][FIGURE12]
+![IIS Orphaning][FIGURE12]
 ###### Figure 12, IIS Orphaning]
 
 5. Access the CSharpGuitarBugs website and click on the ‘Provide some Feedback’ link. Click on the ‘Send Feedback’ button which will cause the application pool to orphan.
 
 6. Look in the c:\temp directory and you will see a log.txt file written and in Task Manager you will see that the worker process has a new PID once the site is accessed again (assuming Always On is disabled).
 
-![IIS Orphaning]][FIGURE13]
+![IIS Orphaning][FIGURE13]
 ###### Figure 13, IIS Orphaning]
 
 This works similar to the Rapid-Fail Protection capabilities, perform the same using that feature and determine if there are any differences.
