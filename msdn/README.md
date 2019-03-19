@@ -115,6 +115,7 @@
 + [Lab 2: Install the Web Platform Installer][IISL2]
 + [Lab 3: Install and configure Application Initialization][IISL3]
 + [Lab 4: Install and configure Failed Request Tracing][IISL4]
++ [Lab 5: Basic and Advanced Application Pool Settings][IISL5]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -290,6 +291,7 @@
 [IISL2]: 2016/2016-IISLAB-lab-2-install-the-web-platform-installer.md
 [IISL3]: 2016/2016-IISLAB-lab-3-install-and-configure-application-initialization.md
 [IISL4]: 2016/2016-IISLAB-lab-4-install-and-configure-failed-request-tracing.md
+[IISL5]: 2016/2016-IISLAB-lab-5-basic-and-advanced-application-pool-settings.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
