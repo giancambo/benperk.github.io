@@ -1,4 +1,6 @@
-# I have written an article [here][LINK1] that explains how to install and configure Failed Request Tracing. Please use that for reference.
+# Lab 4: Install and configure Failed Request Tracing 
+
+I have written an article [here][LINK1] that explains how to install and configure Failed Request Tracing. Please use that for reference.
 
 In this lab you will:
 
