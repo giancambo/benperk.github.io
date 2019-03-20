@@ -117,6 +117,7 @@
 + [Lab 4: Install and configure Failed Request Tracing][IISL4]
 + [Lab 5: Basic and Advanced Application Pool Settings][IISL5]
 + [Lab 6: Using HTTP, W3SVC, WAS and W3WP][IISL6]
++ [Lab 7: Integrated versus Classic mode][IISL7]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -294,6 +295,7 @@
 [IISL4]: 2016/2016-IISLAB-lab-4-install-and-configure-failed-request-tracing.md
 [IISL5]: 2016/2016-IISLAB-lab-5-basic-and-advanced-application-pool-settings.md
 [IISL6]: 2016/2016-IISLAB-lab-6-using-http-w3svc-was-and-w3wp.md
+[IISL7]: 2016/2016-IISLAB-lab-7-integrated-versus-classic-mode.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
