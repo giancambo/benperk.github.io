@@ -143,7 +143,7 @@ Important topic is when migrating to IIS 7+ from IIS 6, if you get errors check 
 
 + Set control properties
 
-####Page_InitComplete()
+#### Page_InitComplete()
 
 ![Pipeline Integration][FIGURE10]
 ###### Figure 10, Pipeline Integration
