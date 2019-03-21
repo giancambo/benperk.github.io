@@ -118,6 +118,7 @@
 + [Lab 5: Basic and Advanced Application Pool Settings][IISL5]
 + [Lab 6: Using HTTP, W3SVC, WAS and W3WP][IISL6]
 + [Lab 7: Integrated versus Classic mode][IISL7]
++ [Lab 8: PowerShell WebAdministration Module][IISL8]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -296,6 +297,7 @@
 [IISL5]: 2016/2016-IISLAB-lab-5-basic-and-advanced-application-pool-settings.md
 [IISL6]: 2016/2016-IISLAB-lab-6-using-http-w3svc-was-and-w3wp.md
 [IISL7]: 2016/2016-IISLAB-lab-7-integrated-versus-classic-mode.md
+[IISL8]: 2016/2016-IISLAB-lab-8-powershell-webadministration-module.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
