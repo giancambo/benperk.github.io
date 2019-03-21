@@ -55,11 +55,14 @@
 ![Using AppCmd][FIGURE8]
 ###### Figure 8, Using AppCmd
 
+7. Next, make a request to the View By Manufacturer link within the CSharpGuitarBugs web site, while the request is running execute the following command: AppCmd list request
+
 ![Using AppCmd][FIGURE9]
 ###### Figure 9, Using AppCmd
 
-7. Next, make a request to the View By Manufacturer link within the CSharpGuitarBugs web site, while the request is running execute the following command: AppCmd list request
+8. What information in the result of the previous command do you find useful?
 
+9. Execute: AppCmd stop appPool “CSharpGuitarBugs” to stop the worker process and AppCmd start appPool “CSharpGuitarBugs” to start the application pool again.
 ![Using AppCmd][FIGURE10]
 ###### Figure 10, Using AppCmd
 
@@ -69,9 +72,7 @@
 ![Using AppCmd][FIGURE12]
 ###### Figure 12, Using AppCmd
 
-8. What information in the result of the previous command do you find useful?
 
-9. Execute: AppCmd stop appPool “CSharpGuitarBugs” to stop the worker process and AppCmd start appPool “CSharpGuitarBugs” to start the application pool again.
 
 ![Using AppCmd][FIGURE13]
 ###### Figure 13, Using AppCmd
