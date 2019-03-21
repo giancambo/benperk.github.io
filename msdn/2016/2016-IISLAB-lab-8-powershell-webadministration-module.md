@@ -71,23 +71,23 @@ Review the features available in the PowerShell WebAdmnistration module
 ![PowerShell WebAdministration Module][FIGURE11]
 ###### Figure 11, PowerShell WebAdministration Module
 
-10. Navigate back to the root directory and execute: Stop-Website –name “CSharpGuitarBugs”
-
 ![PowerShell WebAdministration Module][FIGURE12]
 ###### Figure 12, PowerShell WebAdministration Module
+
+10. Navigate back to the root directory and execute: Stop-Website –name “CSharpGuitarBugs”
 
 ![PowerShell WebAdministration Module][FIGURE13]
 ###### Figure 13, PowerShell WebAdministration Module
 
-11. Restart the website by executing: Start-Website –name “CSharpGuitarBugs”
-
 ![PowerShell WebAdministration Module][FIGURE14]
 ###### Figure 14, PowerShell WebAdministration Module
 
-12. Execute: Get-Command –pssnapin WebAdministration or for a specific cmdlet execute: get-help <CmdLetName> for a list of all available methods.
+11. Restart the website by executing: Start-Website –name “CSharpGuitarBugs”
 
 ![PowerShell WebAdministration Module][FIGURE15]
 ###### Figure 15, PowerShell WebAdministration Module
+
+12. Execute: Get-Command –pssnapin WebAdministration or for a specific cmdlet execute: get-help <CmdLetName> for a list of all available methods.
 
 ![PowerShell WebAdministration Module][FIGURE16]
 ###### Figure 16, PowerShell WebAdministration Module
