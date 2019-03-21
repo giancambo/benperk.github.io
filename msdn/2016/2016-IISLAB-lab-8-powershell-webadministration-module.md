@@ -71,9 +71,6 @@ Review the features available in the PowerShell WebAdmnistration module
 ![PowerShell WebAdministration Module][FIGURE11]
 ###### Figure 11, PowerShell WebAdministration Module
 
-![PowerShell WebAdministration Module][FIGURE12]
-###### Figure 12, PowerShell WebAdministration Module
-
 10. Navigate back to the root directory and execute: Stop-Website –name “CSharpGuitarBugs”
 
 ![PowerShell WebAdministration Module][FIGURE13]
@@ -91,8 +88,6 @@ Review the features available in the PowerShell WebAdmnistration module
 
 ![PowerShell WebAdministration Module][FIGURE16]
 ###### Figure 16, PowerShell WebAdministration Module
-
-
 
 
 [FIGURE1]: ../images/2016/msdn-0751.png "Figure 1, PowerShell WebAdministration Module"
