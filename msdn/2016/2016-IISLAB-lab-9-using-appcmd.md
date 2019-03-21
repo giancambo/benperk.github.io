@@ -55,14 +55,10 @@
 ![Using AppCmd][FIGURE8]
 ###### Figure 8, Using AppCmd
 
-7. Next, make a request to the View By Manufacturer link within the CSharpGuitarBugs web site, while the request is running execute the following command: AppCmd list request
-
 ![Using AppCmd][FIGURE9]
 ###### Figure 9, Using AppCmd
 
-8. What information in the result of the previous command do you find useful?
-
-9. Execute: AppCmd stop appPool “CSharpGuitarBugs” to stop the worker process and AppCmd start appPool “CSharpGuitarBugs” to start the application pool again.
+7. Next, make a request to the View By Manufacturer link within the CSharpGuitarBugs web site, while the request is running execute the following command: AppCmd list request
 
 ![Using AppCmd][FIGURE10]
 ###### Figure 10, Using AppCmd
@@ -73,64 +69,70 @@
 ![Using AppCmd][FIGURE12]
 ###### Figure 12, Using AppCmd
 
+8. What information in the result of the previous command do you find useful?
+
+9. Execute: AppCmd stop appPool “CSharpGuitarBugs” to stop the worker process and AppCmd start appPool “CSharpGuitarBugs” to start the application pool again.
+
+![Using AppCmd][FIGURE13]
+###### Figure 13, Using AppCmd
+
 ## Lab – Making changes to the configuration
 
 There are a lot of ways to make configuration to IIS, PowerShell, AppCmd, IIS Management Console, Configuration Editor, etc…, pick your tool and master it, there are better tools than other… Notepad is not a good idea…
 
 1. In the IIS Management console, click on the CSharpGuitarBugs website and open the Authentication feature.
 
-![Using AppCmd][FIGURE13]
-###### Figure 13, Using AppCmd
-
-2. Disable Anonymous Authentication using AppCmd by executing the following command: (check out step 6 for a tip on how to get the command)
-
 ![Using AppCmd][FIGURE14]
 ###### Figure 14, Using AppCmd
 
-3. Refresh the Authentication feature in the IIS Management console and you will see it was indeed set to Disabled.
+2. Disable Anonymous Authentication using AppCmd by executing the following command: (check out step 6 for a tip on how to get the command)
 
 ![Using AppCmd][FIGURE15]
 ###### Figure 15, Using AppCmd
+
+3. Refresh the Authentication feature in the IIS Management console and you will see it was indeed set to Disabled.
+
+![Using AppCmd][FIGURE16]
+###### Figure 16, Using AppCmd
 
 4. You can achieve the same using Configuration Manager… With the CSharpGuitarBugs website selected, click on the Configuration Editor feature and navigate to the system.webServer/security/authentication/anonymousAuthentication property.
 
 5. Set the enabled attribute to True
 
-![Using AppCmd][FIGURE16]
-###### Figure 16, Using AppCmd
+![Using AppCmd][FIGURE17]
+###### Figure 17, Using AppCmd
 
 6. Before you Apply the changes, click on the Generate Script link, notice that you get the C#, JavaScript, PowerShell (IIS 8+) and AppCmd statements for the change you just implemented.
 
-![Using AppCmd][FIGURE17]
-###### Figure 17, Using AppCmd
+![Using AppCmd][FIGURE18]
+###### Figure 18, Using AppCmd
 
 ## Lab – IIS Management Console Worker Process Management
 
 You can also see similar information from with the IIS Management Console by clicking on Worker Process feature.
 
-![Using AppCmd][FIGURE18]
-###### Figure 18, Using AppCmd
-
-This will provide a list of all active worker process. Also notice the CPU % and Memory allocation per worker process, this is valuable information for benchmarking, right, why?
 
 ![Install][FIGURE19]
 ###### Figure 19, Install
 
-1. Access the View by Manufacturer page in the CSharpGuitarBugs website, and notice the ‘real-time’ change in the feature.
+This will provide a list of all active worker process. Also notice the CPU % and Memory allocation per worker process, this is valuable information for benchmarking, right, why?
+
 
 ![Using AppCmd][FIGURE20]
 ###### Figure 20, Using AppCmd
 
-2. It would be nice to see which requests are being executed that are consuming the 17% of CPU. Access the View by Manufacturer page again, then double-click on the CSharpGuitarBugs Application Pool Name.
+1. Access the View by Manufacturer page in the CSharpGuitarBugs website, and notice the ‘real-time’ change in the feature.
 
 ![Using AppCmd][FIGURE21]
 ###### Figure 21, Using AppCmd
 
-3. This is some good information…why is this valuable information and what is it useful for?
+2. It would be nice to see which requests are being executed that are consuming the 17% of CPU. Access the View by Manufacturer page again, then double-click on the CSharpGuitarBugs Application Pool Name.
+
 
 ![Using AppCmd][FIGURE22]
 ###### Figure 22, Using AppCmd
 
+3. This is some good information…why is this valuable information and what is it useful for?
 
 [FIGURE1]: ../images/2016/msdn-0767.png "Figure 1, Using AppCmd"
 [FIGURE2]: ../images/2016/msdn-0768.png "Figure 2, Using AppCmd"
@@ -154,7 +156,6 @@ This will provide a list of all active worker process. Also notice the CPU % and
 [FIGURE20]: ../images/2016/msdn-0786.png "Figure 20, Using AppCmd"
 [FIGURE21]: ../images/2016/msdn-0787.png "Figure 21, Using AppCmd"
 [FIGURE22]: ../images/2016/msdn-0788.png "Figure 22, Using AppCmd"
-
 
 [LINK1]: 2016-IISLAB-lab-1-install-iis-and-create-a-web-site.md
 [LINK2]: ../2011/2011-08-create-an-iis-configuration-backup.md
