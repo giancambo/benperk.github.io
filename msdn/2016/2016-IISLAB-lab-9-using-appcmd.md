@@ -42,37 +42,36 @@
 
 4. Enter the command to list the active worker processes, notice that the PID is also provided. This piece of information is required to take a memory dump using, for example ProcDump.
 
-5. Execute: AppCmd Site /? to get the syntax for listing the sites on the web server.
-
 ![Using AppCmd][FIGURE6]
 ###### Figure 6, Using AppCmd
 
-6. Enter the command to list the sites, notice that the bindings and ID are also listed. Did you know that when you have a multi-tenant environment and you want to look at the IIS log files for a specific website, the ID is the number which is at the end of the W3SVC* directory.
+5. Execute: AppCmd Site /? to get the syntax for listing the sites on the web server.
 
 ![Using AppCmd][FIGURE7]
 ###### Figure 7, Using AppCmd
 
+6. Enter the command to list the sites, notice that the bindings and ID are also listed. Did you know that when you have a multi-tenant environment and you want to look at the IIS log files for a specific website, the ID is the number which is at the end of the W3SVC* directory.
+
 ![Using AppCmd][FIGURE8]
 ###### Figure 8, Using AppCmd
-
-7. Next, make a request to the View By Manufacturer link within the CSharpGuitarBugs web site, while the request is running execute the following command: AppCmd list request
 
 ![Using AppCmd][FIGURE9]
 ###### Figure 9, Using AppCmd
 
+7. Next, make a request to the View By Manufacturer link within the CSharpGuitarBugs web site, while the request is running execute the following command: AppCmd list request
+
+![Using AppCmd][FIGURE10]
+###### Figure 10, Using AppCmd
+
 8. What information in the result of the previous command do you find useful?
 
 9. Execute: AppCmd stop appPool “CSharpGuitarBugs” to stop the worker process and AppCmd start appPool “CSharpGuitarBugs” to start the application pool again.
-![Using AppCmd][FIGURE10]
-###### Figure 10, Using AppCmd
 
 ![Using AppCmd][FIGURE11]
 ###### Figure 11, Using AppCmd
 
 ![Using AppCmd][FIGURE12]
 ###### Figure 12, Using AppCmd
-
-
 
 ![Using AppCmd][FIGURE13]
 ###### Figure 13, Using AppCmd
