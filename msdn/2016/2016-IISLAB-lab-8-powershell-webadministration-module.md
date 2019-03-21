@@ -109,7 +109,7 @@ Review the features available in the PowerShell WebAdmnistration module
 [FIGURE12]: ../images/2016/msdn-0762.png "Figure 12, PowerShell WebAdministration Module"
 [FIGURE13]: ../images/2016/msdn-0763.png "Figure 13, PowerShell WebAdministration Module"
 [FIGURE14]: ../images/2016/msdn-0764.png "Figure 14, PowerShell WebAdministration Module"
-[FIGURE15]: ../images/2016/msdn-0764.png "Figure 15, PowerShell WebAdministration Module"
+[FIGURE15]: ../images/2016/msdn-0765.png "Figure 15, PowerShell WebAdministration Module"
 [FIGURE16]: ../images/2016/msdn-0766.png "Figure 16, PowerShell WebAdministration Module"
 
 [LINK1]: http://blogs.iis.net/bariscaglar/iisadministration-powershell-cmdlets-new-feature-in-windows-10-server-2016
