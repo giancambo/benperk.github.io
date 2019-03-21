@@ -121,6 +121,7 @@
 + [Lab 8: PowerShell WebAdministration Module][IISL8]
 + [Lab 9: Using AppCmd][IISL9]
 + [Lab 10: Using ASP.NET Tracing (Trace=“True“)][IISL10]
++ [Lab 11: Using aspnet_regiis][IISL11]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -302,6 +303,7 @@
 [IISL8]: 2016/2016-IISLAB-lab-8-powershell-webadministration-module.md
 [IISL9]: 2016/2016-IISLAB-lab-9-using-appcmd.md
 [IISL10]: 2016/2016-IISLAB-lab-10-using-asp-net-tracing-tracetrue.md
+[IISL11]: 2016/2016-IISLAB-lab-11-using-aspnet_regiis.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
