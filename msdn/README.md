@@ -122,6 +122,7 @@
 + [Lab 9: Using AppCmd][IISL9]
 + [Lab 10: Using ASP.NET Tracing (Trace=“True“)][IISL10]
 + [Lab 11: Using aspnet_regiis][IISL11]
++ [Lab 12: IntelliTraceCollector][IISL12]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -304,6 +305,7 @@
 [IISL9]: 2016/2016-IISLAB-lab-9-using-appcmd.md
 [IISL10]: 2016/2016-IISLAB-lab-10-using-asp-net-tracing-tracetrue.md
 [IISL11]: 2016/2016-IISLAB-lab-11-using-aspnet_regiis.md
+[IISL12]: 2016/2016-IISLAB-lab-12-intellitracecollector.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
