@@ -1,0 +1,43 @@
+-----------------------------------IIS
+
+***where date = 'YYYY-MM-DD' AND time > '07:00:00' AND time < '09:30:00'***
+
+------------------------1----------------------------------
+LogParser "SELECT sc-status, sc-substatus, sc-win32-status, count(*) FROM IISLogs\*.log group by sc-status, sc-substatus, sc-win32-status order by sc-status" -i:w3c
+
+------------------------2----------------------------------
+LogParser "SELECT AVG(time-taken), MAX(time-taken), AVG(sc-bytes), MAX(sc-bytes), AVG(cs-bytes), MAX(cs-bytes) FROM IISLogs\*.log" -i:w3c
+
+------------------------3----------------------------------
+LogParser "SELECT date, time, cs-method, cs-uri-stem, sc-status, sc-substatus, sc-win32-status, sc-bytes, cs-bytes, time-taken FROM IISLogs\*.log where time-taken > '60000'" -i:w3c
+
+------------------------4----------------------------------
+LogParser "SELECT date, time, cs-method, cs-uri-stem, sc-status, sc-substatus, sc-win32-status, sc-bytes, cs-bytes, time-taken FROM IISLogs\*.log where sc-bytes > '90000'" -i:w3c
+
+------------------------5----------------------------------
+LogParser "SELECT date, time, cs-method, cs-uri-stem, sc-status, sc-substatus, sc-win32-status, sc-bytes, cs-bytes, time-taken FROM IISLogs\*.log where cs-bytes > '1000000'" -i:w3c
+
+------------------------6----------------------------------
+LogParser "SELECT cs-uri-stem, count(*) FROM IISLogs\*.log where sc-status = '500' group by cs-uri-stem order by count(*) desc"  -i:w3c
+
+------------------------------------HTTP
+
+***where date = 'YYYY-MM-DD' AND time > '13:00:00' AND time < '14:30:00'***
+
+------------------------1----------------------------------
+LogParser "SELECT sc-status, s-reason, s-queuename, count(*) FROM HTTPLogs\*.log group by sc-status, s-reason, s-queuename order by count(*) desc" -i:httperr
+
+------------------------2----------------------------------
+LogParser "SELECT sc-status, cs-uri, sc-bytes, cs-bytes, time-taken, s-reason, s-queuename, count(*) FROM HTTPLogs\*.log where s-reason = 'URL' group by sc-status, cs-uri, sc-bytes, cs-bytes, time-taken, s-reason, s-queuename order by count(*) desc" -i:httperr
+
+---------------------------------Event Logs
+
+***where TimeGenerated > 'YYYY-MM-DD 07:00:00' AND TimeGenerated < 'YYYY-MM-DD 09:30:00'***
+
+------------------------1----------------------------------
+LogParser "SELECT SourceName, EventId, EventType, EventTypeName, count(*) FROM EVENTLogs\system.evtx group by SourceName, EventID, EventType, EventTypeName order by EventType, count(*) desc" -i:evt
+
+------------------------2----------------------------------
+LogParser "SELECT SourceName, EventId, EventType, EventTypeName, count(*) FROM EVENTLogs\application.evtx group by SourceName, EventID, EventType, EventTypeName order by EventType, count(*) desc" -i:evt
+
+
