@@ -129,4 +129,4 @@ a. Same as previous…
 [LINK2]: http://www.iis.net/learn/troubleshoot/performance-issues/troubleshooting-iis-performance-issues-or-application-errors-using-logparser
 [LINK3]: http://support.microsoft.com/?id=820729
 [LINK4]: https://support.microsoft.com/en-us/kb/943891
-[LINK5]: /Lab13/
+[LINK5]: Lab13/
