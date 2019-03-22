@@ -123,6 +123,7 @@
 + [Lab 10: Using ASP.NET Tracing (Trace=“True“)][IISL10]
 + [Lab 11: Using aspnet_regiis][IISL11]
 + [Lab 12: IntelliTraceCollector][IISL12]
++ [Lab 13: Using LogParser][IISL13]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -306,6 +307,7 @@
 [IISL10]: 2016/2016-IISLAB-lab-10-using-asp-net-tracing-tracetrue.md
 [IISL11]: 2016/2016-IISLAB-lab-11-using-aspnet_regiis.md
 [IISL12]: 2016/2016-IISLAB-lab-12-intellitracecollector.md
+[IISL13]: 2016/2016-IISLAB-lab-13-using-logparser.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
