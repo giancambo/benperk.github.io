@@ -125,6 +125,7 @@
 + [Lab 12: IntelliTraceCollector][IISL12]
 + [Lab 13: Using LogParser][IISL13]
 + [Lab 15: Debug Diagnostics][IISL15]
++ [Lab 16: Configuring Failed Request Tracing to take a memory dump][IISL16]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -310,6 +311,7 @@
 [IISL12]: 2016/2016-IISLAB-lab-12-intellitracecollector.md
 [IISL13]: 2016/2016-IISLAB-lab-13-using-logparser.md
 [IISL15]: 2016/2016-IISLAB-lab-15-debug-diagnostics.md
+[IISL16]: 2016/2016-IISLAB-lab-16-configuring-failed-request-tracing-to-take-a-memory-dump.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
