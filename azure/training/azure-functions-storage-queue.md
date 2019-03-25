@@ -24,7 +24,7 @@ Add a new Function to the Function App by pressing the + sign next the the Funct
 
 Then find and select the Queue trigger template, as seen in Figure 3.
 
-![Figure 3, how to create an Azure Function with an Queue trigger][FIGURE4]
+![Figure 3, how to create an Azure Function with an Queue trigger][FIGURE3]
 ###### Figure 3, how to create an Azure Function with an Queue trigger
 
 Install the ***Microsoft.Azure.WebJobs.Extension.Storage*** extension, if prompted.  Once installed, check that the following extension has been added to your extensions.csproj file.
