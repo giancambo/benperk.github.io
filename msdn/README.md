@@ -127,6 +127,7 @@
 + [Lab 15: Debug Diagnostics][IISL15]
 + [Lab 16: Configuring Failed Request Tracing to take a memory dump][IISL16]
 + [Lab 18: Debugging a handled and unhandled exception][IISL18]
++ [Lab 19: Debugging a high CPU hang W3WP process using WinDbg][IISL19]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -314,6 +315,7 @@
 [IISL15]: 2016/2016-IISLAB-lab-15-debug-diagnostics.md
 [IISL16]: 2016/2016-IISLAB-lab-16-configuring-failed-request-tracing-to-take-a-memory-dump.md
 [IISL18]: 2016/2016-IISLAB-lab-18-debugging-a-handled-and-unhandled-exception.md
+[IISL19]: 2016/2016-IISLAB-lab-19-debugging-a-high-cpu-hang-w3wp-process-using-windbg.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
