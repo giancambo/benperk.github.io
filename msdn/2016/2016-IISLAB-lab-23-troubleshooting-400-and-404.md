@@ -46,9 +46,6 @@ d. Turn on remote error rendering, by modifying the web.config file like the fol
 
 1. Access the CSharpGuitarBugs website from a client machine, not from the IIS server, click on Full Catalog – ASPX, press the Next Page button and the following error is rendered when selecting the following button, why?
 
-![Troubleshooting 400 and 404][FIGURE5]
-###### Figure 5, Troubleshooting 400 and 404
-
 2. What tools can you use to get more information from the client side? If you already configured customErrors in Lab 23-1, 1d, then you will not see the above, instead you will see the below. You can also use Fiddler or
 
 ![Troubleshooting 400 and 404][FIGURE6]
@@ -148,7 +145,6 @@ Take a Network Monitor Trace, reproduce the 400 and analyze it
 [FIGURE2]: ../images/2016/msdn-0905.png "Figure 2, Troubleshooting 400 and 404"
 [FIGURE3]: ../images/2016/msdn-0906.png "Figure 3, Troubleshooting 400 and 404"
 [FIGURE4]: ../images/2016/msdn-0907.png "Figure 4, Troubleshooting 400 and 404"
-[FIGURE5]: ../images/2016/msdn-0908.png "Figure 5, Troubleshooting 400 and 404"
 [FIGURE6]: ../images/2016/msdn-0909.png "Figure 6, Troubleshooting 400 and 404"
 [FIGURE7]: ../images/2016/msdn-0910.png "Figure 7, Troubleshooting 400 and 404"
 [FIGURE8]: ../images/2016/msdn-0911.png "Figure 8, Troubleshooting 400 and 404"
