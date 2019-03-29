@@ -129,6 +129,7 @@
 + [Lab 18: Debugging a handled and unhandled exception][IISL18]
 + [Lab 19: Debugging a high CPU hang W3WP process using WinDbg][IISL19]
 + [Lab 20: Debugging a low CPU hang W3WP process using WinDbg][IISL20]
++ [Lab 21: Debugging a W3WP process with high memory consumption][IISL21]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -318,6 +319,7 @@
 [IISL18]: 2016/2016-IISLAB-lab-18-debugging-a-handled-and-unhandled-exception.md
 [IISL19]: 2016/2016-IISLAB-lab-19-debugging-a-high-cpu-hang-w3wp-process-using-windbg.md
 [IISL20]: 2016/2016-IISLAB-lab-20-debugging-a-low-cpu-hang-w3wp-process-using-windbg.md
+[IISL21]: 2016/2016-IISLAB-lab-21-debugging-a-w3wp-process-with-high-memory-consumption.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
