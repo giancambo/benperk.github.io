@@ -132,6 +132,7 @@
 + [Lab 21: Debugging a W3WP process with high memory consumption][IISL21]
 + [Lab 22: Deploy and create a custom Module and Handler][IISL22]
 + [Lab 23: Troubleshooting 400 and 404][IISL23]
++ [Lab 28: The impact of debug=true][IISL28]
 
 ## IIS
 + [Create an IIS configuration backup][IIS1]
@@ -324,6 +325,7 @@
 [IISL21]: 2016/2016-IISLAB-lab-21-debugging-a-w3wp-process-with-high-memory-consumption.md
 [IISL22]: 2016/2016-IISLAB-lab-22-deploy-and-create-a-custom-module-and-handler.md
 [IISL23]: 2016/2016-IISLAB-lab-23-troubleshooting-400-and-404.md
+[IISL28]: 2016/2016-IISLAB-lab-28-the-impact-of-debugtrue.md
 
 [IIS1]: 2011/2011-08-create-an-iis-configuration-backup.md
 [IIS2]: 2011/2011-08-application-pool-reset-after-installing-3rd-party-program.md
