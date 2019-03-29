@@ -95,5 +95,5 @@ i. Either check what the OrderItems() method in the OrderCOntroller.cs file or !
 [FIGURE9]: ../images/2016/msdn-0873.png "Figure 9, Debugging a low CPU hang W3WP process using WinDbg"
 
 [LINK1]: 2016-IISLAB-lab-1-install-iis-and-create-a-web-site.md
-[LINK1]: ../2012/2012-02-creating-a-w3wp-memory-dump-on-windows-server-2008-r2.md
-[LINK1]: ../2016/2016-04-creating-a-w3wp-memory-dump-on-windows-server-2012-r2.md
+[LINK2]: ../2012/2012-02-creating-a-w3wp-memory-dump-on-windows-server-2008-r2.md
+[LINK3]: ../2016/2016-04-creating-a-w3wp-memory-dump-on-windows-server-2012-r2.md
