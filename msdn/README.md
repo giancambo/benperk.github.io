@@ -111,6 +111,7 @@
 + [Using the Azure WebJob API][DEV10]
 
 ## IIS Labs
++ [IIS Debugging Labs – Information and setup instructions][IISL0]
 + [Lab 1: Install IIS and create a web site][IISL1]
 + [Lab 2: Install the Web Platform Installer][IISL2]
 + [Lab 3: Install and configure Application Initialization][IISL3]
@@ -304,6 +305,7 @@
 [DEV9]: 2016/2016-01-beginning-c-6-programming-with-visual-studio-2015-co-author-benjamin-perkins.md
 [DEV10]: 2016/2016-02-using-the-azure-webjob-api.md
 
+[IISL0]: 2016/2016-IISLAB-iis-debugging-labs-information-and-setup-instructions.md
 [IISL1]: 2016/2016-IISLAB-lab-1-install-iis-and-create-a-web-site.md
 [IISL2]: 2016/2016-IISLAB-lab-2-install-the-web-platform-installer.md
 [IISL3]: 2016/2016-IISLAB-lab-3-install-and-configure-application-initialization.md
