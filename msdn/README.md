@@ -66,6 +66,9 @@
 + [Publish failed][AZF8]
 + [Debugging Azure Functions in Visual Studio][AZF9]
 
+## Cognitive
++ [Uploading my brain waves to the cloud, Azure IoT Hub and Emotiv brain interface][COG1]
+
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
 + [Using !DumpThreadConfig (!dtc) within WinDbg][DTT2]
@@ -263,6 +266,8 @@
 [AZF7]: 2018/2018-04-an-error-occurred.md
 [AZF8]: 2018/2018-04-publish-failed.md
 [AZF9]: 2017/2017-01-debugging-azure-funtions-in-visual-studio.md
+
+[COG1]: 2016/2016-06-uploading-my-brain-waves-to-the-cloud-azure-iot-hub-and-emotiv-brain-interface.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
