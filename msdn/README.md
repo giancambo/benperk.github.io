@@ -70,6 +70,7 @@
 
 ## Cognitive
 + [Uploading my brain waves to the cloud, Azure IoT Hub and Emotiv brain interface][COG1]
++ [Brain Interface data analysis][COG2]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -272,6 +273,7 @@
 [AZF9]: 2017/2017-01-debugging-azure-funtions-in-visual-studio.md
 
 [COG1]: 2016/2016-06-uploading-my-brain-waves-to-the-cloud-azure-iot-hub-and-emotiv-brain-interface.md
+[COG2]: 2016/2016-07-brain-interface-data-analysis.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
