@@ -72,6 +72,7 @@
 + [Uploading my brain waves to the cloud, Azure IoT Hub and Emotiv brain interface][COG1]
 + [Brain Interface data analysis][COG2]
 + [How to get started with using LUIS, Language Understanding Intelligent Service, Skype Bot][COG3]
++ [Bot Framework 405 Method Not Allowed, 401 Unauthorized and 500, Internal Server Error getting started][COG4]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -276,6 +277,7 @@
 [COG1]: 2016/2016-06-uploading-my-brain-waves-to-the-cloud-azure-iot-hub-and-emotiv-brain-interface.md
 [COG2]: 2016/2016-07-brain-interface-data-analysis.md
 [COG3]: 2016/2016-08-how-to-get-started-with-using-luis-language-understanding-intelligent-service-skype-bot.md
+[COG4]: 2016/2016-08-bot-framework-405-method-not-allowed-401-unauthorized-and-500-internal-server-error-getting-started.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
