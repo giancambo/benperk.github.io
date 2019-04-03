@@ -51,6 +51,7 @@
 + [Using Azure App Services to Convert a Web Page to PDF][AZA29]
 + [How to view the event logs of your Azure App Service][AZA30]
 + [Azure App Service appLens – finding the root cause][AZA31]
++ [How to setup CRON to run a WebJob on the Azure App Service platform][AZA32]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -260,6 +261,7 @@
 [AZA29]: 2016/2016-06-using-azure-app-services-to-convert-a-web-page-to-pdf.md
 [AZA30]: 2016/2016-07-how-to-view-the-event-logs-of-your-azure-app-service.md
 [AZA31]: 2016/2016-07-azure-app-service-applens-finding-the-root-cause.md
+[AZA32]: 2016/2016-09-how-to-setup-cron-to-run-a-webjob-on-the-azure-app-service-platform.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
