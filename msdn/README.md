@@ -98,6 +98,7 @@
 + [HTTP 500 Azure App Service Web App][DTT20]
 + [Creating a W3WP memory dump on Windows Server 2012 R2][DTT21]
 + [CodeDom provider type could not be located][DTT22]
++ [MEX Debugging Extension for WinDbg][DTT23]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -304,6 +305,7 @@
 [DTT20]: 2016/2016-04-http-500-azure-app-service-web-app.md
 [DTT21]: 2016/2016-04-creating-a-w3wp-memory-dump-on-windows-server-2012-r2.md
 [DTT22]: 2016/2016-08-codedom-provider-type-could-not-be-located.md
+[DTT23]: 2016/2016-09-mex-debugging-extension-for-windbg.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 [DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
