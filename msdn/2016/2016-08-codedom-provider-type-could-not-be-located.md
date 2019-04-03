@@ -3,13 +3,23 @@
 ```
 Server Error in '/' Application.
 Configuration Error
-Description: An error occurred during the processing of a configuration file required to service this request. Please review the specific error details below and modify your configuration file appropriately.
-Parser Error Message: The CodeDom provider type "Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" could not be located.
+Description: An error occurred during the processing of a configuration file required to service this request. 
+Please review the specific error details below and modify your configuration file appropriately.
+Parser Error Message: The CodeDom provider type "Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35" could not be located.
 Source Error:
 Line 91:   <system.codedom>
 Line 92:     <compilers>
-Line 93:       <compiler language="c#;cs;csharp" extension=".cs" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:6 /nowarn:1659;1699;1701" />
-Line 94:       <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:14 /nowarn:41008 /define:_MYTYPE=\&quot;Web\&quot; /optionInfer+" />
+Line 93:       <compiler language="c#;cs;csharp" extension=".cs" type="Microsoft.CodeDom.Providers
+.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 
+Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" 
+compilerOptions="/langversion:6 /nowarn:1659;1699;1701" />
+Line 94:       <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" 
+type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom
+.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+warningLevel="4" compilerOptions="/langversion:14 /nowarn:41008 /define:_MYTYPE=\&quot;Web\&quot;
+/optionInfer+" />
 Line 95:     </compilers>
 Source File:  C:\inetpub\CSharpGuitarBugs\web.config    Line:  93
 Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.0.30319.34274
