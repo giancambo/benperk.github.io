@@ -18,6 +18,7 @@
 + [Using TLS 1.2 with WCF][AAS11]
 + [Make a self-signed SHA256 SSL certificate][AAS12]
 + [Scan your App Service for vulnerabilities][AAS13]
++ [How (I) configured Azure Active Directory into my ASP.NET MVC OWIN web application][AAS14]
 
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
@@ -231,6 +232,7 @@
 [AAS11]: 2014/2014-11-using-tls-1-2-with-wcf.md
 [AAS12]: 2015/2015-12-make-a-self-signed-sha256-ssl-certificate.md
 [AAS13]: 2016/2016-04-scan-your-app-service-for-vulnerabilities.md
+[AAS14]: 2016/2016-09-how-i-configured-azure-active-directory-into-my-asp-net-mvc-owin-web-application.md
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [AZA2]: 2013/2013-07-enabling-failed-request-logging-on-a-windows-azure-web-site.md
