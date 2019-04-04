@@ -101,6 +101,7 @@
 + [CodeDom provider type could not be located][DTT22]
 + [MEX Debugging Extension for WinDbg][DTT23]
 + [Remote debug your Azure App Service Web App][DTT24]
++ [Capture a Trace for troubleshooting Azure Portal issues][DTT25]
 
 ## Deployment and Source Code Repository
 + [How to configure GitHub or VSTS for use with an Azure Function][DSCR1]
@@ -312,6 +313,7 @@
 [DTT22]: 2016/2016-08-codedom-provider-type-could-not-be-located.md
 [DTT23]: 2016/2016-09-mex-debugging-extension-for-windbg.md
 [DTT24]: 2016/2016-09-remote-debug-your-azure-app-service-web-app.md
+[DTT25]: 2016/2016-10-capture-a-trace-for-troubleshooting-azure-portal-issues.md
 
 [DSCR1]: 2017/2017-05-how-to-configure-github-or-vsts-for-use-with-an-azure-function.md
 [DSCR2]: 2013/2013-05-web-deploy-cannotgetstreamincompleteobject.md
