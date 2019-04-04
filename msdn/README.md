@@ -19,6 +19,7 @@
 + [Make a self-signed SHA256 SSL certificate][AAS12]
 + [Scan your App Service for vulnerabilities][AAS13]
 + [How (I) configured Azure Active Directory into my ASP.NET MVC OWIN web application][AAS14]
++ [How (I) connected a console application to a Web API protected by an Azure Active Directory][AAS15]
 
 ## Azure App Services
 + [Using KUDU with Microsoft Azure Web Apps][AZA1]
@@ -236,6 +237,7 @@
 [AAS12]: 2015/2015-12-make-a-self-signed-sha256-ssl-certificate.md
 [AAS13]: 2016/2016-04-scan-your-app-service-for-vulnerabilities.md
 [AAS14]: 2016/2016-09-how-i-configured-azure-active-directory-into-my-asp-net-mvc-owin-web-application.md
+[AAS15]: 2016/2016-10-how-i-connected-a-console-application-to-a-web-api-protected-by-an-azure-active-directory.md
 
 [AZA1]: 2014/2014-03-using-kudu-with-windows-azure-web-sites.md
 [AZA2]: 2013/2013-07-enabling-failed-request-logging-on-a-windows-azure-web-site.md
