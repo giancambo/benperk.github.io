@@ -57,6 +57,7 @@
 + [Create a memory dump of your App Service when it consumes too much memory][AZA33]
 + [Memory metrics for an Azure Web App and App Service Plan][AZA34]
 + [Moving an Azure App Service][AZA35]
++ [Port limit for an Azure App Service][AZA36]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -277,6 +278,7 @@
 [AZA33]: 2016/2016-10-create-a-memory-dump-of-your-app-service-when-it-consumes-too-much-memory.md
 [AZA34]: 2016/2016-11-memory-metrics-for-an-azure-web-app-and-app-service-plan.md
 [AZA35]: 2016/2016-11-moving-an-azure-app-service.md
+[AZA36]: 2016/2016-11-port-limit-for-an-azure-app-service.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
