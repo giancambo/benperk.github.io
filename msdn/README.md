@@ -55,6 +55,7 @@
 + [Azure App Service appLens – finding the root cause][AZA31]
 + [How to setup CRON to run a WebJob on the Azure App Service platform][AZA32]
 + [Create a memory dump of your App Service when it consumes too much memory][AZA33]
++ [Memory metrics for an Azure Web App and App Service Plan][AZA34]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -273,6 +274,7 @@
 [AZA31]: 2016/2016-07-azure-app-service-applens-finding-the-root-cause.md
 [AZA32]: 2016/2016-09-how-to-setup-cron-to-run-a-webjob-on-the-azure-app-service-platform.md
 [AZA33]: 2016/2016-10-create-a-memory-dump-of-your-app-service-when-it-consumes-too-much-memory.md
+[AZA34]: 2016/2016-11-memory-metrics-for-an-azure-web-app-and-app-service-plan.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
