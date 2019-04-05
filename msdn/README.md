@@ -80,6 +80,7 @@
 + [Brain Interface data analysis][COG2]
 + [How to get started with using LUIS, Language Understanding Intelligent Service, Skype Bot][COG3]
 + [Bot Framework 405 Method Not Allowed, 401 Unauthorized and 500, Internal Server Error getting started][COG4]
++ [Capture and Analyze Brain Waves using Azure][COG5]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -298,6 +299,7 @@
 [COG2]: 2016/2016-07-brain-interface-data-analysis.md
 [COG3]: 2016/2016-08-how-to-get-started-with-using-luis-language-understanding-intelligent-service-skype-bot.md
 [COG4]: 2016/2016-08-bot-framework-405-method-not-allowed-401-unauthorized-and-500-internal-server-error-getting-started.md
+[COG5]: 2016/2016-11-capture-and-analyze-brain-waves-using-azure.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
