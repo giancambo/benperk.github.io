@@ -82,6 +82,7 @@
 + [Bot Framework 405 Method Not Allowed, 401 Unauthorized and 500, Internal Server Error getting started][COG4]
 + [Capture and Analyze Brain Waves using Azure][COG5]
 + [Create a Bot using an Azure App Service Bot Service][COG6]
++ [Most common chatbot questions and how to answer them][COG7]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -302,6 +303,7 @@
 [COG4]: 2016/2016-08-bot-framework-405-method-not-allowed-401-unauthorized-and-500-internal-server-error-getting-started.md
 [COG5]: 2016/2016-11-capture-and-analyze-brain-waves-using-azure.md
 [COG6]: 2016/2016-11-create-a-bot-using-an-azure-app-service-bot-service.md
+[COG7]: 2016/2016-11-most-common-chatbot-questions-and-how-to-answer-them.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
