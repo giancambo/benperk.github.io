@@ -20,45 +20,7 @@ Anyway, in a post I am currently working on (How I improved my chatbot) I cover 
 
 Here is a table that contains the Phrase List for each of the Entities.
 
-| Entity	| Phrases |
-| ------- | ------- |
-| Bad	| amiss,atrocious,coarse,contaminated,contemptible,corrupt,crappy,cruddy,crummy,defective,deficient,deplorable,
-depraved,disagreeable,dismal,dissatisfactory,evil,execrable,faulty,foul,ghastly,grungy,harmful,heinous,icky,
-improper,infamous,inferior,injurious,junky,lousy,nasty,nefarious,off,poor,quality,putrid,rotten,scandalous,sinful,
-sinister,snide,spoiled,substandard,tainted,thepits,uncouth,wicked |
-| Interesting	| absorbing,alluring,animating,appealing,arresting,attractive,beckoning,bewitching,bright,captivating,challenging,consuming,
-covetable,curious,enchanting,engaging,entertaining,enthralling,enticing,exciting,fascinating,fetching,inspiring,intriguing,
-inviting,involving,lively,mesmeric,moving,piquant,prepossessing,provocative,spellbinding,spirited,tantalizing,tempting |
-| Smart	| alert,analytic,astute,brainy,bright,brilliant,canny,cerebral,cleareyed,clearsighted,clever,creative,cunning,deductive,
-deft,discerning,eggheaded,enlightened,exceptional,fast,genius,hardboiled,hardheaded,heady,hyperintelligent,imaginative,
-ingenious,inspired,intellectual,intelligent,inventive,judicious,keen,keenwitted,knowing,logical,nimble,percipient,
-perspicacious,pointed,prehensile,profound,quick,quickwitted,resourceful,sagacious,sage,sapient,savvy,sharp,sharpwitted,
-shrewd,sophisticated,supersmart,syllogistic,ultrasmart,versed,wise |
-| Boring	| arid,banal,bromidic,characterless,colorless,commonplace,drab,drag,drudging,flat,hackneyed,humdrum,insipid,interminable,
-irksome,lame,lifeless,monotonous,motheaten,mundane,nothing,platitudinous,prosaic,repetitious,routine,shopworn,spiritless,
-stale,stereotyped,stodgy,tame,tedious,threadbare,tiresome,tiring,trite,unexciting,uninteresting,unvaried,vapid,wearisome,
-wellworn, hohum |
-| Good	| A1,accomplished,allset,best,certified,champion,choicest,crowning,distinct,excellent,exceptional,exemplary,exquisite,
-extraordinary,fine,finest,first,firstclass,firstgrade,firstrate,fit,foremost,great,greatest,high,highquality,incomparable,
-invaluable,magnificent,marvelous,matchless,meritorious,notable,noted,noteworthy,outstanding,peculiar,peerless,
-phenomenal,piked,premium,priceless,prime,pukka,ready,remarkable,secondtonone,select,shipshape,singular,sound,
-star,sterling,striking,superb,superior,superlative,supreme,tiptop,topgrade,topnotch,transcendent,unique,unmatched,
-unprecedented,unusual,worldclass,worthy |
-| Important	| important,central,considerable,constitutional,critical,elementary,eminent,especial,essential,foundational,fundamental,
-indispensable,inherent,intrinsic,main,necessary,needful,particular,primary,principal,required,requisite,significant,special,
-specific,substantial,underlying,valuable,vital |
-| Unsure	| questionable,ambivalent,arguable,debatable,doubtful,dubious,farfetched,improbable,inconclusive,indecisive,indefinite,
-irresolute,moot,noncommittal,onthefence,open,problematic,suspicious,uncertain,unconvinced,undecided,unproven,
-unresolved,unsure |
-| Irrelevant	| casual,idle,immaterial,inconsequential,inconsiderable,indifferent,insignificant,insubstantial,invalid,light,little,lowranking,
-meaningless,minor,negligible,nonessential,nugatory,ofnoaccount,ofnoconsequence,paltry,petty,picayune,secondrate,
-superficial,trifling,trivial,unimportant,unnecessary,useless,worthless,irrelevant,beside |
-| Certain	| assured,clear,confident,ofcourse,definite,determined,distinct,inescapable,inevitable,byallmeans,obvious,positive,
-proved,righton,safebet,sure,unavoidable,undoubted,without,fail |
-| Stupid	| dumb,brainless,careless,cloudy,colorless,doltish,dopey,drab,dull,dullwitted,humdrum,idiotic,illadvised,illconceived,
-illconsidered,illfounded,illjudged,illogical,imbecilic,implausible,inane,lackluster,mindless,moronic,muddled,nonsensical,
-obtuse,pointless,senseless,shortsighted,silly,simple,simpleminded,slow,stodgy,stupid,trivial,uninspired,unintelligent,
-unreasonable,unthinking,witless |
+
 
 Then when I entered an utterance with a word that is in the LUIS Phrase List, it gets recognized in the window automatically, as shown in Figure 2.
 
