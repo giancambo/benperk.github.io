@@ -84,6 +84,7 @@
 + [Create a Bot using an Azure App Service Bot Service][COG6]
 + [Most common chatbot questions and how to answer them][COG7]
 + [Top 10 must have Phrase List Features for your chatbot or any bot LUIS][COG8]
++ [How I tested debugged my chatbot that I created using the Bot Services on Azure][COG9]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -306,6 +307,7 @@
 [COG6]: 2016/2016-11-create-a-bot-using-an-azure-app-service-bot-service.md
 [COG7]: 2016/2016-11-most-common-chatbot-questions-and-how-to-answer-them.md
 [COG8]: 2016/2016-12-top-10-must-have-phrase-list-features-for-your-chatbot-or-any-bot-luis.md
+[COG9]: 2016/2016-12-how-i-tested-my-chatbot-that-i-created-using-the-bot-services-on-azure.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
