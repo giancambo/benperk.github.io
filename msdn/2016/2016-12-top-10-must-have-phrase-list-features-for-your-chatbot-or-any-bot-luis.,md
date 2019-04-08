@@ -21,47 +21,5 @@ Anyway, in a post I am currently working on (How I improved my chatbot) I cover 
 Here is a table that contains the Phrase List for each of the Entities.
 
 
-
-Then when I entered an utterance with a word that is in the LUIS Phrase List, it gets recognized in the window automatically, as shown in Figure 2.
-
-![LUIS chatbot utterance with Phrase List content automatically identified][FIGURE2]
-###### Figure 2, LUIS chatbot utterance with Phrase List content automatically identified
-
-If you look at the JSON output of the same question you see, that shown below.
-
-```
-{
-  "query": "You have accomplished a lot",
-  "topScoringIntent": {
-    "intent": "None",
-    "score": 0.489181966
-  },
-  "intents": [
-    {
-      "intent": "None",
-      "score": 0.489181966
-    },
-    {
-      "intent": "State",
-      "score": 0.304426521
-    },
-    ...
-  ],
-  "entities": [
-    {
-      "entity": "accomplished",
-      "type": "Good",
-      "startIndex": 9,
-      "endIndex": 20,
-      "score": 0.9996033
-    }
-  ]
-}
-```
-
-I can use both the Intent=None and Intent=State as the probabilities are high, the Entity Type: Good and the Entity entity: accomplished to provide a valid and quality response.
-
-Now let’s go code some more stuff!  #AI #ArtificialIntelligence #Cognitive #BotServices #Azure
-
 [FIGURE1]: ../images/2016/msdn-1038.png "Figure 1, LUIS entities for a #chatbot"
 [FIGURE2]: ../images/2016/msdn-1038.png "Figure 2, LUIS chatbot utterance with Phrase List content automatically identified"
