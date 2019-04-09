@@ -81,4 +81,4 @@ Actually, [here][LINK2] are the 1000 questions 🙂
 [FIGURE7]: ../images/2016/msdn-1071.png "Figure 7, update and publish your trained AI LUIS model and change the world"
 
 [LINK1]: https://www.luis.ai/
-[LINK2]: https://msdnshared.blob.core.windows.net/media/2017/05/1000.zip
+[LINK2]: 1000Sentence.txt
