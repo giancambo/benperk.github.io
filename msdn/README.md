@@ -88,6 +88,7 @@
 + [Publishing a chatbot using Bot Services and LUIS][COG10]
 + [C# Bot Builder Samples on GitHub][COG11]
 + [How my chatbot remained statefull using Azure Bot Services][COG12]
++ [1000 must have utterances for your chatbot using LUIS][COG13]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -314,6 +315,7 @@
 [COG10]: 2016/2016-12-publishing-a-chatbot-using-bot-services-and-luis.md
 [COG11]: 2016/2016-12-c-bot-builder-samples-on-github.md
 [COG12]: 2016/2016-12-how-my-chatbot-remained-statefull-using-azure-bot-services.md
+[COG13]: 2016/2016-12-1000-must-have-utterances-for-your-chatbot-using-luis.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
