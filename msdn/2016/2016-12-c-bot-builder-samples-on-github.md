@@ -1,6 +1,6 @@
 # C# Bot Builder Samples on GitHub
 
-A good way to get ideas and some coding best practice is to look at some examples, there are many of them using C# hosted on GitHub here.
+A good way to get ideas and some coding best practice is to look at some examples, there are many of them using C# hosted on GitHub [here][LINK1].
 
 I wanted to walk through what they are so I can for myself find or discover some new ideas and best practices for this, as I am interested in creating a #chatbot like I discussed in these links
 
@@ -18,23 +18,23 @@ I wanted to walk through what they are so I can for myself find or discover some
 Some samples, the name and my description of them
 
 | Title	| Location	| Description
-| ---------- | --------- | -----------	|
-| intelligence-SpeechToText	| SpeechToText | Upload an audio (.wav) file and the audible words are converted to text and provided in a response |
-| intelligence-SimilarProducts	| SimilarProducts | Upload a picture of a blue shoe, another image of a similar blue shoe is returned |
-| intelligence-LUIS	| LUIS | Send text and the Intent of it is returned |
-| intelligence-ImageCaption	| ImageCaption | Upload a picture and the Computer Vision API will return some text describing the contents of the image |
-| demo-Search	| Search | An interface into Azure Search for navigating through large amounts of content  |
-| demo-ContosoFlowers	| ContosoFlowers | Renders a Card as a welcome message, plus other examples of dialogs and other Card types  |
-| core-State | State | Useful for maintaining State which persists data relative to a user conversation |
-| core-SendAttachment	| SendAttachment | In the #chatbot interface the client can send the bot an attachment, useful with SpeechToText, ImageCaption, etc…  |
-| core-ReceiveAttachment | ReceiveAttachment | If the #chatbot needs to send an attachment back to the client like a .wav, .png, .gif, etc…  |
-| core-MultiDialogs	| MultiDialogs | Dialogs are a conversation process, yes/no questions or selection dialog windows |
-| core-GetConversationMembers	| GetConversationMembers | Detecting when people join or leave a group conversation, so you can notify others and welcome them |
-| core-DirectLine	| DirectLine | Client to client direct communication, perhaps the way to get intelligent bots to speak with each other |
-| core-CreateNewConversation | CreateNewConversation | Have a bot initiate the conversation with the client |
-| core-ChannelData | ChannelData | Support for using channel specific capabilities like Skype, Facebook, Microsoft Teams, Slack, etc… |
-| cards-RichCards	| RichCards | Cards are pictures or emoticons, which are not attachments, with headings and descriptions |
-| cards-CarouselCards	| CarouselCards | Send multiple Cards with the left/right navigation arrows allowing client to scroll through |
+| ----------------- | --------- | -----------	|
+| intelligence-SpeechToText	| [SpeechToText][LINK2] | Upload an audio (.wav) file and the audible words are converted to text and provided in a response |
+| intelligence-SimilarProducts	| [SimilarProducts][LINK3] | Upload a picture of a blue shoe, another image of a similar blue shoe is returned |
+| intelligence-LUIS	| [LUIS][LINK4] | Send text and the Intent of it is returned |
+| intelligence-ImageCaption	| [ImageCaption][LINK5] | Upload a picture and the Computer Vision API will return some text describing the contents of the image |
+| demo-Search	| [Search][LINK6] | An interface into Azure Search for navigating through large amounts of content  |
+| demo-ContosoFlowers	| C[ontosoFlowers][LINK7] | Renders a Card as a welcome message, plus other examples of dialogs and other Card types  |
+| core-State | [State][LINK8] | Useful for maintaining State which persists data relative to a user conversation |
+| core-SendAttachment	| [SendAttachment][LINK9] | In the #chatbot interface the client can send the bot an attachment, useful with SpeechToText, ImageCaption, etc…  |
+| core-ReceiveAttachment | [ReceiveAttachment][LINK10] | If the #chatbot needs to send an attachment back to the client like a .wav, .png, .gif, etc…  |
+| core-MultiDialogs	| [MultiDialogs][LINK11] | Dialogs are a conversation process, yes/no questions or selection dialog windows |
+| core-GetConversationMembers	| [GetConversationMembers][LINK12] | Detecting when people join or leave a group conversation, so you can notify others and welcome them |
+| core-DirectLine	| [DirectLine][LINK13] | Client to client direct communication, perhaps the way to get intelligent bots to speak with each other |
+| core-CreateNewConversation | [CreateNewConversation][LINK14] | Have a bot initiate the conversation with the client |
+| core-ChannelData | [ChannelData][LINK15] | Support for using channel specific capabilities like Skype, Facebook, Microsoft Teams, Slack, etc… |
+| cards-RichCards	| [RichCards][LINK16] | Cards are pictures or emoticons, which are not attachments, with headings and descriptions |
+| cards-CarouselCards	| [CarouselCards][LINK17] | Send multiple Cards with the left/right navigation arrows allowing client to scroll through |
  
 As I am wanting to create a #chatbot I think about the above capabilities and have these findings:
 
