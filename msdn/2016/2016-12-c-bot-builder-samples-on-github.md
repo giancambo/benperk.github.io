@@ -18,15 +18,15 @@ I wanted to walk through what they are so I can for myself find or discover some
 Some samples, the name and my description of them
 
 | Title	| Location	| Description
-| ----- | --------- | -----------
+| ---------- | --------- | -----------	|
 | intelligence-SpeechToText	| SpeechToText | Upload an audio (.wav) file and the audible words are converted to text and provided in a response |
 | intelligence-SimilarProducts	| SimilarProducts | Upload a picture of a blue shoe, another image of a similar blue shoe is returned |
 | intelligence-LUIS	| LUIS | Send text and the Intent of it is returned |
 | intelligence-ImageCaption	| ImageCaption | Upload a picture and the Computer Vision API will return some text describing the contents of the image |
 | demo-Search	| Search | An interface into Azure Search for navigating through large amounts of content  |
 | demo-ContosoFlowers	| ContosoFlowers | Renders a Card as a welcome message, plus other examples of dialogs and other Card types  |
-| core-State | State Useful for maintaining State which persists data relative to a user conversation |
-| core-SendAttachment	| SendAttachment In the #chatbot interface the client can send the bot an attachment, useful with SpeechToText, ImageCaption, etc…  |
+| core-State | State | Useful for maintaining State which persists data relative to a user conversation |
+| core-SendAttachment	| SendAttachment | In the #chatbot interface the client can send the bot an attachment, useful with SpeechToText, ImageCaption, etc…  |
 | core-ReceiveAttachment | ReceiveAttachment | If the #chatbot needs to send an attachment back to the client like a .wav, .png, .gif, etc…  |
 | core-MultiDialogs	| MultiDialogs | Dialogs are a conversation process, yes/no questions or selection dialog windows |
 | core-GetConversationMembers	| GetConversationMembers | Detecting when people join or leave a group conversation, so you can notify others and welcome them |
