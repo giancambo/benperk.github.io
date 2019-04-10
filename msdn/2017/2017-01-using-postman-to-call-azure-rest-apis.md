@@ -60,8 +60,8 @@ Once the configurations are made, hit the Send button and you will get a JSON re
 
 You could also execute some POST commands to perform configuration operations that would normally be performed within the client, but that is for later posts.
 
-[FIGURE1]: ../images/2017/msdn-1082.png "Figure 1, FeaPostman for calling Azure REST APIsture"
-[FIGURE2]: ../images/2017/msdn-1083.png "Figure 2, open Postman for sending REST API requests to Azure"
-[FIGURE3]: ../images/2017/msdn-1084.png "Figure 3, enable HTTPS decryption in Fiddler"
-[FIGURE4]: ../images/2017/msdn-1085.png "Figure 4, get the Bearer Authentication Token for calling an Azure REST API"
-[FIGURE5]: ../images/2017/msdn-1086.png "Figure 5, GET some information from managment.azure.com using a REST API from Postman"
+[FIGURE1]: ../images/2017/msdn-1081.png "Figure 1, FeaPostman for calling Azure REST APIsture"
+[FIGURE2]: ../images/2017/msdn-1082.png "Figure 2, open Postman for sending REST API requests to Azure"
+[FIGURE3]: ../images/2017/msdn-1083.png "Figure 3, enable HTTPS decryption in Fiddler"
+[FIGURE4]: ../images/2017/msdn-1084.png "Figure 4, get the Bearer Authentication Token for calling an Azure REST API"
+[FIGURE5]: ../images/2017/msdn-1085.png "Figure 5, GET some information from managment.azure.com using a REST API from Postman"
