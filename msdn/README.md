@@ -139,6 +139,7 @@
 + [ASP.NET WebAPI results in a 405 Method Not Allowed HTTP response][DEV8]
 + [Beginning C# 6 Programming with Visual Studio 2015, co-author Benjamin Perkins][DEV9]
 + [Using the Azure WebJob API][DEV10]
++ [Create and deploy an ASP.NET Core Web API to Azure Windows][DEV11]
 
 ## IIS Labs
 + [IIS Debugging Labs – Information and setup instructions][IISL0]
@@ -364,6 +365,7 @@
 [DEV8]: 2015/2015-07-asp-net-webapi-results-in-a-405-method-not-allowed-http-response.md
 [DEV9]: 2016/2016-01-beginning-c-6-programming-with-visual-studio-2015-co-author-benjamin-perkins.md
 [DEV10]: 2016/2016-02-using-the-azure-webjob-api.md
+[DEV11]: 2017/2017-01-create-and-deploy-an-asp-net-core-web-api-to-azure-windows.md
 
 [IISL0]: 2016/2016-IISLAB-iis-debugging-labs-information-and-setup-instructions.md
 [IISL1]: 2016/2016-IISLAB-lab-1-install-iis-and-create-a-web-site.md
