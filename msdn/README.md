@@ -131,6 +131,7 @@
 + [Setting up and using GitHub in Visual Studio 2015][DSCR7]
 + [Deploy an App Service using Azure PowerShell to a Deployment Slot][DSCR8]
 + [Cannot publish to Soveriegn Cloud][DSCR9]
++ [Using Cloud Explorer with a Sovereign Cloud][DSCR10]
 
 ## Development
 + [My Windows Phone App – Hitman Website Monitor][DEV1]
@@ -362,6 +363,7 @@
 [DSCR7]: 2016/2016-04-setting-up-and-using-github-in-visual-studio-2015.md
 [DSCR8]: 2016/2016-10-deploy-an-app-service-using-azure-powershell-to-a-deployment-slot.md
 [DSCR9]: 2017/2017-01-cannot-publish-to-soveriegn-cloud.md
+[DSCR10]: 2017/2017-01-using-cloud-explorer-with-a-sovereign-cloud.md
 
 [DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
 [DEV2]: 2013/2013-04-my-windows-8-store-app-hitman-website-monitor.md
