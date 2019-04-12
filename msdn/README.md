@@ -60,6 +60,7 @@
 + [Moving an Azure App Service][AZA35]
 + [Port limit for an Azure App Service][AZA36]
 + [Enable System.Net tracing on Azure App Service][AZA37]
++ [Sending email from an Azure App Service using an O365 SMTP server][AZA38]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -297,6 +298,7 @@
 [AZA35]: 2016/2016-11-moving-an-azure-app-service.md
 [AZA36]: 2016/2016-11-port-limit-for-an-azure-app-service.md
 [AZA37]: 2017/2017-01-enable-system-net-tracing-on-azure-app-service-unable-to-connect-to-remote-server.md
+[AZA38]: 2017/2017-01-sending-email-from-an-azure-web-app-using-an-o365-smtp-server.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
