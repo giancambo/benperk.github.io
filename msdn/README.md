@@ -234,6 +234,7 @@
 + [Configure Application Request Routing][PL6]
 + [Configure Application Request Routing with Windows Authentication, Kerberos][PL7]
 + [What I learned from sleeping with the band][PL8]
++ [Source Code plug in for WordPress blogs using Open Live Writer][PL9]
 
 ## Scripting and Administration
 + [Using PowerShell 3.0 on Windows 8 to find the Process Id (PID) of an Application Pool][SAA1]
@@ -462,6 +463,7 @@
 [PL6]: 2015/2015-08-configure-application-request-routing.md
 [PL7]: 2015/2015-08-configure-application-request-routing-with-windows-authentication-kerberos.md
 [PL8]: 2016/2016-03-what-i-learned-from-sleeping-with-the-band.md
+[PL9]: 2017/2017-01-source-code-plug-in-for-wordpress-blogs-using-open-live-writer.md
 
 [OS1]: 2012/2012-04-installing-window-8-beta-on-hyper-v-key-combinations.md
 
