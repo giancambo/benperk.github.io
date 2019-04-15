@@ -98,6 +98,7 @@
 + [1000 must have utterances for your chatbot using LUIS][COG13]
 + [Capture and Analyze Brain Waves using Azure, Part 2][COG14]
 + [Responsive and Responsible AI][COG15]
++ [Adding LUIS Entities to my chatbot][COG16]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -340,6 +341,7 @@
 [COG13]: 2016/2016-12-1000-must-have-utterances-for-your-chatbot-using-luis.md
 [COG14]: 2016/2016-12-capture-and-analyze-brain-waves-using-azure-part-2.md
 [COG15]: 2017/2017-01-responsive-and-responsible-ai.md
+[COG16]: 2017/2017-02-adding-luis-entities-to-my-chatbot.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
