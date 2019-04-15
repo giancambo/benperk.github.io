@@ -245,6 +245,7 @@
 + [Using PowerShell 3.0 on Windows 8 to find the Process Id (PID) of an Application Pool][SAA1]
 + [How to tell which Azure PowerShell version you are running][SAA2]
 + [Execute an Azure PowerShell (ARM) script without prompting for credentials][SAA3]
++ [Azure CLI ‘config’ is not an azure command][SAA4]
 
 
 [Current location](https://blogs.msdn.microsoft.com/benjaminperkins).
@@ -480,3 +481,4 @@
 [SAA1]: 2012/2012-06-using-powershell-3-0-on-windows-8-to-find-the-process-id-pid-of-an-application-pool.md
 [SAA2]: 2016/2016-04-how-to-tell-which-azure-powershell-version-you-are-running.md
 [SAA3]: 2017/2017-01-execute-an-azure-powershell-arm-script-without-prompting-for-credentials.md
+[SAA4]: 2017/2017-02-azure-cli-config-is-not-an-azure-command.md
