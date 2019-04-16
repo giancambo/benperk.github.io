@@ -81,6 +81,7 @@
 + [Publish failed][AZF8]
 + [Debugging Azure Functions in Visual Studio][AZF9]
 + [Visual Studio Tool for Azure Functions][AZF10]
++ [Azure Functions on 64 bit][AZF11]
 
 ## Cognitive
 + [Uploading my brain waves to the cloud, Azure IoT Hub and Emotiv brain interface][COG1]
@@ -331,6 +332,7 @@
 [AZF8]: 2018/2018-04-publish-failed.md
 [AZF9]: 2017/2017-01-debugging-azure-funtions-in-visual-studio.md
 [AZF10]: 2017/2017-02-visual-studio-tool-for-azure-functions.md
+[AZF11]: 2017/2017-02-azure-functions-on-64-bit.md
 
 [COG1]: 2016/2016-06-uploading-my-brain-waves-to-the-cloud-azure-iot-hub-and-emotiv-brain-interface.md
 [COG2]: 2016/2016-07-brain-interface-data-analysis.md
