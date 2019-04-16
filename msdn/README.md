@@ -227,6 +227,9 @@
 + [Using HTTP/2 with ARR and IIS 10][IIS46]
 + [500.19 Internal Server Error][IIS47]
 
+## Networking
++ [Enable logging for your Hybrid Connection Manager, troubleshooting][NET1]
+
 ## Operating Systems and Open Source
 + [Installing Window 8 Beta on Hyper-V, Key Combinations][OS1]
 
@@ -467,6 +470,8 @@
 [IIS45]: 2015/2015-11-configure-an-iis-server-core-server-for-remote-management.md
 [IIS46]: 2016/2016-01-using-http2-with-arr-and-iis-10.md
 [IIS47]: 2016/2016-10-500-19-internal-server-error.md
+
+[NET1]: 2017/2017-02-enable-logging-for-your-hybrid-connection-manager-troubleshooting.md
 
 [PL1]: 2011/2011-08-nhibernate-and-entity-framework.md
 [PL2]: 2011/2011-10-nhibernate-and-entity-framework-essentials-using-a-model-first-approach.md
