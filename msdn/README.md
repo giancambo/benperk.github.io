@@ -65,6 +65,7 @@
 + [Enable Failed Request Tracing for an Azure App Service Web App][AZA39]
 + [Create a memory dump for your slow performing Web App][AZA40]
 + [Troubleshooting an Azure App Service WebJob][AZA41]
++ [Failed to run WebJob][AZA42]
 
 ## Azure Features
 + [Using Traffic Manager with Microsoft Azure Web App][AZFE1]
@@ -321,6 +322,7 @@
 [AZA39]: 2017/2017-01-enable-failed-reuqest-tracing-for-an-azure-app-service-web-app.md
 [AZA40]: 2017/2017-02-create-a-memory-dump-for-your-slow-performing-web-app.md
 [AZA41]: 2017/2017-03-troubleshooting-an-azure-app-service-webjob.md
+[AZA42]: 2017/2017-03-failed-to-run-webjob.md
 
 [AZFE1]: 2014/2014-06-using-traffic-manager-with-microsoft-azure-web-site.md
 [AZFE2]: 2014/2014-07-using-traffic-manager-as-a-failover-solution-for-azure-web-sites.md
