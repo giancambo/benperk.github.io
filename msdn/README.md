@@ -232,6 +232,7 @@
 + [Using HTTP/2 with ARR and IIS 10][IIS46]
 + [500.19 Internal Server Error][IIS47]
 + [IIS on Nano server][IIS48]
++ [What’s new in IIS 10 – Microsoft Internet Information Services 10 New Features][IIS49]
 
 ## Networking
 + [Enable logging for your Hybrid Connection Manager, troubleshooting][NET1]
@@ -482,6 +483,7 @@
 [IIS46]: 2016/2016-01-using-http2-with-arr-and-iis-10.md
 [IIS47]: 2016/2016-10-500-19-internal-server-error.md
 [IIS48]: 2017/2017-03-iis-on-nano-server.md
+[IIS49]; 2017/2017-03-whats-new-in-iis-10.md
 
 [NET1]: 2017/2017-02-enable-logging-for-your-hybrid-connection-manager-troubleshooting.md
 
