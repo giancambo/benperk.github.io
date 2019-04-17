@@ -2,7 +2,7 @@
 
 Check out some of my other articles I wrote in reagrds to ASP.NET Core and .Net Core
 
-+ [How to call an async method from a console app main method][https://blogs.msdn.microsoft.com/benjaminperkins/2017/03/08/how-to-call-an-async-method-from-a-console-app-main-method/]
++ [How to call an async method from a console app main method](https://blogs.msdn.microsoft.com/benjaminperkins/2017/03/08/how-to-call-an-async-method-from-a-console-app-main-method/)
 + How to deploy a .NET Core console application to Azure, WebJob
 + .NET Core application, where is my EXE, how to publish
 + Create a VNET and access an Azure VM hosted within it from an App Services Web App
