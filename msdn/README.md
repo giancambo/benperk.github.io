@@ -144,6 +144,7 @@
 + [Deploy an App Service using Azure PowerShell to a Deployment Slot][DSCR8]
 + [Cannot publish to Soveriegn Cloud][DSCR9]
 + [Using Cloud Explorer with a Sovereign Cloud][DSCR10]
++ [How to deploy a .NET Core console application to Azure, WebJob][DSCR11]
 
 ## Development
 + [My Windows Phone App – Hitman Website Monitor][DEV1]
@@ -400,6 +401,7 @@
 [DSCR8]: 2016/2016-10-deploy-an-app-service-using-azure-powershell-to-a-deployment-slot.md
 [DSCR9]: 2017/2017-01-cannot-publish-to-soveriegn-cloud.md
 [DSCR10]: 2017/2017-01-using-cloud-explorer-with-a-sovereign-cloud.md
+[DSCR11]: 2017/2017-03-how-to-deploy-a-net-core-console-application-to-azure-webjob.md
 
 [DEV1]: 2012/2012-10-my-windows-phone-app-hitman-website-monitor.md
 [DEV2]: 2013/2013-04-my-windows-8-store-app-hitman-website-monitor.md
