@@ -485,7 +485,7 @@
 [IIS46]: 2016/2016-01-using-http2-with-arr-and-iis-10.md
 [IIS47]: 2016/2016-10-500-19-internal-server-error.md
 [IIS48]: 2017/2017-03-iis-on-nano-server.md
-[IIS49]; 2017/2017-03-whats-new-in-iis-10.md
+[IIS49]: 2017/2017-03-whats-new-in-iis-10.md
 
 [NET1]: 2017/2017-02-enable-logging-for-your-hybrid-connection-manager-troubleshooting.md
 
