@@ -17,8 +17,7 @@ Also, if you have not already reviewed my other articles on using IIS on Nano, t
 
 Nano server is like Server Core but smaller, cooler some might say.  You can read about it in detail here.  As with Server Core, Nano Server has no GUI so be prepared to perform all the commands to deploy IIS using command line.  To install IIS 10 on a Nano Server, you could use the following, however there are many options, approaches and methods to accomplish this.
 
-```New-NanoServerImage -Edition Standard -DeploymentType Guest -MediaPath f:\ -BasePath .\Base -TargetPath .\Nano1.vhd 
-     -ComputerName Nano1 -Package Microsoft-NanoServer-IIS-Package```
+```New-NanoServerImage -Edition Standard -DeploymentType Guest -MediaPath f:\ -BasePath .\Base -TargetPath .\Nano1.vhd -ComputerName Nano1 -Package Microsoft-NanoServer-IIS-Package```
      
 Then, to install any of the IIS features, you can use DISM accomplish, for example, to install the Application Initialization on Nano, execute the following:
 
