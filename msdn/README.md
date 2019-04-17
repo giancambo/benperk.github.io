@@ -157,6 +157,7 @@
 + [Beginning C# 6 Programming with Visual Studio 2015, co-author Benjamin Perkins][DEV9]
 + [Using the Azure WebJob API][DEV10]
 + [Create and deploy an ASP.NET Core Web API to Azure Windows][DEV11]
++ [How I called an asynchronous method from a loop][DEV12]
 
 ## IIS Labs
 + [IIS Debugging Labs – Information and setup instructions][IISL0]
@@ -410,6 +411,7 @@
 [DEV9]: 2016/2016-01-beginning-c-6-programming-with-visual-studio-2015-co-author-benjamin-perkins.md
 [DEV10]: 2016/2016-02-using-the-azure-webjob-api.md
 [DEV11]: 2017/2017-01-create-and-deploy-an-asp-net-core-web-api-to-azure-windows.md
+[DEV12]; 2017/2017-03-how-i-called-an-asynchronous-method-from-a-loop.md
 
 [IISL0]: 2016/2016-IISLAB-iis-debugging-labs-information-and-setup-instructions.md
 [IISL1]: 2016/2016-IISLAB-lab-1-install-iis-and-create-a-web-site.md
