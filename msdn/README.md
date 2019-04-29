@@ -106,6 +106,7 @@
 + [Responsive and Responsible AI][COG15]
 + [Adding LUIS Entities to my chatbot][COG16]
 + [How I improved my chatbot][COG17]
++ [How to change app settings Azure App Service Bot Service][COG18]
 
 ## Debugging and Troubleshooting techniques
 + [Why does my !runaway command not work][DTT1]
@@ -368,6 +369,7 @@
 [COG15]: 2017/2017-01-responsive-and-responsible-ai.md
 [COG16]: 2017/2017-02-adding-luis-entities-to-my-chatbot.md
 [COG17]: 2017/2017-02-how-i-improved-my-chatbot.md
+[COG18]: 2017/2017-03-how-to-change-app-settings-azure-app-service-bot-service.md
 
 [DTT1]: 2012/2012-07-why-does-my-runaway-command-not-work.md
 [DTT2]: 2012/2012-07-using-dumpthreadconfig-dtc-within-windbg.md
