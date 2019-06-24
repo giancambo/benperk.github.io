@@ -16,12 +16,12 @@ Create a PS1 file that contains the code shown in Listing 1 and upload it to the
 ###### Listing 1, Get-Size.ps1 example
 
 ```
-function Get-Size {  
-  param([string]$pth)
-  "Directory "+[string]$pth+" consumes "+"{0:n2}"-f ((gci-path$pth-recurse|measure-object-propertylength-sum).sum /1mb) +" mb" }
-  Get-Size data
-  Get-Size LogFiles
-  Get-Size site
+function Get-Size
+{  param([string]$pth)
+  "Directory " + [string]$pth + " consumes " + "{0:n2}" -f ((gci -path $pth -recurse | measure-object -property length -sum).sum /1mb) + " mb" }
+Get-Size data
+Get-Size LogFiles
+Get-Size site 
 ```
 
 Once the PS1 is uploaded, exec the command as shown in Figure 2.
